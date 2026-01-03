@@ -126,20 +126,23 @@
     </style>
 
     <script type="text/javascript">
-        function redirectDevice() {
-            // 定義手機版的門檻寬度 (通常設為 768px 或 1024px)
-            var mobileThreshold = 768;
-
-            // 判斷螢幕寬度或是否包含行動裝置的 UserAgent
-            var isMobile = (window.innerWidth <= mobileThreshold) || 
-                           (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent));
-
-            if (isMobile) {
-                window.location.href = "mv_mobile.html";
+        // 偵測裝置並跳轉
+        function smartRedirect(url) {
+            if (typeof window.location.replace === 'function') {
+                // 使用 replace 不會留下歷史紀錄，防止點擊「回上一頁」又跳轉
+                window.location.replace(url);
+            } else {
+                window.location.href = url;
             }
         }
-        // 立即執行判斷
-        redirectDevice();
+
+        // 針對 Safari 增加一個微小的延遲
+        setTimeout(function() {
+            var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+            if (isMobile) {
+                smartRedirect("mv_mobile.html");
+            }
+        }, 100);
     </script>
 
 </head>
