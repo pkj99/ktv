@@ -124,6 +124,24 @@
         .btn-danger { background: #ff4444; color: #fff; padding: 5px 10px; font-size: 12px; }
         .btn-mute.active { background: #ff4444; }
     </style>
+
+    <script type="text/javascript">
+        function redirectDevice() {
+            // 定義手機版的門檻寬度 (通常設為 768px 或 1024px)
+            var mobileThreshold = 768;
+
+            // 判斷螢幕寬度或是否包含行動裝置的 UserAgent
+            var isMobile = (window.innerWidth <= mobileThreshold) || 
+                           (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent));
+
+            if (isMobile) {
+                window.location.href = "mv_mobile.html";
+            }
+        }
+        // 立即執行判斷
+        redirectDevice();
+    </script>
+
 </head>
 <body>
 
