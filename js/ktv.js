@@ -307,7 +307,6 @@ if (urlParams["song"] != null) {
             var vlc_url = raw_url;
             // var vlc_url = encodeURI(raw_url);
             var ktv_url = `https://pan.mailberry.com.cn/d${song_name}?sign=${sign}`;
-            console.log(ktv_url);
             // ktv_url = `playvideo.html?url=${raw_url}&img=${thumb}`;
             // var ktv_url = `playvideo.html?url=https://pan.mailberry.com.cn/d${song_name}?sign=${sign}&img=${thumb}`;
 
@@ -323,8 +322,7 @@ if (urlParams["song"] != null) {
 
             htmlString += `<div class="myui-vodlist__detail">`;
             // htmlString += `<h4 class="title text-overflow text-center"><a href="vlc://${ktv_url}">Open with VLC Player</a></h4>`;
-            // htmlString += `<h4 class="title text-overflow text-center"><a href="vlc://${ktv_url}" id="vlc">使用VLC開啟</a> | `;
-            htmlString += `<h4 class="title text-overflow text-center">`;
+            htmlString += `<h4 class="title text-overflow text-center"><a href="vlc://${ktv_url}" id="vlc">使用VLC開啟</a> | `;
             htmlString += `<a onclick='navigator.clipboard.writeText("${ktv_url}"); showMessage("複製完成");' style="cursor: pointer;">複製連結</a> | `;
             htmlString += `<a href="${raw_url}" style="cursor: pointer;">下載影片</a> | `;
             htmlString += `</h4></div>`;
@@ -344,7 +342,7 @@ if (urlParams["song"] != null) {
             htmlString += `</li>`;
             document.getElementById('tvlist').innerHTML = htmlString;
             document.getElementById('artplayer').style.display = "block";
-            // document.getElementById('vlc').click();
+            document.getElementById('vlc').click();
 
             // window.open(`vlc://https://pan.mailberry.com.cn/d${song_name}?sign=${sign}`);
             // window.open(`vlc://${raw_url}`);

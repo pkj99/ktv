@@ -73,7 +73,7 @@ function tvchannels2(groupName) {
                         // htmlString += `<a class="myui-vodlist__thumb lazyload" href="${url}" `;
                         htmlString += `<a class="myui-vodlist__thumb lazyload" href="4kvm.html?id=${id}" `;
                     } else {
-                        htmlString += `<a class="myui-vodlist__thumb lazyload" href="xplayer.html?url=${url}&img=${img}" `;
+                        htmlString += `<a class="myui-vodlist__thumb lazyload" href="playvideo.html?url=${url}&img=${img}" `;
                     }
                     htmlString += `title="${title}" `;
                     htmlString += `data-original="${url}" `;

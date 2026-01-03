@@ -128,7 +128,7 @@
 <body>
 
     <div class="sidebar">
-        <h2 style="color:var(--accent)">🎤 YouTube KTV</h2>
+        <h2 style="color:var(--accent)">🎤 YouTube MV</h2>
         <input type="text" class="search-box" id="searchInp" placeholder="搜尋歌曲或歌手..." oninput="doSearch()">
         <div class="surname-bar" id="surnameBar"></div>
         <div class="results" id="resList"></div>
@@ -140,8 +140,8 @@
         </div>
         
         <div class="controls">
-            <button id="muteBtn" class="btn-accent" style="width:100px;" onclick="toggleMute()">🔇 靜音：關</button>
-            <button id="vocalBtn" class="btn-pink" onclick="alert('提示：YouTube影片通常為混音版，伴唱切換僅支援特定KTV格式影片。')">原唱/伴唱</button>
+            <button id="muteBtn" class="btn-accent" style="width:200px;" onclick="toggleMute()">🔇 靜音：關</button>
+            <!-- <button id="vocalBtn" class="btn-pink" onclick="alert('提示：YouTube影片通常為混音版，伴唱切換僅支援特定KTV格式影片。')">原唱/伴唱</button> -->
             
             <div style="display:flex; align-items:center; gap:10px; border-left: 1px solid #444; padding-left: 15px;">
                 <span>音調控制：</span>
@@ -163,7 +163,7 @@
         <button class="btn-accent" style="width:100%; height:60px; font-size:20px; margin-top:10px;" onclick="nextSong()">⏭ 切換下一首 (切歌)</button>
     </div>
 
-<script src="js/ytktv.js"></script>
+<script src="js/ytmv.js"></script>
 
 <script>
     // 1. 本地資料庫 (YouTube ID 取自影片網址後段)
