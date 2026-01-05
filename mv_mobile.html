@@ -73,9 +73,9 @@
             overflow-x: auto;
             gap: 10px;
             padding: 10px 0;
-            scrollbar-width: thin;
+            scrollbar-width: none;
         }
-        .scroll-nav::-webkit-scrollbar { display: thin; }
+        .scroll-nav::-webkit-scrollbar { display: none; }
 
         .btn-cyber {
             border: 1px solid var(--neon-cyan);
@@ -140,8 +140,7 @@
                     <button class="btn btn-sm btn-outline-light" onclick="nextSong()">切歌 ⏭</button>
                     <button class="btn btn-sm btn-outline-info" onclick="random50()">🎲 隨機50首</button>
                     <button class="btn btn-sm btn-outline-danger" onclick="clearQueue()">🗑 清空歌單</button>
-                    <button id="vocalBtn" class="btn-pink" onclick="toggleDB()">MV版</button>
-                    <!-- <button id="deviceBtn" class="btn-pink" onclick="toggleDevice()">桌面版</button> -->
+                    <button id="deviceBtn" class="btn-pink" onclick="toggleDevice()">桌面版</button>
                 </div>
             </div>
         </div>
@@ -185,22 +184,11 @@
 <script src="https://www.youtube.com/iframe_api"></script>
 
 <script src="js/ytmv.js"></script>
-<script src="js/ytktv.js"></script>
 
 <script>
 
     let player, queue = [], currentIdx = -1;
     let isMobile = true;
-    let isMv = true;
-
-    function switchDB() {
-        if (isMv) {
-            songDB = mvDB;
-        } else {
-            songDB = ktvDB;
-        };
-    }
-
 
     // 關鍵：主動切換至歌曲庫分頁
     function switchToLibrary() {
@@ -221,7 +209,6 @@
     }
 
     window.onload = () => {
-        switchDB();
         initSurnames();
         renderSongs(songDB);
         document.getElementById('tab-queue-btn').addEventListener('shown.bs.tab', updateQueueUI);
@@ -302,7 +289,6 @@
             queue.splice(currentIdx + 1, 0, songToMove);
             updateQueueUI();
         }
-        nextSong();
     }
 
     function random50() {
@@ -338,16 +324,6 @@
         // document.getElementById('deviceBtn').innerText = isMobile ? "桌面版" : "手機版";
         window.location = "mv_desktop.html";
     }
-
-    function toggleDB() {
-        switchDB();
-        isMv = !isMv;
-        document.getElementById('vocalBtn').innerText = isMv ? "KTV版" : "MV版";
-        initSurnames();
-        renderSongs(songDB);
-        document.getElementById('tab-queue-btn').addEventListener('shown.bs.tab', updateQueueUI);        
-    }
-
 
     function updateQueueUI() {
         document.getElementById('qBadge').innerText = queue.length;

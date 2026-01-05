@@ -1,4 +1,4 @@
-const songDB = [
+const ktvDB = [
     {
         "id": 274,
         "artist": "周杰倫",
