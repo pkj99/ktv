@@ -177,6 +177,8 @@
     let isMuted = false;
     let isMobile = false;
 
+	const songDB = mvDB;
+
     // 2. YouTube IFrame API 載入 (解決無法播放的核心)
     const tag = document.createElement('script');
     tag.src = "https://www.youtube.com/iframe_api";
@@ -286,7 +288,7 @@
     function toggleDevice() {
         // isMobile = !isMobile;
         // document.getElementById('deviceBtn').innerText = isMobile ? "手機版" : "桌面版";
-        window.location = "index.html";
+        window.location = "mv_mobile.html";
     }
 
 

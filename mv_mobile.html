@@ -190,6 +190,8 @@
     let player, queue = [], currentIdx = -1;
     let isMobile = true;
 
+	const songDB = mvDB;
+
     // 關鍵：主動切換至歌曲庫分頁
     function switchToLibrary() {
         const dbTabBtn = document.getElementById('tab-db-btn');
