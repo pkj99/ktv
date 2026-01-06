@@ -192,13 +192,23 @@
     let player, queue = [], currentIdx = -1;
     let isMobile = true;
     let isMv = true;
+    let songDB = mvDB;
 
     function switchDB() {
+        isMv = !isMv;
+        document.getElementById('vocalBtn').innerText = isMv ? "MV版" : "KTV版";
+
         if (isMv) {
             songDB = mvDB;
         } else {
             songDB = ktvDB;
         };
+        // if(!confirm("確定切換並清空歌單？")) return;
+        // queue = (currentIdx !== -1) ? [queue[currentIdx]] : [];
+        // currentIdx = (queue.length > 0) ? 0 : -1;
+        queue = [];
+        currentIdx = -1;
+        updateQueueUI();        
     }
 
 
@@ -221,7 +231,7 @@
     }
 
     window.onload = () => {
-        switchDB();
+        // switchDB();
         initSurnames();
         renderSongs(songDB);
         document.getElementById('tab-queue-btn').addEventListener('shown.bs.tab', updateQueueUI);
@@ -341,11 +351,11 @@
 
     function toggleDB() {
         switchDB();
-        isMv = !isMv;
-        document.getElementById('vocalBtn').innerText = isMv ? "KTV版" : "MV版";
         initSurnames();
         renderSongs(songDB);
-        document.getElementById('tab-queue-btn').addEventListener('shown.bs.tab', updateQueueUI);        
+        document.getElementById('tab-queue-btn').addEventListener('shown.bs.tab', updateQueueUI);     
+        // updateQueueUI();
+        if (currentIdx === -1) nextSong();
     }
 
 

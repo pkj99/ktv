@@ -5,7 +5,7 @@ const mvDB = [
         "title": "屬於我們的故事",
         "vid": "BAUSVk-GcN4",
         "surname": "張",
-        "kid": ""
+        "kid": "kLDs1y8qtGg"
     },
     {
         "id": 1862,
@@ -642,7 +642,7 @@ const mvDB = [
     {
         "id": 1941,
         "artist": "張學友",
-        "title": "用餘生去愛/the",
+        "title": "用餘生去愛the",
         "vid": "Ba2L905-53g",
         "surname": "張",
         "kid": ""
@@ -773,7 +773,7 @@ const mvDB = [
         "title": "你知不知道",
         "vid": "Uvknzd56qig",
         "surname": "張",
-        "kid": ""
+        "kid": "5y_bihAuPAk"
     },
     {
         "id": 1959,
@@ -845,7 +845,7 @@ const mvDB = [
         "title": "我等到花兒也謝了",
         "vid": "p-TBdaOdH2s",
         "surname": "張",
-        "kid": ""
+        "kid": "1N9LN6LLCJY"
     },
     {
         "id": 1969,
@@ -877,7 +877,7 @@ const mvDB = [
         "title": "這麼近",
         "vid": "jsB78_7OLc4",
         "surname": "張",
-        "kid": ""
+        "kid": "kYnjYeDUYBk"
     },
     {
         "id": 1973,
@@ -1773,7 +1773,7 @@ const mvDB = [
         "title": "山丘",
         "vid": "BwOWcyhSrpE",
         "surname": "李",
-        "kid": ""
+        "kid": "w0XAU6PRzIo"
     },
     {
         "id": 2087,
@@ -1898,7 +1898,7 @@ const mvDB = [
     {
         "id": 2103,
         "artist": "蕭敬騰",
-        "title": "華納",
+        "title": "阿飛的小蝴蝶",
         "vid": "vNR3MlBBDZo",
         "surname": "蕭",
         "kid": ""
@@ -2357,7 +2357,7 @@ const mvDB = [
         "title": "我們相愛吧",
         "vid": "s29h8DxpK4s",
         "surname": "李",
-        "kid": ""
+        "kid": "__2frKcrHXI"
     },
     {
         "id": 2165,
@@ -2458,7 +2458,7 @@ const mvDB = [
     {
         "id": 2177,
         "artist": "李聖傑",
-        "title": "you and i",
+        "title": "歌手頻道",
         "vid": "9qNUBeRqnLQ",
         "surname": "李",
         "kid": ""
@@ -2829,7 +2829,7 @@ const mvDB = [
         "title": "我終於失去了你",
         "vid": "BNW2gvaAS4M",
         "surname": "趙",
-        "kid": ""
+        "kid": "h_a0JnEEaD0"
     },
     {
         "id": 2229,
@@ -2853,7 +2853,7 @@ const mvDB = [
         "title": "你如何還能這樣溫柔",
         "vid": "oUcS_m7ON_M",
         "surname": "趙",
-        "kid": ""
+        "kid": "YbwOE27DXyk"
     },
     {
         "id": 2233,
@@ -2869,7 +2869,7 @@ const mvDB = [
         "title": "我終於失去了你",
         "vid": "7fU07K27EoY",
         "surname": "趙",
-        "kid": ""
+        "kid": "h_a0JnEEaD0"
     },
     {
         "id": 2235,
@@ -2890,7 +2890,7 @@ const mvDB = [
     {
         "id": 2237,
         "artist": "伍佰",
-        "title": "再度重相逢",
+        "title": "·",
         "vid": "E4oto6Iv4wc",
         "surname": "伍",
         "kid": "CeSpnRSqLGg"
@@ -3514,7 +3514,7 @@ const mvDB = [
     {
         "id": 2318,
         "artist": "蕭煌奇",
-        "title": "思念會驚",
+        "title": "蕭煌奇 思念會驚 - 華納official 官方完整版mv",
         "vid": "EtRr4LwcvcI",
         "surname": "蕭",
         "kid": ""
@@ -3554,7 +3554,7 @@ const mvDB = [
     {
         "id": 2323,
         "artist": "蕭煌奇",
-        "title": "湖南衛視官方版",
+        "title": "夜夜夜夜",
         "vid": "89SaRI1nYPo",
         "surname": "蕭",
         "kid": ""
@@ -3722,7 +3722,7 @@ const mvDB = [
     {
         "id": 2344,
         "artist": "蕭煌奇",
-        "title": "[濁水溪之戀] / 詹雅雯 feat. 蕭煌奇『 官方mv 』",
+        "title": "濁水溪之戀",
         "vid": "XJDtyVM1JXY",
         "surname": "蕭",
         "kid": ""
@@ -4034,7 +4034,7 @@ const mvDB = [
     {
         "id": 2388,
         "artist": "蔡健雅",
-        "title": "video)",
+        "title": "beautiful love  (  ultra )",
         "vid": "PdtqA5xxDho",
         "surname": "蔡",
         "kid": ""
@@ -4061,15 +4061,15 @@ const mvDB = [
         "title": "墜落",
         "vid": "hPShCoap2Cw",
         "surname": "蔡",
-        "kid": ""
+        "kid": "bv3_mEyi5sQ"
     },
     {
         "id": 2392,
         "artist": "蔡健雅",
-        "title": "失語者/aphasia",
+        "title": "失語者",
         "vid": "gh2jwV46a5I",
         "surname": "蔡",
-        "kid": ""
+        "kid": "F42qRs5rFNQ"
     },
     {
         "id": 2393,
@@ -4205,7 +4205,7 @@ const mvDB = [
         "title": "原諒",
         "vid": "KO6oYfLgEY4",
         "surname": "蔡",
-        "kid": ""
+        "kid": "yFJZDM_Kh_c"
     },
     {
         "id": 2410,
@@ -4909,12 +4909,12 @@ const mvDB = [
         "title": "就是愛",
         "vid": "nwcHdFQ-fq8",
         "surname": "蔡",
-        "kid": ""
+        "kid": "7raiU-cPCg4"
     },
     {
         "id": 2498,
         "artist": "蔡依林",
-        "title": "dont stop mv (dvd)",
+        "title": "dont stop  (dvd)",
         "vid": "QQ4QWzX9gzk",
         "surname": "蔡",
         "kid": ""
@@ -6226,10 +6226,10 @@ const mvDB = [
     {
         "id": 2663,
         "artist": "A-Lin",
-        "title": "avex",
+        "title": "分手需要練習的",
         "vid": "XbZbW983N1Y",
         "surname": "A",
-        "kid": ""
+        "kid": "0hzeleMq6O8"
     },
     {
         "id": 2664,
@@ -6373,7 +6373,7 @@ const mvDB = [
         "title": "位置",
         "vid": "3y-bkqq0n9s",
         "surname": "A",
-        "kid": ""
+        "kid": "EGIlq2l5gns"
     },
     {
         "id": 2682,
@@ -8325,7 +8325,7 @@ const mvDB = [
         "title": "風箏",
         "vid": "smmi8sXJW3Y",
         "surname": "陳",
-        "kid": ""
+        "kid": "y0w3wbVOCW0"
     },
     {
         "id": 2929,
@@ -8466,7 +8466,7 @@ const mvDB = [
     {
         "id": 2946,
         "artist": "周湯豪",
-        "title": "億萬分之一的機率",
+        "title": "億萬分之一的機率(",
         "vid": "zrP3ZaJcUuQ",
         "surname": "周",
         "kid": ""
@@ -8669,7 +8669,7 @@ const mvDB = [
         "title": "可以了",
         "vid": "UbUsGd5h16E",
         "surname": "陳",
-        "kid": ""
+        "kid": "O4a7ms8nBoo"
     },
     {
         "id": 2973,
@@ -8714,7 +8714,7 @@ const mvDB = [
     {
         "id": 2978,
         "artist": "陳奕迅",
-        "title": "你的背包(國)",
+        "title": "你的背包",
         "vid": "s3AmqV6VlE0",
         "surname": "陳",
         "kid": ""
@@ -8781,7 +8781,7 @@ const mvDB = [
         "title": "惦記這一些",
         "vid": "6kjEXcYGQ9Q",
         "surname": "王",
-        "kid": ""
+        "kid": "bx-sr7C1o3E"
     },
     {
         "id": 2987,
@@ -8949,7 +8949,7 @@ const mvDB = [
         "title": "月亮惹的禍",
         "vid": "1YJ8wSH6HBU",
         "surname": "張",
-        "kid": ""
+        "kid": "0tJhv_W2jZk"
     },
     {
         "id": 3009,
@@ -9074,7 +9074,7 @@ const mvDB = [
     {
         "id": 3024,
         "artist": "楊宗緯",
-        "title": "天燈",
+        "title": "天燈youtube",
         "vid": "78ncQQNUD-I",
         "surname": "楊",
         "kid": ""
@@ -9090,7 +9090,7 @@ const mvDB = [
     {
         "id": 3026,
         "artist": "楊宗緯",
-        "title": "mv",
+        "title": "這一路走來",
         "vid": "_DvHKd6-I28",
         "surname": "楊",
         "kid": ""
@@ -9109,7 +9109,7 @@ const mvDB = [
         "title": "流浪記",
         "vid": "DnZDqcUvR1w",
         "surname": "楊",
-        "kid": ""
+        "kid": "omvUuCepYjU"
     },
     {
         "id": 3029,
@@ -9117,7 +9117,7 @@ const mvDB = [
         "title": "流浪記",
         "vid": "3RS9U-XuNv8",
         "surname": "楊",
-        "kid": ""
+        "kid": "omvUuCepYjU"
     },
     {
         "id": 3030,
@@ -9322,7 +9322,7 @@ const mvDB = [
     {
         "id": 3055,
         "artist": "林志炫",
-        "title": "歲樂純享",
+        "title": "歲樂",
         "vid": "z7Z9A5ybq3c",
         "surname": "林",
         "kid": ""
@@ -9349,12 +9349,12 @@ const mvDB = [
         "title": "鳳凰花開的路口",
         "vid": "X6M8f8lsXco",
         "surname": "林",
-        "kid": ""
+        "kid": "gEBKdjXyCZc"
     },
     {
         "id": 3059,
         "artist": "林志炫",
-        "title": "我是歌手官方頻道",
+        "title": "我是歌手頻道",
         "vid": "xJST1qc3FVo",
         "surname": "林",
         "kid": ""
@@ -9909,7 +9909,7 @@ const mvDB = [
         "title": "半晴天",
         "vid": "x1J6ukR3Qrs",
         "surname": "陶",
-        "kid": ""
+        "kid": "EtdX6y8OLE0"
     },
     {
         "id": 3130,
@@ -9917,7 +9917,7 @@ const mvDB = [
         "title": "小鎮姑娘",
         "vid": "SC4gxSrCf3A",
         "surname": "陶",
-        "kid": ""
+        "kid": "mXZob-xTUuM"
     },
     {
         "id": 3131,
@@ -9949,7 +9949,7 @@ const mvDB = [
         "title": "stupid pop song",
         "vid": "bg8Dujd3CMU",
         "surname": "陶",
-        "kid": ""
+        "kid": "EtdX6y8OLE0"
     },
     {
         "id": 3135,
@@ -10514,7 +10514,7 @@ const mvDB = [
     {
         "id": 3205,
         "artist": "巫啟賢",
-        "title": "太傻",
+        "title": "太傻(",
         "vid": "1A8jlJ7wn1g",
         "surname": "巫",
         "kid": "Sm2ff7l7zfI"
@@ -11077,7 +11077,7 @@ const mvDB = [
         "title": "未盡",
         "vid": "IXFSzgdHOQI",
         "surname": "品",
-        "kid": ""
+        "kid": "0tJ2RfC0SX4"
     },
     {
         "id": 3276,
@@ -11642,7 +11642,7 @@ const mvDB = [
     {
         "id": 3347,
         "artist": "王菲",
-        "title": "匆匆那年",
+        "title": "匆匆那年(頻道)",
         "vid": "04cHqPMD4So",
         "surname": "王",
         "kid": "ouPRFqU6HHg"
@@ -12402,7 +12402,7 @@ const mvDB = [
     {
         "id": 3442,
         "artist": "李翊君",
-        "title": "我的感情搏這厚(diy卡拉ok字幕)",
+        "title": "我的感情搏這厚",
         "vid": "gxLqNgszCAU",
         "surname": "李",
         "kid": ""
@@ -12437,7 +12437,7 @@ const mvDB = [
         "title": "時光正好",
         "vid": "dOKN8Tu9peQ",
         "surname": "郁",
-        "kid": ""
+        "kid": "13YeTMjxV74"
     },
     {
         "id": 3447,
@@ -12525,7 +12525,7 @@ const mvDB = [
         "title": "聽你說",
         "vid": "H0Eu1syELno",
         "surname": "郁",
-        "kid": ""
+        "kid": "-IVKtCQH1oM"
     },
     {
         "id": 3458,
@@ -12541,7 +12541,7 @@ const mvDB = [
         "title": "好朋友只是朋友",
         "vid": "JqipicNx1Ds",
         "surname": "郁",
-        "kid": ""
+        "kid": "D96_wZfEDUA"
     },
     {
         "id": 3460,
@@ -12893,7 +12893,7 @@ const mvDB = [
         "title": "心事重重",
         "vid": "59BSUqnUDzw",
         "surname": "周",
-        "kid": ""
+        "kid": "h2NSAuw6AsM"
     },
     {
         "id": 3504,
@@ -12989,7 +12989,7 @@ const mvDB = [
         "title": "天荒愛未老",
         "vid": "HATvF5Lbh-s",
         "surname": "周",
-        "kid": ""
+        "kid": "MbLQjORhHyU"
     },
     {
         "id": 3516,
@@ -13138,7 +13138,7 @@ const mvDB = [
     {
         "id": 3534,
         "artist": "許茹芸",
-        "title": "男人女人",
+        "title": "清晰版",
         "vid": "nMfTlfdI4J0",
         "surname": "許",
         "kid": ""
@@ -13154,7 +13154,7 @@ const mvDB = [
     {
         "id": 3536,
         "artist": "許茹芸",
-        "title": "美夢成真",
+        "title": "vcd",
         "vid": "th3UBcJY8Fk",
         "surname": "許",
         "kid": "CuPdhT6NeXE"
@@ -13205,7 +13205,7 @@ const mvDB = [
         "title": "到此為止",
         "vid": "T7IK_5XCRiU",
         "surname": "徐",
-        "kid": ""
+        "kid": "-852Qbt8wXI"
     },
     {
         "id": 3543,
@@ -13282,7 +13282,7 @@ const mvDB = [
     {
         "id": 3552,
         "artist": "徐佳瑩",
-        "title": "我想到你就再也不怕fearless",
+        "title": "我想到你就再也不怕",
         "vid": "gNaXoU8jHw8",
         "surname": "徐",
         "kid": ""
@@ -13426,7 +13426,7 @@ const mvDB = [
     {
         "id": 3570,
         "artist": "梁詠琪",
-        "title": "娛樂大家mtv",
+        "title": "娛樂大家",
         "vid": "UQVPYM8U3iY",
         "surname": "梁",
         "kid": ""
@@ -13666,7 +13666,7 @@ const mvDB = [
     {
         "id": 3600,
         "artist": "彭佳慧",
-        "title": "you are the one (official video karaoke)",
+        "title": "you are the one",
         "vid": "_CWWal6gWRg",
         "surname": "彭",
         "kid": ""
@@ -14234,7 +14234,7 @@ const mvDB = [
     {
         "id": 3672,
         "artist": "丁當",
-        "title": "洋蔥",
+        "title": "洋蔥high",
         "vid": "GMr3TAeKmPc",
         "surname": "丁",
         "kid": ""
@@ -15229,7 +15229,7 @@ const mvDB = [
         "title": "只怕想家",
         "vid": "B_WyWC1WXPw",
         "surname": "家",
-        "kid": ""
+        "kid": "Fucpmut01WM"
     },
     {
         "id": 3797,
@@ -15317,7 +15317,7 @@ const mvDB = [
         "title": "放袂開",
         "vid": "o2pTt0ENbLc",
         "surname": "江",
-        "kid": ""
+        "kid": "ZxBx8TA3pns"
     },
     {
         "id": 3808,
@@ -15637,7 +15637,7 @@ const mvDB = [
         "title": "空頭支票",
         "vid": "lFwpH0MRXNI",
         "surname": "艾",
-        "kid": ""
+        "kid": "kje4ckAxVhQ"
     },
     {
         "id": 3848,
@@ -15978,7 +15978,7 @@ const mvDB = [
     {
         "id": 3890,
         "artist": "林慧萍",
-        "title": "情難枕",
+        "title": "情難枕(",
         "vid": "ayuZ-ugT4tc",
         "surname": "林",
         "kid": "XhUoWWGK2JU"
@@ -16021,7 +16021,7 @@ const mvDB = [
         "title": "新戀情",
         "vid": "xJE1IRdSUqg",
         "surname": "林",
-        "kid": ""
+        "kid": "mlwvURkMOGw"
     },
     {
         "id": 3896,
@@ -16325,7 +16325,7 @@ const mvDB = [
         "title": "是什麼讓我遇見這樣的你",
         "vid": "kkZ-T49TLAg",
         "surname": "白",
-        "kid": ""
+        "kid": "UsRKvbzxJQY"
     },
     {
         "id": 3934,
@@ -16674,7 +16674,7 @@ const mvDB = [
     {
         "id": 3978,
         "artist": "魏如昀",
-        "title": "－感染",
+        "title": "offical",
         "vid": "tB62YzSI36M",
         "surname": "魏",
         "kid": ""
@@ -16682,7 +16682,7 @@ const mvDB = [
     {
         "id": 3979,
         "artist": "魏如昀",
-        "title": "掏空",
+        "title": "掏空720p",
         "vid": "4yM2o8NRz6M",
         "surname": "魏",
         "kid": ""
@@ -17533,7 +17533,7 @@ const mvDB = [
         "title": "刺鳥",
         "vid": "calHth0AOtI",
         "surname": "F",
-        "kid": ""
+        "kid": "wWMWX5bs-y0"
     },
     {
         "id": 4087,
@@ -17658,7 +17658,7 @@ const mvDB = [
     {
         "id": 4104,
         "artist": "馮提莫",
-        "title": "創作mv",
+        "title": "創作",
         "vid": "BVsRAkPFSeA",
         "surname": "馮",
         "kid": ""
@@ -17856,20 +17856,12 @@ const mvDB = [
         "kid": ""
     },
     {
-        "id": 4129,
-        "artist": "八三夭樂團",
-        "title": "鋼鐵人",
-        "vid": "8E74cxoI3w0",
-        "surname": "八",
-        "kid": ""
-    },
-    {
         "id": 4130,
         "artist": "八三夭樂團",
         "title": "沒有翅膀的人",
         "vid": "3Qv7H6em61k",
         "surname": "八",
-        "kid": ""
+        "kid": "tDeFu6pBEac"
     },
     {
         "id": 4131,
@@ -17917,7 +17909,7 @@ const mvDB = [
         "title": "不是男人",
         "vid": "D5SfQvizou8",
         "surname": "八",
-        "kid": ""
+        "kid": "3S7EGoiEbkU"
     },
     {
         "id": 4138,
@@ -18005,7 +17997,7 @@ const mvDB = [
         "title": "眼淚記得你",
         "vid": "07hpRRx4xMg",
         "surname": "孫",
-        "kid": ""
+        "kid": "SUg7vyOH-To"
     },
     {
         "id": 4151,
@@ -18130,7 +18122,7 @@ const mvDB = [
     {
         "id": 4166,
         "artist": "張碧晨",
-        "title": "情人咒",
+        "title": "live",
         "vid": "zKLnd4DClho",
         "surname": "張",
         "kid": ""
@@ -18173,7 +18165,7 @@ const mvDB = [
         "title": "她說",
         "vid": "sOMPsNxO4cI",
         "surname": "張",
-        "kid": ""
+        "kid": "iaBsDDCRlxI"
     },
     {
         "id": 4172,
@@ -18346,7 +18338,7 @@ const mvDB = [
     {
         "id": 4197,
         "artist": "趙露思",
-        "title": "自製mv",
+        "title": "自製",
         "vid": "9yEn1juYDdI",
         "surname": "趙",
         "kid": ""
@@ -18586,7 +18578,7 @@ const mvDB = [
     {
         "id": 4227,
         "artist": "單依純",
-        "title": "星漢燦爛",
+        "title": "星漢燦爛1080p(fan",
         "vid": "-mfZEqAZpOo",
         "surname": "單",
         "kid": ""
@@ -18610,10 +18602,10 @@ const mvDB = [
     {
         "id": 4230,
         "artist": "BOOM！怪物星人",
-        "title": "boom！怪物星人 [ [敵手] we the bad ace ] official music video｜電影96分鐘形象宣傳曲",
+        "title": "敵手",
         "vid": "EBop1I5UWhI",
         "surname": "B",
-        "kid": ""
+        "kid": "RruV9-CE3J4"
     },
     {
         "id": 4231,
@@ -18645,7 +18637,7 @@ const mvDB = [
         "title": "reborn重生",
         "vid": "er08cIKpPZc",
         "surname": "B",
-        "kid": ""
+        "kid": "YYwc2wYKxvA"
     },
     {
         "id": 4235,
@@ -18653,7 +18645,7 @@ const mvDB = [
         "title": "人生就是一場遊戲",
         "vid": "rLbC3kF82qo",
         "surname": "B",
-        "kid": ""
+        "kid": "fUr23nDR8TY"
     },
     {
         "id": 4236,
@@ -18701,7 +18693,7 @@ const mvDB = [
         "title": "望向暖陽",
         "vid": "QRtw9yZL2fk",
         "surname": "B",
-        "kid": ""
+        "kid": "9N1PYMv7UJ8"
     },
     {
         "id": 4242,
@@ -18725,7 +18717,7 @@ const mvDB = [
         "title": "是不是又欠揍了",
         "vid": "WD2VTkDmC6U",
         "surname": "B",
-        "kid": ""
+        "kid": "iw8iWzXvkBg"
     },
     {
         "id": 4246,
@@ -18765,7 +18757,7 @@ const mvDB = [
         "title": "哭過笑過愛過",
         "vid": "NxK2hQ-RRP8",
         "surname": "姜",
-        "kid": ""
+        "kid": "BWtuQ0Q-hB4"
     },
     {
         "id": 4251,
@@ -18797,7 +18789,7 @@ const mvDB = [
         "title": "天天等天天問",
         "vid": "7tsuL-lOIjA",
         "surname": "姜",
-        "kid": ""
+        "kid": "yCStIXnfTmw"
     },
     {
         "id": 4255,
@@ -18922,7 +18914,7 @@ const mvDB = [
     {
         "id": 4270,
         "artist": "段奧娟",
-        "title": "一起走的幸福官方",
+        "title": "一起走的幸福",
         "vid": "D7Sl61oHJ6g",
         "surname": "段",
         "kid": ""
@@ -20650,7 +20642,7 @@ const mvDB = [
     {
         "id": 4488,
         "artist": "周傳雄",
-        "title": "周傳雄山河行mv",
+        "title": "周傳雄山河行",
         "vid": "hSCz_6d7Uqg",
         "surname": "周",
         "kid": ""
@@ -20869,7 +20861,7 @@ const mvDB = [
         "title": "甲乙丙丁",
         "vid": "tpkLYxt7kRs",
         "surname": "鄭",
-        "kid": ""
+        "kid": "gVWz0IUE9f4"
     },
     {
         "id": 4516,
@@ -20877,7 +20869,7 @@ const mvDB = [
         "title": "相思無用",
         "vid": "0qQi1_OuNsk",
         "surname": "鄭",
-        "kid": ""
+        "kid": "I0U5d3yv5q0"
     },
     {
         "id": 4517,
@@ -20885,7 +20877,7 @@ const mvDB = [
         "title": "答應不愛你",
         "vid": "XAetPvAiFxg",
         "surname": "鄭",
-        "kid": ""
+        "kid": "HEwP8Kl2YFU"
     },
     {
         "id": 4518,
@@ -20957,7 +20949,7 @@ const mvDB = [
         "title": "被愛是幸福",
         "vid": "Z2-29jCtV1w",
         "surname": "鄭",
-        "kid": ""
+        "kid": "r1gqo_zcBDY"
     },
     {
         "id": 4527,
@@ -21941,7 +21933,7 @@ const mvDB = [
         "title": "想幸福的人",
         "vid": "Y34aUJZdSXA",
         "surname": "楊",
-        "kid": ""
+        "kid": "z5rQyLCNtgc"
     },
     {
         "id": 4650,
@@ -21966,14 +21958,6 @@ const mvDB = [
         "vid": "6BIZVkLggT8",
         "surname": "楊",
         "kid": ""
-    },
-    {
-        "id": 4653,
-        "artist": "曲婉婷",
-        "title": "wanting",
-        "vid": "LlKUr91cuf4",
-        "surname": "曲",
-        "kid": "5-IVBcgK8Y0"
     },
     {
         "id": 4654,
@@ -22509,7 +22493,7 @@ const mvDB = [
         "title": "我不想忘記你",
         "vid": "K-xda8e2FLc",
         "surname": "郭",
-        "kid": ""
+        "kid": "UJZFKdHpzkU"
     },
     {
         "id": 4725,
@@ -23682,7 +23666,7 @@ const mvDB = [
     {
         "id": 4871,
         "artist": "藍心湄",
-        "title": "情歌卡拉ok",
+        "title": "情歌",
         "vid": "S0_Pq6cMh24",
         "surname": "藍",
         "kid": ""
@@ -23714,7 +23698,7 @@ const mvDB = [
     {
         "id": 4876,
         "artist": "藍心湄",
-        "title": "say yeah.wmv",
+        "title": "say yeah.w",
         "vid": "w537guYq6FE",
         "surname": "藍",
         "kid": ""
@@ -24354,7 +24338,7 @@ const mvDB = [
     {
         "id": 4960,
         "artist": "潘越雲",
-        "title": "電梯",
+        "title": "電梯封面版",
         "vid": "6yOvtj074C0",
         "surname": "潘",
         "kid": ""
@@ -24370,7 +24354,7 @@ const mvDB = [
     {
         "id": 4962,
         "artist": "潘越雲",
-        "title": "真心人",
+        "title": "真心人封面版",
         "vid": "4uNi057HWtE",
         "surname": "潘",
         "kid": ""
@@ -24549,7 +24533,7 @@ const mvDB = [
         "title": "想你",
         "vid": "RxqtYizie1Y",
         "surname": "范",
-        "kid": ""
+        "kid": "RxqtYizie1Y"
     },
     {
         "id": 4987,
@@ -24597,21 +24581,13 @@ const mvDB = [
         "title": "隱形的翅膀",
         "vid": "JqKH9qWHmAc",
         "surname": "范",
-        "kid": ""
+        "kid": "QbDbUVKkkks"
     },
     {
         "id": 4994,
         "artist": "范文芳",
         "title": "文芳的故事",
         "vid": "5XCHJreT22w",
-        "surname": "范",
-        "kid": ""
-    },
-    {
-        "id": 4995,
-        "artist": "范文芳",
-        "title": "芳順視頻第一輯（李銘順）",
-        "vid": "4HpfhnyPTe8",
         "surname": "范",
         "kid": ""
     },
@@ -24765,6 +24741,11966 @@ const mvDB = [
         "title": "beautiful day",
         "vid": "3BJrrhoj96k",
         "surname": "徐",
+        "kid": ""
+    },
+    {
+        "id": 5015,
+        "artist": "周杰倫",
+        "title": "非",
+        "vid": "3KN3W6E_U9Y",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5016,
+        "artist": "周杰倫",
+        "title": "我愛的人",
+        "vid": "ZeghG09iaNY",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5017,
+        "artist": "周杰倫",
+        "title": "威廉古堡",
+        "vid": "lCzWCxVAkfc",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5018,
+        "artist": "周杰倫",
+        "title": "周杰倫",
+        "vid": "13LHIuBFYPo",
+        "surname": "周",
+        "kid": "0mNtXku7GLw"
+    },
+    {
+        "id": 5019,
+        "artist": "周杰倫",
+        "title": "kusoul",
+        "vid": "zl8u9ucMv6U",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5020,
+        "artist": "周杰倫",
+        "title": "帶你打卡mojito",
+        "vid": "whF6tBn_cKs",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5021,
+        "artist": "周杰倫",
+        "title": "稻香",
+        "vid": "gCKiA_P9kRw",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5022,
+        "artist": "張學友",
+        "title": "心如刀割",
+        "vid": "bkTJx8yk1Io",
+        "surname": "張",
+        "kid": "X7m1_padge0"
+    },
+    {
+        "id": 5023,
+        "artist": "張學友",
+        "title": "(音)",
+        "vid": "Ge76OPQ3jOk",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5024,
+        "artist": "張學友",
+        "title": "夕陽醉了",
+        "vid": "NORtZ5F6G78",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5025,
+        "artist": "張學友",
+        "title": "情已逝",
+        "vid": "RKbjfzn2Jcc",
+        "surname": "張",
+        "kid": "IfKjBhM3RK4"
+    },
+    {
+        "id": 5026,
+        "artist": "張學友",
+        "title": "愛你痛到不知痛",
+        "vid": "mOLKdWowRz0",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5027,
+        "artist": "張學友",
+        "title": "思念",
+        "vid": "RuPr-Wr4U9o",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5028,
+        "artist": "林俊傑",
+        "title": "修煉愛情",
+        "vid": "LWV-f6dMN3Q",
+        "surname": "林",
+        "kid": "r48w77_Xv-Y"
+    },
+    {
+        "id": 5029,
+        "artist": "林俊傑",
+        "title": "一生的愛",
+        "vid": "6sD298uzMGY",
+        "surname": "林",
+        "kid": ""
+    },
+    {
+        "id": 5030,
+        "artist": "林俊傑",
+        "title": "背對背擁抱",
+        "vid": "7xgucJEqNDo",
+        "surname": "林",
+        "kid": "qYkM0EOkAiY"
+    },
+    {
+        "id": 5031,
+        "artist": "林俊傑",
+        "title": "第幾個",
+        "vid": "duQf3-46Ytc",
+        "surname": "林",
+        "kid": ""
+    },
+    {
+        "id": 5032,
+        "artist": "林俊傑",
+        "title": "熟能生巧",
+        "vid": "E6dBjVxo-5U",
+        "surname": "林",
+        "kid": ""
+    },
+    {
+        "id": 5033,
+        "artist": "張信哲",
+        "title": "柔軟",
+        "vid": "PzdABSCox3M",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5034,
+        "artist": "張信哲",
+        "title": "我相信",
+        "vid": "x1S5wYv_Za4",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5035,
+        "artist": "張信哲",
+        "title": "心情卡片",
+        "vid": "cPdCwAFJqM4",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5036,
+        "artist": "周華健",
+        "title": "讓我歡喜讓我憂",
+        "vid": "vqTXMw9zdto",
+        "surname": "周",
+        "kid": "1QNhRiXbcgY"
+    },
+    {
+        "id": 5037,
+        "artist": "周華健",
+        "title": "怕黑",
+        "vid": "6p9UirDVuCk",
+        "surname": "周",
+        "kid": "5TZ32VpdmUw"
+    },
+    {
+        "id": 5038,
+        "artist": "周華健",
+        "title": "等我一秒鐘",
+        "vid": "YN0UUdYc1NQ",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5039,
+        "artist": "周華健",
+        "title": "新天長地久之男大當戀女大當愛",
+        "vid": "ns-BzgNDE34",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5040,
+        "artist": "周華健",
+        "title": "花心",
+        "vid": "XZU2kBPpzdc",
+        "surname": "周",
+        "kid": "gxuCzo3SS1M"
+    },
+    {
+        "id": 5041,
+        "artist": "周華健",
+        "title": "純真的心不變",
+        "vid": "Ie30NfIIlB0",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5042,
+        "artist": "周華健",
+        "title": "在雲端",
+        "vid": "hBBYcySM8pI",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5043,
+        "artist": "周華健",
+        "title": "有沒有一首歌會讓你想起我",
+        "vid": "XDqW410a37I",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5044,
+        "artist": "李宗盛",
+        "title": "鬼迷心竅。taiwan",
+        "vid": "6zg-_cPR4_o",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5045,
+        "artist": "李宗盛",
+        "title": "如果你要離去",
+        "vid": "HkuFVl8hO-M",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5046,
+        "artist": "李宗盛",
+        "title": "如風往事　與盧冠廷",
+        "vid": "AhhXFhYSmNo",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5047,
+        "artist": "李宗盛",
+        "title": "因為單身的緣故",
+        "vid": "6KWwFlqK6YU",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5048,
+        "artist": "李宗盛",
+        "title": "明明白白我的心",
+        "vid": "_-OM40eaRQQ",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5049,
+        "artist": "蕭敬騰",
+        "title": "蕭敬騰 - blues【官方完整版 official music video】",
+        "vid": "fd_UTWyPy5g",
+        "surname": "蕭",
+        "kid": ""
+    },
+    {
+        "id": 5050,
+        "artist": "羅大佑",
+        "title": "辱包",
+        "vid": "tBTsvEpeies",
+        "surname": "羅",
+        "kid": ""
+    },
+    {
+        "id": 5051,
+        "artist": "羅大佑",
+        "title": "神話  -  羅大佑 (歌詞)",
+        "vid": "cmDC1HAdrsA",
+        "surname": "羅",
+        "kid": ""
+    },
+    {
+        "id": 5052,
+        "artist": "羅大佑",
+        "title": "長征",
+        "vid": "Bb-Mcmh5Fxk",
+        "surname": "羅",
+        "kid": ""
+    },
+    {
+        "id": 5053,
+        "artist": "羅大佑",
+        "title": "新生代",
+        "vid": "NU5o2Zistq0",
+        "surname": "羅",
+        "kid": ""
+    },
+    {
+        "id": 5054,
+        "artist": "李聖傑",
+        "title": "d.t",
+        "vid": "16DWRO8GcLY",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5055,
+        "artist": "李聖傑",
+        "title": "我以為",
+        "vid": "W3vGz9mcbHA",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5056,
+        "artist": "李聖傑",
+        "title": "是你決定我的傷心",
+        "vid": "Ew040vWiknk",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5057,
+        "artist": "趙傳",
+        "title": "不要擋在我的面前",
+        "vid": "dTP-N45PCMA",
+        "surname": "趙",
+        "kid": ""
+    },
+    {
+        "id": 5058,
+        "artist": "趙傳",
+        "title": "endless emotion",
+        "vid": "oLZEWJn3DHQ",
+        "surname": "趙",
+        "kid": ""
+    },
+    {
+        "id": 5059,
+        "artist": "趙傳",
+        "title": "愛要怎麼說出口",
+        "vid": "Olzdy50kvFQ",
+        "surname": "趙",
+        "kid": "ZGhy2bWYPf4"
+    },
+    {
+        "id": 5060,
+        "artist": "趙傳",
+        "title": "最初",
+        "vid": "I-vZkphWfpk",
+        "surname": "趙",
+        "kid": ""
+    },
+    {
+        "id": 5061,
+        "artist": "伍佰",
+        "title": "接受我的愛",
+        "vid": "iECJDbZphRI",
+        "surname": "伍",
+        "kid": ""
+    },
+    {
+        "id": 5062,
+        "artist": "伍佰",
+        "title": "白鴿",
+        "vid": "pcmJu4MPYLY",
+        "surname": "伍",
+        "kid": "TK7LAkR7Njw"
+    },
+    {
+        "id": 5063,
+        "artist": "周興哲",
+        "title": "永不失聯的愛",
+        "vid": "RbLDyQv920k",
+        "surname": "周",
+        "kid": "3mb6wBKtVUs"
+    },
+    {
+        "id": 5064,
+        "artist": "周興哲",
+        "title": "摯友",
+        "vid": "pqh2M_BFbyc",
+        "surname": "周",
+        "kid": "POqFkNLDeBo"
+    },
+    {
+        "id": 5065,
+        "artist": "周興哲",
+        "title": "一樣美麗",
+        "vid": "dGRmLmp9yo4",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5066,
+        "artist": "周興哲",
+        "title": "歡迎來到我家&走心感觸",
+        "vid": "WslQLxWqj44",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5067,
+        "artist": "周興哲",
+        "title": "14 days",
+        "vid": "r5wB_9q4Yno",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5068,
+        "artist": "周興哲",
+        "title": "room for you",
+        "vid": "YH7e5I3iOCc",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5069,
+        "artist": "周興哲",
+        "title": "endless love",
+        "vid": "qJoAS4kZEDk",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5070,
+        "artist": "周興哲",
+        "title": "至少我還記得",
+        "vid": "IMLGraXp8_I",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5071,
+        "artist": "周興哲",
+        "title": "more than blue",
+        "vid": "CQoiFGsAe8Y",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5072,
+        "artist": "周興哲",
+        "title": "怎麼了〔我們懷念什麼",
+        "vid": "wpc89JqlHLM",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5073,
+        "artist": "周興哲",
+        "title": "e life1",
+        "vid": "zVYFYnHYWno",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5074,
+        "artist": "周興哲",
+        "title": "thats all",
+        "vid": "62jqd0yXcvg",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5075,
+        "artist": "周興哲",
+        "title": "im happy",
+        "vid": "QTNpif7vOjo",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5076,
+        "artist": "蕭煌奇",
+        "title": "送予你的歌",
+        "vid": "uwBpXyWGDh4",
+        "surname": "蕭",
+        "kid": ""
+    },
+    {
+        "id": 5077,
+        "artist": "蕭煌奇",
+        "title": "沒那麼簡單",
+        "vid": "cdRNrHRnf2w",
+        "surname": "蕭",
+        "kid": ""
+    },
+    {
+        "id": 5078,
+        "artist": "蕭煌奇",
+        "title": "查某囡仔",
+        "vid": "N_nVqAlCRgc",
+        "surname": "蕭",
+        "kid": ""
+    },
+    {
+        "id": 5079,
+        "artist": "G.E.M.鄧紫棋",
+        "title": "錯過不錯",
+        "vid": "xVdKKL4ENwU",
+        "surname": "G",
+        "kid": ""
+    },
+    {
+        "id": 5080,
+        "artist": "蔡健雅",
+        "title": "異類的同類strange",
+        "vid": "V74G7v-01QI",
+        "surname": "蔡",
+        "kid": ""
+    },
+    {
+        "id": 5081,
+        "artist": "蔡健雅",
+        "title": "假想敵",
+        "vid": "MSsuS3uLmmI",
+        "surname": "蔡",
+        "kid": "tHuWQmOQKYA"
+    },
+    {
+        "id": 5082,
+        "artist": "蔡健雅",
+        "title": "下一站",
+        "vid": "alwLzG-GVcw",
+        "surname": "蔡",
+        "kid": ""
+    },
+    {
+        "id": 5083,
+        "artist": "蔡健雅",
+        "title": "key to happiness",
+        "vid": "lX76LM7bL5o",
+        "surname": "蔡",
+        "kid": ""
+    },
+    {
+        "id": 5084,
+        "artist": "莫文蔚",
+        "title": "忽然之間",
+        "vid": "cOe-xSZA8n4",
+        "surname": "莫",
+        "kid": "9soEdNY1J0Y"
+    },
+    {
+        "id": 5085,
+        "artist": "莫文蔚",
+        "title": "話題",
+        "vid": "l9tWgyXLAIM",
+        "surname": "莫",
+        "kid": ""
+    },
+    {
+        "id": 5086,
+        "artist": "莫文蔚",
+        "title": "am pm",
+        "vid": "kebqAlqJWqs",
+        "surname": "莫",
+        "kid": ""
+    },
+    {
+        "id": 5087,
+        "artist": "莫文蔚",
+        "title": "頭號粉絲",
+        "vid": "Cuph8IqE_0I",
+        "surname": "莫",
+        "kid": ""
+    },
+    {
+        "id": 5088,
+        "artist": "蔡依林",
+        "title": "許願池的希臘少女",
+        "vid": "G9sIUTwocJY",
+        "surname": "蔡",
+        "kid": "gDNDja9Iv9A"
+    },
+    {
+        "id": 5089,
+        "artist": "蔡依林",
+        "title": "唇語",
+        "vid": "tfqxE2qmffg",
+        "surname": "蔡",
+        "kid": ""
+    },
+    {
+        "id": 5090,
+        "artist": "蔡依林",
+        "title": "電話皇后",
+        "vid": "XWDZ0xj-Yxw",
+        "surname": "蔡",
+        "kid": ""
+    },
+    {
+        "id": 5091,
+        "artist": "蔡依林",
+        "title": "蔡依林 玩愛之徒- 華納official hq官方版mv",
+        "vid": "A9vhXjxMQWg",
+        "surname": "蔡",
+        "kid": ""
+    },
+    {
+        "id": 5092,
+        "artist": "蔡依林",
+        "title": "海盜",
+        "vid": "BfbOI19D3DY",
+        "surname": "蔡",
+        "kid": ""
+    },
+    {
+        "id": 5093,
+        "artist": "蔡依林",
+        "title": "海市蜃樓",
+        "vid": "s1jCXvbGE14",
+        "surname": "蔡",
+        "kid": ""
+    },
+    {
+        "id": 5094,
+        "artist": "蔡依林",
+        "title": "樂園",
+        "vid": "n91e_lExk40",
+        "surname": "蔡",
+        "kid": ""
+    },
+    {
+        "id": 5095,
+        "artist": "蔡依林",
+        "title": "非賣品",
+        "vid": "A7nY7gOc7eY",
+        "surname": "蔡",
+        "kid": ""
+    },
+    {
+        "id": 5096,
+        "artist": "蔡依林",
+        "title": "好東西",
+        "vid": "G5BzWgAtPH4",
+        "surname": "蔡",
+        "kid": ""
+    },
+    {
+        "id": 5097,
+        "artist": "蔡依林",
+        "title": "特別收錄音樂影像",
+        "vid": "B-75hhwQMUQ",
+        "surname": "蔡",
+        "kid": ""
+    },
+    {
+        "id": 5098,
+        "artist": "蔡依林",
+        "title": "mr q",
+        "vid": "dcdmOzm5ZJ8",
+        "surname": "蔡",
+        "kid": "TL_tC09Hejc"
+    },
+    {
+        "id": 5099,
+        "artist": "那英",
+        "title": "我的心中星",
+        "vid": "auuoHqKfoGo",
+        "surname": "那",
+        "kid": ""
+    },
+    {
+        "id": 5100,
+        "artist": "那英",
+        "title": "身不由己",
+        "vid": "5_a_ffaaddQ",
+        "surname": "那",
+        "kid": ""
+    },
+    {
+        "id": 5101,
+        "artist": "那英",
+        "title": "愛依然",
+        "vid": "bMGGxfkq6XU",
+        "surname": "那",
+        "kid": ""
+    },
+    {
+        "id": 5102,
+        "artist": "梁靜茹",
+        "title": "寧夏",
+        "vid": "MmtVl9CssYE",
+        "surname": "梁",
+        "kid": "492tDhwInL0"
+    },
+    {
+        "id": 5103,
+        "artist": "梁靜茹",
+        "title": "彩虹",
+        "vid": "HnnXkxlyuM8",
+        "surname": "梁",
+        "kid": "7xd6tYnOSXs"
+    },
+    {
+        "id": 5104,
+        "artist": "張惠妹",
+        "title": "偏執面faces",
+        "vid": "I49Kec5Pj1Y",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5105,
+        "artist": "張惠妹",
+        "title": "趁早",
+        "vid": "oufUB3LTjMQ",
+        "surname": "張",
+        "kid": "U4U1aGe6Q4A"
+    },
+    {
+        "id": 5106,
+        "artist": "張惠妹",
+        "title": "黑吃黑",
+        "vid": "bAss0bUsoGI",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5107,
+        "artist": "張惠妹",
+        "title": "後知後覺",
+        "vid": "XaCuEPc3DhY",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5108,
+        "artist": "張惠妹",
+        "title": "衝動",
+        "vid": "6nCEpnoVdtA",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5109,
+        "artist": "田馥甄",
+        "title": "love!",
+        "vid": "w96CCImdIiE",
+        "surname": "田",
+        "kid": ""
+    },
+    {
+        "id": 5110,
+        "artist": "田馥甄",
+        "title": "特別出演:太妍",
+        "vid": "HeiKsE6I7i0",
+        "surname": "田",
+        "kid": ""
+    },
+    {
+        "id": 5111,
+        "artist": "A-Lin",
+        "title": "做我自己",
+        "vid": "wpU2XLoFquc",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 5112,
+        "artist": "A-Lin",
+        "title": "無路可退",
+        "vid": "hjnAu1JLz6E",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 5113,
+        "artist": "辛曉琪",
+        "title": "新生日",
+        "vid": "T1P-l7Iedpk",
+        "surname": "辛",
+        "kid": ""
+    },
+    {
+        "id": 5114,
+        "artist": "辛曉琪",
+        "title": "難得秀鋼琴！與費玉清帶來音樂饗宴龍兄虎弟",
+        "vid": "aBv2wt_Mrg4",
+        "surname": "辛",
+        "kid": ""
+    },
+    {
+        "id": 5115,
+        "artist": "蘇慧倫",
+        "title": "離開你的愛",
+        "vid": "tCdG2jBq2GQ",
+        "surname": "蘇",
+        "kid": ""
+    },
+    {
+        "id": 5116,
+        "artist": "蘇慧倫",
+        "title": "",
+        "vid": "gN7R4nu_3oI",
+        "surname": "蘇",
+        "kid": "cmow86mmjMo"
+    },
+    {
+        "id": 5117,
+        "artist": "張清芳",
+        "title": "女人緣",
+        "vid": "8-PSgunB12E",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5118,
+        "artist": "張清芳",
+        "title": "出塞曲",
+        "vid": "KHjA4_VqpM4",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5119,
+        "artist": "張清芳",
+        "title": "等待",
+        "vid": "lw4m499NWuw",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5120,
+        "artist": "張清芳",
+        "title": "_燃燒一瞬間",
+        "vid": "intRITwBHEU",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5121,
+        "artist": "張清芳",
+        "title": "愛你的我",
+        "vid": "3sMils7Hvt4",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5122,
+        "artist": "張清芳",
+        "title": "走時請關窗 - 張清芳",
+        "vid": "oHWa6L_0pzA",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5123,
+        "artist": "五月天",
+        "title": "心中無別人",
+        "vid": "EitgfC3gg7M",
+        "surname": "五",
+        "kid": ""
+    },
+    {
+        "id": 5124,
+        "artist": "五月天",
+        "title": "亂世浮生",
+        "vid": "wrsQBN0eyI0",
+        "surname": "五",
+        "kid": ""
+    },
+    {
+        "id": 5125,
+        "artist": "五月天",
+        "title": "愛你攏嘸驚",
+        "vid": "5dJ8DsxhytU",
+        "surname": "五",
+        "kid": ""
+    },
+    {
+        "id": 5126,
+        "artist": "五月天",
+        "title": "你我之間",
+        "vid": "EJqRWSolcC4",
+        "surname": "五",
+        "kid": ""
+    },
+    {
+        "id": 5127,
+        "artist": "S.H.E",
+        "title": "保持微笑",
+        "vid": "r8EARp5tFpA",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 5128,
+        "artist": "S.H.E",
+        "title": "愛情的海洋",
+        "vid": "64lULu0B9L8",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 5129,
+        "artist": "動力火車",
+        "title": "俯衝的靈魂",
+        "vid": "2vT-YM2frWI",
+        "surname": "動",
+        "kid": "D92OSc1HxsU"
+    },
+    {
+        "id": 5130,
+        "artist": "動力火車",
+        "title": "趁少年",
+        "vid": "42Wv1FC8TD0",
+        "surname": "動",
+        "kid": "kvTIeoGKrvk"
+    },
+    {
+        "id": 5131,
+        "artist": "IU",
+        "title": "bye, summer",
+        "vid": "hZpMABioJ2M",
+        "surname": "I",
+        "kid": "GYVqpBUp7FQ"
+    },
+    {
+        "id": 5132,
+        "artist": "IU",
+        "title": "iu love wins all",
+        "vid": "JleoAppaxi0",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5133,
+        "artist": "IU",
+        "title": "iu never ending story",
+        "vid": "6J9ixwhDYSM",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5134,
+        "artist": "IU",
+        "title": "iu 홀씨(holssi)",
+        "vid": "mFbILexYSQg",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5135,
+        "artist": "IU",
+        "title": "iu 바이, 썸머",
+        "vid": "Hsuy_xzPyWQ",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5136,
+        "artist": "IU",
+        "title": "iu shopper",
+        "vid": "kHW-UVXOcLU",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5137,
+        "artist": "IU",
+        "title": "iu shh.. (feat. hyein, 조원선 & special narr. 패티김)",
+        "vid": "VIDQTyNmkN4",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5138,
+        "artist": "IU",
+        "title": "iu(아이유)_epilogue(에필로그)",
+        "vid": "c9E2IT1jHQY",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5139,
+        "artist": "IU",
+        "title": "조각집🎨",
+        "vid": "TU4qAG0Zj2s",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5140,
+        "artist": "IU",
+        "title": "낙하 (nakka) (with iu)",
+        "vid": "EtiPbWzUY9o",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5141,
+        "artist": "IU",
+        "title": "선공개🎨",
+        "vid": "QOV2UpUWFHM",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5142,
+        "artist": "IU",
+        "title": "agust d 사람 pt.2 (feat. 아이유)",
+        "vid": "uVD-YgzDzyY",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5143,
+        "artist": "IU",
+        "title": "iu 네모의 꿈 live clip",
+        "vid": "r3WS1BOpgk4",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5144,
+        "artist": "IU",
+        "title": "iu 미인 (feat. balming tiger)",
+        "vid": "l5Z1PBJLUss",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5145,
+        "artist": "IU",
+        "title": "연애소설 (love story) ft. iu (아이유)",
+        "vid": "Z3INNjAEqHk",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5146,
+        "artist": "IU",
+        "title": "iu(아이유) _ celebrity",
+        "vid": "0-q1KafFCLU",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5147,
+        "artist": "IU",
+        "title": "iu(아이유) _ eight(에잇) (prod.&feat. suga of bts)",
+        "vid": "TgOu00Mf3kI",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5148,
+        "artist": "IU",
+        "title": "iu(아이유)_lilac(라일락)",
+        "vid": "v7bnOxV4jAc",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5149,
+        "artist": "IU",
+        "title": "iu(아이유) _ strawberry moon",
+        "vid": "sqgxcCjD04s",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5150,
+        "artist": "IU",
+        "title": "iu(아이유)_coin",
+        "vid": "86BST8NIpNM",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5151,
+        "artist": "IU",
+        "title": "親愛的",
+        "vid": "lczdo1Y5TEg",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5152,
+        "artist": "IU",
+        "title": "blueming | iu’s palette (아이유의 팔레트)",
+        "vid": "pUSarM-1BdY",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5153,
+        "artist": "IU",
+        "title": "故",
+        "vid": "ZXmoJu81e6A",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5154,
+        "artist": "IU",
+        "title": "three)  (performance ver.)",
+        "vid": "BkLKEsh6tZU",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5155,
+        "artist": "IU",
+        "title": "monday afternoon",
+        "vid": "dMZ6KX8etgQ",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5156,
+        "artist": "IU",
+        "title": "iu(아이유) _ you&i(너랑 나) (performance ver.)",
+        "vid": "NJR8Inf77Ac",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5157,
+        "artist": "IU",
+        "title": "every end of the day(스무 살의 봄",
+        "vid": "USRRzDWk25E",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5158,
+        "artist": "IU",
+        "title": "chinese sub",
+        "vid": "0b0HardgTko",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5159,
+        "artist": "IU",
+        "title": "love wins all",
+        "vid": "rHpqlzlP4hA",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5160,
+        "artist": "IU",
+        "title": "iu(아이유) _ above the time(시간의 바깥)",
+        "vid": "R3Fwdnij49o",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5161,
+        "artist": "IU",
+        "title": "jeong(장이정) of history(히스토리))",
+        "vid": "EiVmQZwJhsA",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5162,
+        "artist": "IU",
+        "title": "iu(아이유) _ naui yetnal iyagi(나의 옛날이야기) : my old story",
+        "vid": "npttud7NkL0",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5163,
+        "artist": "IU",
+        "title": "iu(아이유) _ into the iland",
+        "vid": "QYNwbZHmh8g",
+        "surname": "I",
+        "kid": "YcLs_yYgJgI"
+    },
+    {
+        "id": 5164,
+        "artist": "IU",
+        "title": "iu(아이유) _ through the night(밤편지)",
+        "vid": "BzYnNdJhZQw",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5165,
+        "artist": "IU",
+        "title": "three(스물셋)",
+        "vid": "42Gtm4-Ax2U",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5166,
+        "artist": "IU",
+        "title": "iu (아이유) _ good day (좋은 날) _",
+        "vid": "jeqdYqsrsA0",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5167,
+        "artist": "IU",
+        "title": "iu(아이유) _ hold my hand(내 손을 잡아) _",
+        "vid": "BYQBs_4-MOo",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 5168,
+        "artist": "BLACKPINK",
+        "title": "뛰어(jump)",
+        "vid": "CgCVZdcKcqY",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5169,
+        "artist": "BLACKPINK",
+        "title": "love to hate me",
+        "vid": "wrpLRH2OxDI",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5170,
+        "artist": "BLACKPINK",
+        "title": "pink venom",
+        "vid": "gQlMMD8auMs",
+        "surname": "B",
+        "kid": "qgoltFuPSSc"
+    },
+    {
+        "id": 5171,
+        "artist": "BLACKPINK",
+        "title": "lovesick girls",
+        "vid": "dyRsYk0LyA8",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5172,
+        "artist": "BLACKPINK",
+        "title": "how you like that",
+        "vid": "ioNng23DkIM",
+        "surname": "B",
+        "kid": "npgCVF34vWE"
+    },
+    {
+        "id": 5173,
+        "artist": "BLACKPINK",
+        "title": "tally",
+        "vid": "mkk2738_adc",
+        "surname": "B",
+        "kid": "Z7ovil3wFuo"
+    },
+    {
+        "id": 5174,
+        "artist": "BLACKPINK",
+        "title": "ice cream (with selena gomez)",
+        "vid": "vRXZj0DzXIA",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5175,
+        "artist": "BLACKPINK",
+        "title": "꽃(flower)",
+        "vid": "YudHcBIxlYw",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5176,
+        "artist": "BLACKPINK",
+        "title": "『the happiest girl 』",
+        "vid": "qaHBS_VhNO8",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5177,
+        "artist": "BLACKPINK",
+        "title": "how you like that dance performance",
+        "vid": "32si5cfrCNc",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5178,
+        "artist": "BLACKPINK",
+        "title": "『shut down』",
+        "vid": "POe9SOEKotk",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5179,
+        "artist": "BLACKPINK",
+        "title": "『typa girl』",
+        "vid": "beUbmsJg270",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5180,
+        "artist": "BLACKPINK",
+        "title": "money exclusive performance",
+        "vid": "dNCWe_6HAM8",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5181,
+        "artist": "BLACKPINK",
+        "title": "gone",
+        "vid": "K9_VFxzCuQ0",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5182,
+        "artist": "BLACKPINK",
+        "title": "『typa girl』",
+        "vid": "UhxW9Njqqu0",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5183,
+        "artist": "BLACKPINK",
+        "title": "『tally』",
+        "vid": "VQo4hyWfBQ4",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5184,
+        "artist": "BLACKPINK",
+        "title": "love to hate me",
+        "vid": "dFeXqSKSK48",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5185,
+        "artist": "BLACKPINK",
+        "title": "『shut down』 dance performance",
+        "vid": "PjrAwC4TIPA",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5186,
+        "artist": "BLACKPINK",
+        "title": "special final in kyocera dome osaka",
+        "vid": "jubpICnlc-Q",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5187,
+        "artist": "BLACKPINK",
+        "title": "stay",
+        "vid": "FzVR_fymZw4",
+        "surname": "B",
+        "kid": "PS7aEF5LDhY"
+    },
+    {
+        "id": 5188,
+        "artist": "BLACKPINK",
+        "title": "마지막처럼 (as if its your last)",
+        "vid": "Amq-qlqbjYA",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5189,
+        "artist": "BLACKPINK",
+        "title": "hope not",
+        "vid": "Z_n9D6yAJL0",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5190,
+        "artist": "BLACKPINK",
+        "title": "dont know what to do dance practice  (moving ver.)",
+        "vid": "bqzDuRz_P7g",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5191,
+        "artist": "BLACKPINK",
+        "title": "『crazy over you’",
+        "vid": "my38BhPN1v8",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5192,
+        "artist": "BLACKPINK",
+        "title": "『kick it』",
+        "vid": "fni82iMq5Fw",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5193,
+        "artist": "BLACKPINK",
+        "title": "kill this love",
+        "vid": "2S24-y0Ij3Y",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5194,
+        "artist": "BLACKPINK",
+        "title": "『뚜두뚜두 (ddu",
+        "vid": "IHNzOHi8sJs",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5195,
+        "artist": "BLACKPINK",
+        "title": "『forever young』",
+        "vid": "qa51zme-oxs",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5196,
+        "artist": "BLACKPINK",
+        "title": "『the girls』",
+        "vid": "ZyerwVzcO2Q",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5197,
+        "artist": "BLACKPINK",
+        "title": "『see u later』",
+        "vid": "LV95aCwGswM",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5198,
+        "artist": "BLACKPINK",
+        "title": "『pretty savage’ 1011 sbs inkigayo",
+        "vid": "gU2HqP4NxUs",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5199,
+        "artist": "BLACKPINK",
+        "title": "solo",
+        "vid": "b73BI9eUkjM",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5200,
+        "artist": "BLACKPINK",
+        "title": "forever young dance practice  (moving ver.)",
+        "vid": "89kTb73csYg",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5201,
+        "artist": "BLACKPINK",
+        "title": "붐바야 (boombayah)",
+        "vid": "bwmSjveL3Lc",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5202,
+        "artist": "BLACKPINK",
+        "title": "불장난 (playing with fire)",
+        "vid": "9pdj4iJD08s",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5203,
+        "artist": "BLACKPINK",
+        "title": "pretty savage",
+        "vid": "nYFR2YdioL0",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5204,
+        "artist": "BLACKPINK",
+        "title": "휘파람 (whistle)",
+        "vid": "dISNgvVpWlo",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5205,
+        "artist": "BLACKPINK",
+        "title": "『the girls』",
+        "vid": "cSqOY5nktfg",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5206,
+        "artist": "BLACKPINK",
+        "title": "sour candy",
+        "vid": "XcskGdItsi8",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5207,
+        "artist": "BLACKPINK",
+        "title": "you never know",
+        "vid": "5lFuA7InjyM",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 5208,
+        "artist": "陳昇",
+        "title": "老鼠萬歲",
+        "vid": "5Me6XMC7oIk",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5209,
+        "artist": "周湯豪",
+        "title": "鐘樓愛人",
+        "vid": "mCUltofIk4o",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5210,
+        "artist": "華晨宇",
+        "title": "怪誕心理學",
+        "vid": "esLdX9oOl5s",
+        "surname": "華",
+        "kid": ""
+    },
+    {
+        "id": 5211,
+        "artist": "華晨宇",
+        "title": "忒修斯的船",
+        "vid": "sGvuUhIyvSo",
+        "surname": "華",
+        "kid": ""
+    },
+    {
+        "id": 5212,
+        "artist": "華晨宇",
+        "title": "國王與乞丐",
+        "vid": "XiyEwRlyKl4",
+        "surname": "華",
+        "kid": "EiVBCBrIPDg"
+    },
+    {
+        "id": 5213,
+        "artist": "華晨宇",
+        "title": "普通到不普通的人生",
+        "vid": "-DvXDcUMIoY",
+        "surname": "華",
+        "kid": ""
+    },
+    {
+        "id": 5214,
+        "artist": "華晨宇",
+        "title": "我管你",
+        "vid": "HhBKaTSpp5A",
+        "surname": "華",
+        "kid": "vIiW686yUwY"
+    },
+    {
+        "id": 5215,
+        "artist": "華晨宇",
+        "title": "鬥牛",
+        "vid": "EjmqAvhVglM",
+        "surname": "華",
+        "kid": ""
+    },
+    {
+        "id": 5216,
+        "artist": "華晨宇",
+        "title": "卡西莫多的禮物-華晨宇-官方mv",
+        "vid": "-GL2Icz9Dvs",
+        "surname": "華",
+        "kid": ""
+    },
+    {
+        "id": 5217,
+        "artist": "華晨宇",
+        "title": "歌手頻道",
+        "vid": "FhxX3hxW9IE",
+        "surname": "華",
+        "kid": ""
+    },
+    {
+        "id": 5218,
+        "artist": "華晨宇",
+        "title": "蜉蝣",
+        "vid": "cH5Cife76W8",
+        "surname": "華",
+        "kid": ""
+    },
+    {
+        "id": 5219,
+        "artist": "華晨宇",
+        "title": "不重逢",
+        "vid": "LxUIjDdM5dQ",
+        "surname": "華",
+        "kid": ""
+    },
+    {
+        "id": 5220,
+        "artist": "華晨宇",
+        "title": "永不熄滅的火焰",
+        "vid": "9loYC8b2Bz8",
+        "surname": "華",
+        "kid": ""
+    },
+    {
+        "id": 5221,
+        "artist": "華晨宇",
+        "title": "神樹",
+        "vid": "zM4r3HiOZcI",
+        "surname": "華",
+        "kid": ""
+    },
+    {
+        "id": 5222,
+        "artist": "華晨宇",
+        "title": "不重逢",
+        "vid": "00YJStJRsiE",
+        "surname": "華",
+        "kid": ""
+    },
+    {
+        "id": 5223,
+        "artist": "華晨宇",
+        "title": "走，一起去看日出吧",
+        "vid": "lC_SjBokEcM",
+        "surname": "華",
+        "kid": ""
+    },
+    {
+        "id": 5224,
+        "artist": "華晨宇",
+        "title": "here we are",
+        "vid": "J-_gs1_MChI",
+        "surname": "華",
+        "kid": "z89X4liIjPE"
+    },
+    {
+        "id": 5225,
+        "artist": "華晨宇",
+        "title": "那些我尚未知道的美麗",
+        "vid": "IlAAbtzOyns",
+        "surname": "華",
+        "kid": ""
+    },
+    {
+        "id": 5226,
+        "artist": "華晨宇",
+        "title": "雪碧2021「透心涼渴釋放」第二季合作主題曲",
+        "vid": "sFKPxIXQtRk",
+        "surname": "華",
+        "kid": ""
+    },
+    {
+        "id": 5227,
+        "artist": "陳奕迅",
+        "title": "k歌之王",
+        "vid": "9elvYViwP4g",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5228,
+        "artist": "陳奕迅",
+        "title": "k歌之王",
+        "vid": "NtJZ0jBuSzg",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5229,
+        "artist": "陳奕迅",
+        "title": "浮誇",
+        "vid": "KgQx3Ob8l8A",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5230,
+        "artist": "陳奕迅",
+        "title": "與我常在",
+        "vid": "fnHJfVn4y-g",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5231,
+        "artist": "陳奕迅",
+        "title": "抱擁這分鐘",
+        "vid": "UuwZ8B1uMKo",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5232,
+        "artist": "陳奕迅",
+        "title": "愛情轉移",
+        "vid": "CWEWPj3-G-Q",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5233,
+        "artist": "陳奕迅",
+        "title": "我的快樂時代",
+        "vid": "6ycYezMl0DI",
+        "surname": "陳",
+        "kid": "GfHfwvDfg0I"
+    },
+    {
+        "id": 5234,
+        "artist": "陳奕迅",
+        "title": "黃金時代",
+        "vid": "xp5cVBuRN-U",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5235,
+        "artist": "陳奕迅",
+        "title": "陀飛輪",
+        "vid": "mQReG_mBpqc",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5236,
+        "artist": "陳奕迅",
+        "title": "富士山下",
+        "vid": "tkna1DQT-9Y",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5237,
+        "artist": "陳奕迅",
+        "title": "苦瓜",
+        "vid": "c_Rg5eT_WxA",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5238,
+        "artist": "陳奕迅",
+        "title": "一絲不掛",
+        "vid": "s2LzcNvAPF0",
+        "surname": "陳",
+        "kid": "UxBnXtw1CA4"
+    },
+    {
+        "id": 5239,
+        "artist": "陳奕迅",
+        "title": "月球上的人",
+        "vid": "0e94ymYQ1cE",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5240,
+        "artist": "陳奕迅",
+        "title": "落花流水",
+        "vid": "B7wvrxJ5QcM",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5241,
+        "artist": "陳奕迅",
+        "title": "孤勇者",
+        "vid": "92c-k8ZMz_I",
+        "surname": "陳",
+        "kid": "xsWaWtkNMtQ"
+    },
+    {
+        "id": 5242,
+        "artist": "陳奕迅",
+        "title": "殘片",
+        "vid": "K8EHzeCqTHY",
+        "surname": "陳",
+        "kid": "eK2jal-pLts"
+    },
+    {
+        "id": 5243,
+        "artist": "陳奕迅",
+        "title": "阿牛",
+        "vid": "8ED_yJ21LTw",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5244,
+        "artist": "陳奕迅",
+        "title": "陰天快樂",
+        "vid": "9Z0aHUUv88Y",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5245,
+        "artist": "陳奕迅",
+        "title": "我們",
+        "vid": "dhjomo8W6Lc",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5246,
+        "artist": "陳奕迅",
+        "title": "盲婚啞嫁",
+        "vid": "bWxHgHLJlYw",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5247,
+        "artist": "任賢齊",
+        "title": "jen﹣不在乎",
+        "vid": "JS0DF3acxJY",
+        "surname": "任",
+        "kid": ""
+    },
+    {
+        "id": 5248,
+        "artist": "任賢齊",
+        "title": "永不退縮",
+        "vid": "M0A9-z2Yj1I",
+        "surname": "任",
+        "kid": ""
+    },
+    {
+        "id": 5249,
+        "artist": "任賢齊",
+        "title": "愛情躲避球",
+        "vid": "oX83315qerA",
+        "surname": "任",
+        "kid": ""
+    },
+    {
+        "id": 5250,
+        "artist": "劉德華",
+        "title": "觀世音",
+        "vid": "Q93Q1CK0cg8",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5251,
+        "artist": "李榮浩",
+        "title": "黑馬",
+        "vid": "e_3nTablkhA",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5252,
+        "artist": "李榮浩",
+        "title": "哎呀",
+        "vid": "--vQyARwWw4",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5253,
+        "artist": "周傳雄",
+        "title": "離開昨天",
+        "vid": "mtBVJrj-xDw",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5254,
+        "artist": "周傳雄",
+        "title": "不安的靈魂",
+        "vid": "1E6AbUFruHA",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5255,
+        "artist": "周傳雄",
+        "title": "山河令",
+        "vid": "c6CEBtKSYTs",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5256,
+        "artist": "周傳雄",
+        "title": "記事本",
+        "vid": "RmYpOYlAStI",
+        "surname": "周",
+        "kid": "mCg55m-OFco"
+    },
+    {
+        "id": 5257,
+        "artist": "周傳雄",
+        "title": "孤單大街",
+        "vid": "-z-QLmirzoI",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5258,
+        "artist": "周傳雄",
+        "title": "愛你",
+        "vid": "ya_derGIQ5c",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5259,
+        "artist": "周傳雄",
+        "title": "周傳雄",
+        "vid": "rk2OEJjeT-g",
+        "surname": "周",
+        "kid": "m_-p5JGu4ls"
+    },
+    {
+        "id": 5260,
+        "artist": "周傳雄",
+        "title": "回",
+        "vid": "24JEdxV2CHE",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5261,
+        "artist": "周傳雄",
+        "title": "花香",
+        "vid": "08VfL-EAWdk",
+        "surname": "周",
+        "kid": "8D0y5gzwE3Y"
+    },
+    {
+        "id": 5262,
+        "artist": "張杰",
+        "title": "綻放",
+        "vid": "b0ktUVRFwQg",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5263,
+        "artist": "張杰",
+        "title": "福",
+        "vid": "yVevi_jk6zo",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5264,
+        "artist": "張杰",
+        "title": "穿堂風",
+        "vid": "zzPXR4swqCw",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5265,
+        "artist": "張杰",
+        "title": "你們唱的歌",
+        "vid": "tvJo8mSZO40",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5266,
+        "artist": "張杰",
+        "title": "老子數道三",
+        "vid": "lfFnFt8KOb4",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5267,
+        "artist": "張杰",
+        "title": "再生之地",
+        "vid": "SL9FDtIYrP0",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5268,
+        "artist": "張杰",
+        "title": "秘密花園",
+        "vid": "fFE9bROR_c4",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5269,
+        "artist": "張杰",
+        "title": "我想",
+        "vid": "gCOf6LTpgec",
+        "surname": "張",
+        "kid": "lz-t2X3Fl5w"
+    },
+    {
+        "id": 5270,
+        "artist": "張杰",
+        "title": "越愛越強",
+        "vid": "vssWRxC2s_Q",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5271,
+        "artist": "張杰",
+        "title": "clip",
+        "vid": "IDXyz_8rSIM",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5272,
+        "artist": "張杰",
+        "title": "會孤單",
+        "vid": "rhsP5OK4_mg",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5273,
+        "artist": "張杰",
+        "title": "雲之羽",
+        "vid": "tuEp3BEAA4Y",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5274,
+        "artist": "張杰",
+        "title": "三生三世",
+        "vid": "wHmBpg_oq7I",
+        "surname": "張",
+        "kid": "yEudyGlRggQ"
+    },
+    {
+        "id": 5275,
+        "artist": "張杰",
+        "title": "樹呢",
+        "vid": "zZ-7OabDrDA",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5276,
+        "artist": "張杰",
+        "title": "如歌",
+        "vid": "g36KcawyvU0",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5277,
+        "artist": "張杰",
+        "title": "一念之間",
+        "vid": "xGsG3RXYKJY",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5278,
+        "artist": "張杰",
+        "title": "一路之下",
+        "vid": "aTXSbqbqm6E",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5279,
+        "artist": "張杰",
+        "title": "奔騰",
+        "vid": "RfiQA5JmFzg",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5280,
+        "artist": "毛不易",
+        "title": "只在今夜",
+        "vid": "oV2Ez6ph6sA",
+        "surname": "毛",
+        "kid": ""
+    },
+    {
+        "id": 5281,
+        "artist": "毛不易",
+        "title": "只在今夜",
+        "vid": "A8QvGMoMxZI",
+        "surname": "毛",
+        "kid": ""
+    },
+    {
+        "id": 5282,
+        "artist": "毛不易",
+        "title": "想起他們",
+        "vid": "c1NFiXz4aYs",
+        "surname": "毛",
+        "kid": ""
+    },
+    {
+        "id": 5283,
+        "artist": "毛不易",
+        "title": "雄獅少年",
+        "vid": "ux9YCc97ERg",
+        "surname": "毛",
+        "kid": ""
+    },
+    {
+        "id": 5284,
+        "artist": "毛不易",
+        "title": "東北民謠",
+        "vid": "jEAEBxkDNEw",
+        "surname": "毛",
+        "kid": ""
+    },
+    {
+        "id": 5285,
+        "artist": "毛不易",
+        "title": "平凡的一天",
+        "vid": "29pvWZAcN58",
+        "surname": "毛",
+        "kid": "UpZ0NkIHdQ0"
+    },
+    {
+        "id": 5286,
+        "artist": "毛不易",
+        "title": "見信如晤",
+        "vid": "IB7GOJm-cdQ",
+        "surname": "毛",
+        "kid": ""
+    },
+    {
+        "id": 5287,
+        "artist": "毛不易",
+        "title": "都挺好",
+        "vid": "Aj1hmKdUiBQ",
+        "surname": "毛",
+        "kid": ""
+    },
+    {
+        "id": 5288,
+        "artist": "毛不易",
+        "title": "人生沒有標準答案",
+        "vid": "YyXYW2Q1gzA",
+        "surname": "毛",
+        "kid": ""
+    },
+    {
+        "id": 5289,
+        "artist": "毛不易",
+        "title": "香蜜沉沉燼如霜主題曲",
+        "vid": "dDV36GmFP20",
+        "surname": "毛",
+        "kid": ""
+    },
+    {
+        "id": 5290,
+        "artist": "毛不易",
+        "title": "如懿傳",
+        "vid": "JYtK8sLOh2Y",
+        "surname": "毛",
+        "kid": ""
+    },
+    {
+        "id": 5291,
+        "artist": "毛不易",
+        "title": "我很好",
+        "vid": "0qbjsnuNPCE",
+        "surname": "毛",
+        "kid": ""
+    },
+    {
+        "id": 5292,
+        "artist": "王力宏",
+        "title": "fire",
+        "vid": "gbUD5zaKl7E",
+        "surname": "王",
+        "kid": ""
+    },
+    {
+        "id": 5293,
+        "artist": "王力宏",
+        "title": "張靚穎",
+        "vid": "u9p93BryV_M",
+        "surname": "王",
+        "kid": ""
+    },
+    {
+        "id": 5294,
+        "artist": "王力宏",
+        "title": "forever love",
+        "vid": "e6Xpe5lWAjM",
+        "surname": "王",
+        "kid": "KVDESlQGoPM"
+    },
+    {
+        "id": 5295,
+        "artist": "王傑",
+        "title": "回家",
+        "vid": "cyzJ9OIKVaI",
+        "surname": "王",
+        "kid": ""
+    },
+    {
+        "id": 5296,
+        "artist": "汪蘇瀧",
+        "title": "有點甜",
+        "vid": "OtEJ6LGCW-U",
+        "surname": "汪",
+        "kid": ""
+    },
+    {
+        "id": 5297,
+        "artist": "汪蘇瀧",
+        "title": "萬有引力",
+        "vid": "bW-ShHAgb68",
+        "surname": "汪",
+        "kid": ""
+    },
+    {
+        "id": 5298,
+        "artist": "汪蘇瀧",
+        "title": "紫禁城",
+        "vid": "Mcp2vWZkiO4",
+        "surname": "汪",
+        "kid": ""
+    },
+    {
+        "id": 5299,
+        "artist": "汪蘇瀧",
+        "title": "全城熱戀",
+        "vid": "f-yNx0fsBv8",
+        "surname": "汪",
+        "kid": ""
+    },
+    {
+        "id": 5300,
+        "artist": "汪蘇瀧",
+        "title": "全城熱戀",
+        "vid": "OJPLS7tlEoA",
+        "surname": "汪",
+        "kid": ""
+    },
+    {
+        "id": 5301,
+        "artist": "汪蘇瀧",
+        "title": "碎月",
+        "vid": "jBEvXFokiUE",
+        "surname": "汪",
+        "kid": ""
+    },
+    {
+        "id": 5302,
+        "artist": "汪蘇瀧",
+        "title": "全城熱戀",
+        "vid": "OOP3VIHkp1I",
+        "surname": "汪",
+        "kid": ""
+    },
+    {
+        "id": 5303,
+        "artist": "汪蘇瀧",
+        "title": "風度",
+        "vid": "DvwTf8jW6dI",
+        "surname": "汪",
+        "kid": ""
+    },
+    {
+        "id": 5304,
+        "artist": "汪蘇瀧",
+        "title": "長安十二時辰",
+        "vid": "cUMgZ7FJVzc",
+        "surname": "汪",
+        "kid": ""
+    },
+    {
+        "id": 5305,
+        "artist": "汪蘇瀧",
+        "title": "不要睡懶覺",
+        "vid": "XeFwW_1XzSs",
+        "surname": "汪",
+        "kid": ""
+    },
+    {
+        "id": 5306,
+        "artist": "汪蘇瀧",
+        "title": "第一首情歌",
+        "vid": "hrL6rS0QeLE",
+        "surname": "汪",
+        "kid": ""
+    },
+    {
+        "id": 5307,
+        "artist": "汪蘇瀧",
+        "title": "後會無期",
+        "vid": "iKrMvFYaFzg",
+        "surname": "汪",
+        "kid": "We63Abl4sbw"
+    },
+    {
+        "id": 5308,
+        "artist": "汪蘇瀧",
+        "title": "告別前要跳舞",
+        "vid": "gmUrpzkYeak",
+        "surname": "汪",
+        "kid": ""
+    },
+    {
+        "id": 5309,
+        "artist": "汪蘇瀧",
+        "title": "愛你",
+        "vid": "KyQJCuvTUSI",
+        "surname": "汪",
+        "kid": ""
+    },
+    {
+        "id": 5310,
+        "artist": "汪蘇瀧",
+        "title": "曠夢",
+        "vid": "3hRmWCFZkS4",
+        "surname": "汪",
+        "kid": ""
+    },
+    {
+        "id": 5311,
+        "artist": "汪蘇瀧",
+        "title": "盜火",
+        "vid": "uiIumIQhjjw",
+        "surname": "汪",
+        "kid": ""
+    },
+    {
+        "id": 5312,
+        "artist": "楊宗緯",
+        "title": "國王與乞丐",
+        "vid": "dG39Tdlx0Jc",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5313,
+        "artist": "楊宗緯",
+        "title": "鴿子",
+        "vid": "MgBPGJlSZsk",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5314,
+        "artist": "楊宗緯",
+        "title": "live",
+        "vid": "x40g_44CK5U",
+        "surname": "楊",
+        "kid": "V8Y5126svO0"
+    },
+    {
+        "id": 5315,
+        "artist": "阿杜",
+        "title": "無法阻擋",
+        "vid": "bGDKrRPZyBY",
+        "surname": "阿",
+        "kid": ""
+    },
+    {
+        "id": 5316,
+        "artist": "阿杜",
+        "title": "放手let",
+        "vid": "sIJREbUanS0",
+        "surname": "阿",
+        "kid": ""
+    },
+    {
+        "id": 5317,
+        "artist": "阿杜",
+        "title": "－再唱一首（版）",
+        "vid": "wKfMQBjfNno",
+        "surname": "阿",
+        "kid": ""
+    },
+    {
+        "id": 5318,
+        "artist": "阿杜",
+        "title": "版",
+        "vid": "noX8cd4u5HA",
+        "surname": "阿",
+        "kid": ""
+    },
+    {
+        "id": 5319,
+        "artist": "林志炫",
+        "title": "長相思",
+        "vid": "LMOkUDy0UtM",
+        "surname": "林",
+        "kid": ""
+    },
+    {
+        "id": 5320,
+        "artist": "林志炫",
+        "title": "花房姑娘",
+        "vid": "VzXjALC7Cbc",
+        "surname": "林",
+        "kid": ""
+    },
+    {
+        "id": 5321,
+        "artist": "林志炫",
+        "title": "金曲撈golden",
+        "vid": "kxHLwWPgEg4",
+        "surname": "林",
+        "kid": ""
+    },
+    {
+        "id": 5322,
+        "artist": "林志炫",
+        "title": "悟空傳",
+        "vid": "8l6I1h7xHhU",
+        "surname": "林",
+        "kid": ""
+    },
+    {
+        "id": 5323,
+        "artist": "齊秦",
+        "title": "你是天上最遠的那顆星星",
+        "vid": "i8mJKe3hveI",
+        "surname": "齊",
+        "kid": ""
+    },
+    {
+        "id": 5324,
+        "artist": "胡彥斌",
+        "title": "黑色柳丁",
+        "vid": "_6RoHIDws00",
+        "surname": "胡",
+        "kid": ""
+    },
+    {
+        "id": 5325,
+        "artist": "胡彥斌",
+        "title": "龍門鏢局",
+        "vid": "mAlxaJ0RZIk",
+        "surname": "胡",
+        "kid": ""
+    },
+    {
+        "id": 5326,
+        "artist": "邰正宵",
+        "title": "讓愛飛揚片尾曲",
+        "vid": "ApaSNqHmGL0",
+        "surname": "邰",
+        "kid": ""
+    },
+    {
+        "id": 5327,
+        "artist": "邰正宵",
+        "title": "值得",
+        "vid": "rWBleRH9o6M",
+        "surname": "邰",
+        "kid": ""
+    },
+    {
+        "id": 5328,
+        "artist": "邰正宵",
+        "title": "起初",
+        "vid": "L5NW0pOGQKg",
+        "surname": "邰",
+        "kid": ""
+    },
+    {
+        "id": 5329,
+        "artist": "邰正宵",
+        "title": "相思如麻",
+        "vid": "fvxNPu7Gm-0",
+        "surname": "邰",
+        "kid": ""
+    },
+    {
+        "id": 5330,
+        "artist": "陶喆",
+        "title": "忘不了",
+        "vid": "_Cuw8xvCFXw",
+        "surname": "陶",
+        "kid": ""
+    },
+    {
+        "id": 5331,
+        "artist": "陶喆",
+        "title": "愛是個什麼東西",
+        "vid": "UotQ0khBcz8",
+        "surname": "陶",
+        "kid": ""
+    },
+    {
+        "id": 5332,
+        "artist": "陶喆",
+        "title": "2night",
+        "vid": "W_X9MRl9mFk",
+        "surname": "陶",
+        "kid": ""
+    },
+    {
+        "id": 5333,
+        "artist": "陶喆",
+        "title": "鬼",
+        "vid": "jXnuM8OoKCU",
+        "surname": "陶",
+        "kid": ""
+    },
+    {
+        "id": 5334,
+        "artist": "童安格",
+        "title": "等我一起入夢",
+        "vid": "RZK5Az-meKg",
+        "surname": "童",
+        "kid": ""
+    },
+    {
+        "id": 5335,
+        "artist": "童安格",
+        "title": "星月",
+        "vid": "gZFIHAG9kT0",
+        "surname": "童",
+        "kid": ""
+    },
+    {
+        "id": 5336,
+        "artist": "童安格",
+        "title": "忘不了",
+        "vid": "75w5ca0tpAI",
+        "surname": "童",
+        "kid": "_q2l1DhRWtI"
+    },
+    {
+        "id": 5337,
+        "artist": "童安格",
+        "title": "我曾經愛過",
+        "vid": "jAhZ2oEKkDI",
+        "surname": "童",
+        "kid": ""
+    },
+    {
+        "id": 5338,
+        "artist": "鍾鎮濤",
+        "title": "八十五年國慶海內外同胞聯歡大會",
+        "vid": "IeHqJ2tXgfs",
+        "surname": "鍾",
+        "kid": ""
+    },
+    {
+        "id": 5339,
+        "artist": "鍾鎮濤",
+        "title": "你是我的真愛",
+        "vid": "zbeSG1QbU90",
+        "surname": "鍾",
+        "kid": ""
+    },
+    {
+        "id": 5340,
+        "artist": "鍾鎮濤",
+        "title": "這樣的日子",
+        "vid": "udeAvdaZUhQ",
+        "surname": "鍾",
+        "kid": ""
+    },
+    {
+        "id": 5341,
+        "artist": "鄭中基",
+        "title": "這個位置留給你",
+        "vid": "hQGHFZ7fUIU",
+        "surname": "鄭",
+        "kid": ""
+    },
+    {
+        "id": 5342,
+        "artist": "鄭中基",
+        "title": "妳的選擇",
+        "vid": "zWQp_Imijns",
+        "surname": "鄭",
+        "kid": ""
+    },
+    {
+        "id": 5343,
+        "artist": "鄭中基",
+        "title": "領會-鄭中基",
+        "vid": "C2T6JXDx0lo",
+        "surname": "鄭",
+        "kid": ""
+    },
+    {
+        "id": 5344,
+        "artist": "庾澄慶",
+        "title": "我要給你",
+        "vid": "hO2iUg4m8kc",
+        "surname": "庾",
+        "kid": ""
+    },
+    {
+        "id": 5345,
+        "artist": "庾澄慶",
+        "title": "想你,醒在0點03分",
+        "vid": "UszHciuLjng",
+        "surname": "庾",
+        "kid": ""
+    },
+    {
+        "id": 5346,
+        "artist": "庾澄慶",
+        "title": "戒不掉",
+        "vid": "n52Fj5PT8Kc",
+        "surname": "庾",
+        "kid": ""
+    },
+    {
+        "id": 5347,
+        "artist": "庾澄慶",
+        "title": "只有為你",
+        "vid": "wLalk9Au8zQ",
+        "surname": "庾",
+        "kid": ""
+    },
+    {
+        "id": 5348,
+        "artist": "庾澄慶",
+        "title": "愛到底",
+        "vid": "T_kLUuRRqYE",
+        "surname": "庾",
+        "kid": ""
+    },
+    {
+        "id": 5349,
+        "artist": "庾澄慶",
+        "title": "蛋炒飯",
+        "vid": "tWpm9A0UxKI",
+        "surname": "庾",
+        "kid": ""
+    },
+    {
+        "id": 5350,
+        "artist": "楊坤",
+        "title": "我比以前更寂寞",
+        "vid": "GVB1rqllesA",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5351,
+        "artist": "楊坤",
+        "title": "雲邊有個小賣部",
+        "vid": "2YGMM8X-Dgg",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5352,
+        "artist": "楊坤",
+        "title": "爆笑預警",
+        "vid": "wgnRmjNeXnk",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5353,
+        "artist": "楊坤",
+        "title": "跟我回家",
+        "vid": "Gd59O3wG6RM",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5354,
+        "artist": "楊坤",
+        "title": "快槍手",
+        "vid": "VMxVM0c5lM4",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5355,
+        "artist": "楊坤",
+        "title": "生命像塊石頭",
+        "vid": "RGQtuNHH8qE",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5356,
+        "artist": "楊坤",
+        "title": "楊坤",
+        "vid": "cSzGgk8KQP4",
+        "surname": "楊",
+        "kid": "AoaHzG8J1rc"
+    },
+    {
+        "id": 5357,
+        "artist": "楊坤",
+        "title": "這城市那麼空",
+        "vid": "64urVeTZqRI",
+        "surname": "楊",
+        "kid": "hFxXK57G8cY"
+    },
+    {
+        "id": 5358,
+        "artist": "楊坤",
+        "title": "答案",
+        "vid": "KSMHqGSwRDI",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5359,
+        "artist": "楊坤",
+        "title": "天籟之戰2",
+        "vid": "Vyx9kYJJ3RU",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5360,
+        "artist": "楊坤",
+        "title": "半滴淚",
+        "vid": "KIdwnS2vjxI",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5361,
+        "artist": "楊坤",
+        "title": "那",
+        "vid": "vzgwigQn0BI",
+        "surname": "楊",
+        "kid": "AoaHzG8J1rc"
+    },
+    {
+        "id": 5362,
+        "artist": "楊坤",
+        "title": "下個路口見",
+        "vid": "yjwrvYu9ivw",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5363,
+        "artist": "楊坤",
+        "title": "天下無賊",
+        "vid": "ABwwYiXhvHA",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5364,
+        "artist": "楊坤",
+        "title": "慢慢走吧",
+        "vid": "_1n7snlo8eE",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5365,
+        "artist": "楊坤",
+        "title": "vietsub",
+        "vid": "LJGntLfufng",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5366,
+        "artist": "楊坤",
+        "title": "我們愛這樣的窮浪漫",
+        "vid": "Fx7MNa0Chjk",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5367,
+        "artist": "楊坤",
+        "title": "遠走高飛",
+        "vid": "b_reMAZViVk",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5368,
+        "artist": "巫啟賢",
+        "title": "我感覺不到你",
+        "vid": "zY8JkzsVHlU",
+        "surname": "巫",
+        "kid": ""
+    },
+    {
+        "id": 5369,
+        "artist": "巫啟賢",
+        "title": "巫啟賢",
+        "vid": "PpH1RpjIwb8",
+        "surname": "巫",
+        "kid": "Sm2ff7l7zfI"
+    },
+    {
+        "id": 5370,
+        "artist": "巫啟賢",
+        "title": "思念誰",
+        "vid": "23vc8nRMYM0",
+        "surname": "巫",
+        "kid": ""
+    },
+    {
+        "id": 5371,
+        "artist": "巫啟賢",
+        "title": "傻情歌",
+        "vid": "h0M8b8hoarg",
+        "surname": "巫",
+        "kid": ""
+    },
+    {
+        "id": 5372,
+        "artist": "郭富城",
+        "title": "被愛",
+        "vid": "zkBCuwuy0_Q",
+        "surname": "郭",
+        "kid": ""
+    },
+    {
+        "id": 5373,
+        "artist": "郭富城",
+        "title": "【郭富城】tell me why tvb mv",
+        "vid": "g0CwlNr5G4E",
+        "surname": "郭",
+        "kid": ""
+    },
+    {
+        "id": 5374,
+        "artist": "蘇永康",
+        "title": "男人不該讓女人流淚",
+        "vid": "ujFsJS7WI6g",
+        "surname": "蘇",
+        "kid": "WqhWnAlaCfk"
+    },
+    {
+        "id": 5375,
+        "artist": "蘇永康",
+        "title": "誰肯認命",
+        "vid": "cF-ZdSw8eB0",
+        "surname": "蘇",
+        "kid": ""
+    },
+    {
+        "id": 5376,
+        "artist": "楊培安",
+        "title": "希望的種子",
+        "vid": "dRtjT_8nZb0",
+        "surname": "楊",
+        "kid": "1fDymoVARQI"
+    },
+    {
+        "id": 5377,
+        "artist": "楊培安",
+        "title": "夢想從心開始",
+        "vid": "GGu-9Qii-3A",
+        "surname": "楊",
+        "kid": "b2_1J7RZxFA"
+    },
+    {
+        "id": 5378,
+        "artist": "楊培安",
+        "title": "ii",
+        "vid": "cZY9AFkCXgg",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5379,
+        "artist": "楊培安",
+        "title": "豐華唱片",
+        "vid": "ZvP4q4rZ1Rg",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5380,
+        "artist": "楊培安",
+        "title": "iii",
+        "vid": "U32LkCGcYds",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5381,
+        "artist": "楊培安",
+        "title": "假裝",
+        "vid": "TwaLWfxdyng",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5382,
+        "artist": "楊培安",
+        "title": "說好各走五十步",
+        "vid": "zVCUWXt2FO0",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5383,
+        "artist": "楊培安",
+        "title": "戀人無雙",
+        "vid": "Bw9uBKVMQ9g",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5384,
+        "artist": "楊培安",
+        "title": "愛的奇蹟",
+        "vid": "768foryF57E",
+        "surname": "楊",
+        "kid": "dwUWlNAO6dk"
+    },
+    {
+        "id": 5385,
+        "artist": "楊培安",
+        "title": "我的驕傲",
+        "vid": "D_fgx6cCamM",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5386,
+        "artist": "楊培安",
+        "title": "感恩的心",
+        "vid": "T9FBGyx7hLY",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5387,
+        "artist": "楊培安",
+        "title": "符瓊音",
+        "vid": "G72nrxhpD-0",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5388,
+        "artist": "楊培安",
+        "title": "大海",
+        "vid": "f3bYD-7ECko",
+        "surname": "楊",
+        "kid": "lz2kLr6nq6c"
+    },
+    {
+        "id": 5389,
+        "artist": "楊培安",
+        "title": "戴愛玲",
+        "vid": "Alb1twQrZT4",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5390,
+        "artist": "楊培安",
+        "title": "真我最自由",
+        "vid": "H2dLW4q3VuU",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5391,
+        "artist": "方大同",
+        "title": "那沙漠裡的水",
+        "vid": "3TDvckuP82M",
+        "surname": "方",
+        "kid": ""
+    },
+    {
+        "id": 5392,
+        "artist": "方大同",
+        "title": "bam festival",
+        "vid": "AwMXoVfXbl4",
+        "surname": "方",
+        "kid": ""
+    },
+    {
+        "id": 5393,
+        "artist": "方大同",
+        "title": "紅豆",
+        "vid": "3nG--h_EJyc",
+        "surname": "方",
+        "kid": ""
+    },
+    {
+        "id": 5394,
+        "artist": "方大同",
+        "title": "romeo",
+        "vid": "VIzp7kmH0pk",
+        "surname": "方",
+        "kid": ""
+    },
+    {
+        "id": 5395,
+        "artist": "方大同",
+        "title": "bb88",
+        "vid": "nvjl90jY278",
+        "surname": "方",
+        "kid": ""
+    },
+    {
+        "id": 5396,
+        "artist": "方大同",
+        "title": "無菇朋友",
+        "vid": "deeLw_wF1cY",
+        "surname": "方",
+        "kid": ""
+    },
+    {
+        "id": 5397,
+        "artist": "方大同",
+        "title": "紅豆",
+        "vid": "Is6l1_l66t0",
+        "surname": "方",
+        "kid": ""
+    },
+    {
+        "id": 5398,
+        "artist": "方大同",
+        "title": "玩樂",
+        "vid": "5udFXvtHjJQ",
+        "surname": "方",
+        "kid": ""
+    },
+    {
+        "id": 5399,
+        "artist": "方大同",
+        "title": "nothings gonna change my love for you",
+        "vid": "91MS_rt4osY",
+        "surname": "方",
+        "kid": "xVfjSLlmVWE"
+    },
+    {
+        "id": 5400,
+        "artist": "黃品源",
+        "title": "上海灘夜未眠",
+        "vid": "NKN_edQYQYE",
+        "surname": "黃",
+        "kid": ""
+    },
+    {
+        "id": 5401,
+        "artist": "黃品源",
+        "title": "小薇",
+        "vid": "B4M27eV2dkw",
+        "surname": "黃",
+        "kid": "qzUKV7NUpz4"
+    },
+    {
+        "id": 5402,
+        "artist": "黃品源",
+        "title": "海浪",
+        "vid": "FgimJ9M63Uo",
+        "surname": "黃",
+        "kid": "L4zi8i-Q9fc"
+    },
+    {
+        "id": 5403,
+        "artist": "黃品源",
+        "title": "那麼愛你為什麼",
+        "vid": "s-62HoQFtEg",
+        "surname": "黃",
+        "kid": ""
+    },
+    {
+        "id": 5404,
+        "artist": "黃品源",
+        "title": "是否能夠飛到未來",
+        "vid": "ITp6ojP2w_U",
+        "surname": "黃",
+        "kid": ""
+    },
+    {
+        "id": 5405,
+        "artist": "黃品源",
+        "title": "我要來去作兵",
+        "vid": "9T5U4o3RHEY",
+        "surname": "黃",
+        "kid": "YBa1xflEisc"
+    },
+    {
+        "id": 5406,
+        "artist": "黃品源",
+        "title": "原來有你",
+        "vid": "ntKLFDDwHOc",
+        "surname": "黃",
+        "kid": ""
+    },
+    {
+        "id": 5407,
+        "artist": "黃品源",
+        "title": "遠離激情那一天",
+        "vid": "d-esjmjWsJ0",
+        "surname": "黃",
+        "kid": ""
+    },
+    {
+        "id": 5408,
+        "artist": "黃品源",
+        "title": "愛情香",
+        "vid": "0zO7rwbKpiQ",
+        "surname": "黃",
+        "kid": ""
+    },
+    {
+        "id": 5409,
+        "artist": "黃品源",
+        "title": "狠不下心",
+        "vid": "BYLxEudW7ls",
+        "surname": "黃",
+        "kid": ""
+    },
+    {
+        "id": 5410,
+        "artist": "黃品源",
+        "title": "兄弟",
+        "vid": "Mp1Dk8KNHak",
+        "surname": "黃",
+        "kid": "aWUWF7vbURs"
+    },
+    {
+        "id": 5411,
+        "artist": "黃品源",
+        "title": "珍惜我的愛",
+        "vid": "ijK-BmaYOMo",
+        "surname": "黃",
+        "kid": "YxobFmlb45g"
+    },
+    {
+        "id": 5412,
+        "artist": "黃品源",
+        "title": "妳都在身邊",
+        "vid": "PaybbdJgq1I",
+        "surname": "黃",
+        "kid": ""
+    },
+    {
+        "id": 5413,
+        "artist": "黃品源",
+        "title": "難釋懷",
+        "vid": "paEFlBMR8eQ",
+        "surname": "黃",
+        "kid": ""
+    },
+    {
+        "id": 5414,
+        "artist": "黃品源",
+        "title": "永遠攏共款",
+        "vid": "sEIVGp5nVs0",
+        "surname": "黃",
+        "kid": ""
+    },
+    {
+        "id": 5415,
+        "artist": "黃品源",
+        "title": "雨衣",
+        "vid": "E-wjmMXDKD8",
+        "surname": "黃",
+        "kid": ""
+    },
+    {
+        "id": 5416,
+        "artist": "黃品源",
+        "title": "心所愛的人",
+        "vid": "q--7WBhfCUE",
+        "surname": "黃",
+        "kid": ""
+    },
+    {
+        "id": 5417,
+        "artist": "黃品源",
+        "title": "我的目屎",
+        "vid": "CbEYFGiF4XI",
+        "surname": "黃",
+        "kid": ""
+    },
+    {
+        "id": 5418,
+        "artist": "游鴻明",
+        "title": "局外者",
+        "vid": "Ozou0xkD3Vg",
+        "surname": "游",
+        "kid": ""
+    },
+    {
+        "id": 5419,
+        "artist": "游鴻明",
+        "title": "落單的候鳥",
+        "vid": "deFod2u_D6Y",
+        "surname": "游",
+        "kid": ""
+    },
+    {
+        "id": 5420,
+        "artist": "光良",
+        "title": "第一次",
+        "vid": "SWOZeJYOf0U",
+        "surname": "光",
+        "kid": "31LDeZcNwUw"
+    },
+    {
+        "id": 5421,
+        "artist": "光良",
+        "title": "海邊",
+        "vid": "3j89V5an81w",
+        "surname": "光",
+        "kid": ""
+    },
+    {
+        "id": 5422,
+        "artist": "光良",
+        "title": "童話",
+        "vid": "OSCuOsaOE48",
+        "surname": "光",
+        "kid": "Oz9PIvKoDqM"
+    },
+    {
+        "id": 5423,
+        "artist": "光良",
+        "title": "記得我愛你",
+        "vid": "3OqRSrh2zQU",
+        "surname": "光",
+        "kid": ""
+    },
+    {
+        "id": 5424,
+        "artist": "光良",
+        "title": "subs",
+        "vid": "QbxLvgULOTI",
+        "surname": "光",
+        "kid": ""
+    },
+    {
+        "id": 5425,
+        "artist": "光良",
+        "title": "都是你",
+        "vid": "sWpBV25MfpA",
+        "surname": "光",
+        "kid": "doPM_fv-pNY"
+    },
+    {
+        "id": 5426,
+        "artist": "伍思凱",
+        "title": "版",
+        "vid": "bdOykZ1pZxY",
+        "surname": "伍",
+        "kid": ""
+    },
+    {
+        "id": 5427,
+        "artist": "伍思凱",
+        "title": "你愛誰正式版",
+        "vid": "7SeOWtdvBZ4",
+        "surname": "伍",
+        "kid": ""
+    },
+    {
+        "id": 5428,
+        "artist": "吳青峰",
+        "title": "all beauty must die",
+        "vid": "ed3bmc5YxtE",
+        "surname": "吳",
+        "kid": ""
+    },
+    {
+        "id": 5429,
+        "artist": "韋禮安",
+        "title": "最好的朋友",
+        "vid": "E3-zKsYvd4k",
+        "surname": "韋",
+        "kid": "nJTM_PA0PeI"
+    },
+    {
+        "id": 5430,
+        "artist": "韋禮安",
+        "title": "監所男子囚生記",
+        "vid": "mgDhpTgzU9c",
+        "surname": "韋",
+        "kid": ""
+    },
+    {
+        "id": 5431,
+        "artist": "韋禮安",
+        "title": "那麼愛你為什麼",
+        "vid": "8NoWqrjfSKg",
+        "surname": "韋",
+        "kid": ""
+    },
+    {
+        "id": 5432,
+        "artist": "韋禮安",
+        "title": "這樣好嗎",
+        "vid": "DzIovA4athY",
+        "surname": "韋",
+        "kid": ""
+    },
+    {
+        "id": 5433,
+        "artist": "韋禮安",
+        "title": "隆里電絲",
+        "vid": "3DPjPkfXYuY",
+        "surname": "韋",
+        "kid": ""
+    },
+    {
+        "id": 5434,
+        "artist": "品冠",
+        "title": "投己所好",
+        "vid": "nuMqLnldxj8",
+        "surname": "品",
+        "kid": ""
+    },
+    {
+        "id": 5435,
+        "artist": "陳勢安",
+        "title": "那天我們應該死",
+        "vid": "CbBdex3Ha2U",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5436,
+        "artist": "陳勢安",
+        "title": "你的暗號",
+        "vid": "DJmHJB-hHC8",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5437,
+        "artist": "陳勢安",
+        "title": "生日晚餐",
+        "vid": "sJrCXo4QQbw",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5438,
+        "artist": "陳勢安",
+        "title": "近距離愛上你",
+        "vid": "zOqjc7ZSVHg",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5439,
+        "artist": "陳勢安",
+        "title": "遇見未來的你",
+        "vid": "nQ-6maiduYU",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5440,
+        "artist": "陳勢安",
+        "title": "走心的歌",
+        "vid": "_jeGm6ePMRM",
+        "surname": "陳",
+        "kid": "YqiV_MWiBcY"
+    },
+    {
+        "id": 5441,
+        "artist": "陳勢安",
+        "title": "再痛也沒關係",
+        "vid": "i-Lf0sQeQi0",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5442,
+        "artist": "陳勢安",
+        "title": "心˙洞",
+        "vid": "LgbIeqIGz4s",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5443,
+        "artist": "陳勢安",
+        "title": "好愛好散",
+        "vid": "PCCoDZ0fkV8",
+        "surname": "陳",
+        "kid": "54gzwXzqwfU"
+    },
+    {
+        "id": 5444,
+        "artist": "陳勢安",
+        "title": "終身門徒",
+        "vid": "S-qX9i0wdy8",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5445,
+        "artist": "陳勢安",
+        "title": "當面說",
+        "vid": "IS1Jpx4lGRE",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5446,
+        "artist": "陳勢安",
+        "title": "我們都傷",
+        "vid": "mB0J-fwyg50",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5447,
+        "artist": "陳勢安",
+        "title": "心之所往",
+        "vid": "Oypqd0xA_KQ",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5448,
+        "artist": "陳勢安",
+        "title": "家具",
+        "vid": "EmDVaXVerUs",
+        "surname": "陳",
+        "kid": "Me6QapNvkw0"
+    },
+    {
+        "id": 5449,
+        "artist": "陳勢安",
+        "title": "你曾那麼愛我",
+        "vid": "C9ZHQTOAVzA",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5450,
+        "artist": "陳勢安",
+        "title": "非你不可",
+        "vid": "k50EKVjrEB0",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5451,
+        "artist": "陳勢安",
+        "title": "你不是我的",
+        "vid": "c6ECUK_86NM",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5452,
+        "artist": "陳勢安",
+        "title": "心之所往",
+        "vid": "7NK9hSxVq6Q",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5453,
+        "artist": "陳勢安",
+        "title": "再也沒有你",
+        "vid": "NH2JvK2t9nU",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5454,
+        "artist": "范逸臣",
+        "title": "時間沙",
+        "vid": "7apetRyrlAw",
+        "surname": "范",
+        "kid": ""
+    },
+    {
+        "id": 5455,
+        "artist": "范逸臣",
+        "title": "解釋我",
+        "vid": "IvmZE10BHsk",
+        "surname": "范",
+        "kid": ""
+    },
+    {
+        "id": 5456,
+        "artist": "熊天平",
+        "title": "with",
+        "vid": "CrzlgxtzWP0",
+        "surname": "熊",
+        "kid": ""
+    },
+    {
+        "id": 5457,
+        "artist": "熊天平",
+        "title": "愛情多惱河",
+        "vid": "vGEIbnUnFlA",
+        "surname": "熊",
+        "kid": "6YjCXU74vDE"
+    },
+    {
+        "id": 5458,
+        "artist": "熊天平",
+        "title": "雪候鳥",
+        "vid": "qeQOpAKAQPo",
+        "surname": "熊",
+        "kid": ""
+    },
+    {
+        "id": 5459,
+        "artist": "熊天平",
+        "title": "最後還是會",
+        "vid": "U0rBElmIOjg",
+        "surname": "熊",
+        "kid": ""
+    },
+    {
+        "id": 5460,
+        "artist": "熊天平",
+        "title": "愛情電影",
+        "vid": "XMcJ_iTHf_o",
+        "surname": "熊",
+        "kid": "VXj9FmFh4vM"
+    },
+    {
+        "id": 5461,
+        "artist": "熊天平",
+        "title": "不換",
+        "vid": "D8skUWAkPUI",
+        "surname": "熊",
+        "kid": ""
+    },
+    {
+        "id": 5462,
+        "artist": "熊天平",
+        "title": "我都在乎",
+        "vid": "iPFK8I0_q7k",
+        "surname": "熊",
+        "kid": ""
+    },
+    {
+        "id": 5463,
+        "artist": "熊天平",
+        "title": "難說",
+        "vid": "eyiDLoaEVhw",
+        "surname": "熊",
+        "kid": ""
+    },
+    {
+        "id": 5464,
+        "artist": "熊天平",
+        "title": "最後還是會",
+        "vid": "zDO13fv6pYw",
+        "surname": "熊",
+        "kid": ""
+    },
+    {
+        "id": 5465,
+        "artist": "熊天平",
+        "title": "大雨帶我逃亡",
+        "vid": "C9wodyJFb84",
+        "surname": "熊",
+        "kid": ""
+    },
+    {
+        "id": 5466,
+        "artist": "熊天平",
+        "title": "夜夜夜夜",
+        "vid": "qq6OK6N8QQU",
+        "surname": "熊",
+        "kid": "GPpl9jXv9hg"
+    },
+    {
+        "id": 5467,
+        "artist": "熊天平",
+        "title": "賣一杯嬌柔",
+        "vid": "exPKY27jf-o",
+        "surname": "熊",
+        "kid": ""
+    },
+    {
+        "id": 5468,
+        "artist": "熊天平",
+        "title": "mr.moon",
+        "vid": "PJtTxV-eaKQ",
+        "surname": "熊",
+        "kid": ""
+    },
+    {
+        "id": 5469,
+        "artist": "熊天平",
+        "title": "你的眼睛",
+        "vid": "L4hae8XXDc8",
+        "surname": "熊",
+        "kid": "MCuPiB2mz50"
+    },
+    {
+        "id": 5470,
+        "artist": "熊天平",
+        "title": "藏書人",
+        "vid": "v3ct3tbl3yM",
+        "surname": "熊",
+        "kid": ""
+    },
+    {
+        "id": 5471,
+        "artist": "熊天平",
+        "title": "月亮森林",
+        "vid": "06qS2ot3kqg",
+        "surname": "熊",
+        "kid": ""
+    },
+    {
+        "id": 5472,
+        "artist": "熊天平",
+        "title": "月亮森林",
+        "vid": "xRyLbL5ZUKY",
+        "surname": "熊",
+        "kid": "C_YH2ZD9FAE"
+    },
+    {
+        "id": 5473,
+        "artist": "張洪量",
+        "title": "廣島之戀",
+        "vid": "lECl2rECZRU",
+        "surname": "張",
+        "kid": "6uU4dnl_W1o"
+    },
+    {
+        "id": 5474,
+        "artist": "張洪量",
+        "title": "美麗的花蝴蝶",
+        "vid": "RkTdXuRVq7Q",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5475,
+        "artist": "張洪量",
+        "title": "罪人",
+        "vid": "8x_Sc2OXONc",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5476,
+        "artist": "張洪量",
+        "title": "心愛妹妹的眼睛",
+        "vid": "890UFVzrltI",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5477,
+        "artist": "張洪量",
+        "title": "隨慾專輯",
+        "vid": "tEdEUSxmE-A",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5478,
+        "artist": "張洪量",
+        "title": "tv•pop",
+        "vid": "hBB37s3NXKA",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5479,
+        "artist": "張洪量",
+        "title": "華語歌曲",
+        "vid": "kep1xZMGLiM",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5480,
+        "artist": "張洪量",
+        "title": "胡想十八次",
+        "vid": "2WRgsj5pKf0",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5481,
+        "artist": "張洪量",
+        "title": "整個給你",
+        "vid": "pD-8virFHlo",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5482,
+        "artist": "張洪量",
+        "title": "_畫眉之樂與愁.w",
+        "vid": "otrAf-bouoU",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5483,
+        "artist": "張洪量",
+        "title": "你知道我在等你嗎",
+        "vid": "eiacinR2_8A",
+        "surname": "張",
+        "kid": "kMVPYhbw1Ck"
+    },
+    {
+        "id": 5484,
+        "artist": "張洪量",
+        "title": "邋遢姑娘",
+        "vid": "GGnsu8DbzzQ",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5485,
+        "artist": "張洪量",
+        "title": "版",
+        "vid": "-0RrMOO3zOo",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5486,
+        "artist": "張洪量",
+        "title": "多情的無情的多情",
+        "vid": "CbnpQPnRL7s",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5487,
+        "artist": "張洪量",
+        "title": "離鄉路",
+        "vid": "lX74ruxXOxg",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5488,
+        "artist": "張洪量",
+        "title": "邋遢姑娘",
+        "vid": "I12wJUVCApU",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5489,
+        "artist": "張洪量",
+        "title": "難以捉摸你的心",
+        "vid": "QQKfeQJm__U",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5490,
+        "artist": "盧廣仲",
+        "title": "啊！大岩壁",
+        "vid": "dc5PNrEuCzQ",
+        "surname": "盧",
+        "kid": ""
+    },
+    {
+        "id": 5491,
+        "artist": "曹格",
+        "title": "小小",
+        "vid": "ETCyOYqHXrQ",
+        "surname": "曹",
+        "kid": ""
+    },
+    {
+        "id": 5492,
+        "artist": "曹格",
+        "title": "慢動作",
+        "vid": "1GQNBrcj3pA",
+        "surname": "曹",
+        "kid": ""
+    },
+    {
+        "id": 5493,
+        "artist": "林隆璇",
+        "title": "youtube",
+        "vid": "C-ZN8XzNmIw",
+        "surname": "林",
+        "kid": ""
+    },
+    {
+        "id": 5494,
+        "artist": "小蟲",
+        "title": "專輯9",
+        "vid": "ugMxQt4CoxE",
+        "surname": "小",
+        "kid": ""
+    },
+    {
+        "id": 5495,
+        "artist": "小蟲",
+        "title": "好不容易",
+        "vid": "jDGGAaDsN8Y",
+        "surname": "小",
+        "kid": ""
+    },
+    {
+        "id": 5496,
+        "artist": "小蟲",
+        "title": "因為你",
+        "vid": "XN7rKLpBKxs",
+        "surname": "小",
+        "kid": ""
+    },
+    {
+        "id": 5497,
+        "artist": "小蟲",
+        "title": "蟲兒飛",
+        "vid": "xJ2KvNVUsTI",
+        "surname": "小",
+        "kid": "805ROsytdxw"
+    },
+    {
+        "id": 5498,
+        "artist": "小蟲",
+        "title": "一往情深",
+        "vid": "3dCO1yrVz9s",
+        "surname": "小",
+        "kid": ""
+    },
+    {
+        "id": 5499,
+        "artist": "小蟲",
+        "title": "相戀",
+        "vid": "5-wcQ8Mtv5M",
+        "surname": "小",
+        "kid": ""
+    },
+    {
+        "id": 5500,
+        "artist": "小蟲",
+        "title": "相信",
+        "vid": "onhoI0G7CUs",
+        "surname": "小",
+        "kid": ""
+    },
+    {
+        "id": 5501,
+        "artist": "小蟲",
+        "title": "小蟲蟲特工隊",
+        "vid": "cJFOgNT62wg",
+        "surname": "小",
+        "kid": ""
+    },
+    {
+        "id": 5502,
+        "artist": "小蟲",
+        "title": "xiao xiao chong (15 khalil live in hk 2011)",
+        "vid": "LPR6EIbeZ9Y",
+        "surname": "小",
+        "kid": ""
+    },
+    {
+        "id": 5503,
+        "artist": "小蟲",
+        "title": "葬心",
+        "vid": "7vgM8g0d89k",
+        "surname": "小",
+        "kid": ""
+    },
+    {
+        "id": 5504,
+        "artist": "小蟲",
+        "title": "numb little bug",
+        "vid": "1fwJ8H5wWCU",
+        "surname": "小",
+        "kid": ""
+    },
+    {
+        "id": 5506,
+        "artist": "小蟲",
+        "title": "神鵰俠侶",
+        "vid": "CTR0VZGZrbw",
+        "surname": "小",
+        "kid": ""
+    },
+    {
+        "id": 5507,
+        "artist": "小蟲",
+        "title": "親密愛人",
+        "vid": "-rV-kG1X9vM",
+        "surname": "小",
+        "kid": ""
+    },
+    {
+        "id": 5508,
+        "artist": "小蟲",
+        "title": "我在",
+        "vid": "AGvtaboPKkQ",
+        "surname": "小",
+        "kid": ""
+    },
+    {
+        "id": 5509,
+        "artist": "小蟲",
+        "title": "黑黑的天空低垂",
+        "vid": "uSAQaO21Y2s",
+        "surname": "小",
+        "kid": ""
+    },
+    {
+        "id": 5510,
+        "artist": "小蟲",
+        "title": "我不是個壞小孩",
+        "vid": "uiyMWsFpX8M",
+        "surname": "小",
+        "kid": "iD_Bd3os4Js"
+    },
+    {
+        "id": 5511,
+        "artist": "小蟲",
+        "title": "小",
+        "vid": "8FWVFkS8-T4",
+        "surname": "小",
+        "kid": "iD_Bd3os4Js"
+    },
+    {
+        "id": 5512,
+        "artist": "沈文程",
+        "title": "紅酒",
+        "vid": "fY0h2DRUUuQ",
+        "surname": "沈",
+        "kid": ""
+    },
+    {
+        "id": 5513,
+        "artist": "沈文程",
+        "title": "金曲歌王完全唱出寂寞男人的傷痛啊！",
+        "vid": "RC78fuJSToE",
+        "surname": "沈",
+        "kid": ""
+    },
+    {
+        "id": 5514,
+        "artist": "沈文程",
+        "title": "+祈禱你平安+一條手巾仔+陳盈潔+台灣的歌",
+        "vid": "5fT52MCbhW0",
+        "surname": "沈",
+        "kid": ""
+    },
+    {
+        "id": 5515,
+        "artist": "沈文程",
+        "title": "雨綿綿情綿綿",
+        "vid": "T3HZ9JURBQU",
+        "surname": "沈",
+        "kid": ""
+    },
+    {
+        "id": 5516,
+        "artist": "沈文程",
+        "title": "一條情歌",
+        "vid": "QrwDgMoHYaI",
+        "surname": "沈",
+        "kid": ""
+    },
+    {
+        "id": 5517,
+        "artist": "沈文程",
+        "title": "(1080p)",
+        "vid": "e2cSYLUmyvo",
+        "surname": "沈",
+        "kid": ""
+    },
+    {
+        "id": 5518,
+        "artist": "沈文程",
+        "title": "黃思婷",
+        "vid": "pDT-rBzc0bI",
+        "surname": "沈",
+        "kid": ""
+    },
+    {
+        "id": 5519,
+        "artist": "沈文程",
+        "title": "最好聽的歌",
+        "vid": "GnBQlB94YIE",
+        "surname": "沈",
+        "kid": ""
+    },
+    {
+        "id": 5520,
+        "artist": "沈文程",
+        "title": "冷冷的心上人",
+        "vid": "oucEcDxsUBQ",
+        "surname": "沈",
+        "kid": "klUzdAKilyI"
+    },
+    {
+        "id": 5521,
+        "artist": "沈文程",
+        "title": "來去後山",
+        "vid": "rJ_ilCVmDKE",
+        "surname": "沈",
+        "kid": "_WrbEqos_tg"
+    },
+    {
+        "id": 5522,
+        "artist": "沈文程",
+        "title": "五月十一彼下埔",
+        "vid": "rHT9y9AHmHI",
+        "surname": "沈",
+        "kid": "8nYlVAEHsWg"
+    },
+    {
+        "id": 5523,
+        "artist": "沈文程",
+        "title": "往事",
+        "vid": "0YltaNeSJjQ",
+        "surname": "沈",
+        "kid": ""
+    },
+    {
+        "id": 5524,
+        "artist": "沈文程",
+        "title": "拜託天公祖",
+        "vid": "38BusyrltDU",
+        "surname": "沈",
+        "kid": ""
+    },
+    {
+        "id": 5525,
+        "artist": "沈文程",
+        "title": "台北之夜～",
+        "vid": "OONTjD8-sV8",
+        "surname": "沈",
+        "kid": ""
+    },
+    {
+        "id": 5526,
+        "artist": "沈文程",
+        "title": "大冒險家之歌",
+        "vid": "ZXFIUoO-TeM",
+        "surname": "沈",
+        "kid": ""
+    },
+    {
+        "id": 5527,
+        "artist": "沈文程",
+        "title": "台灣好歌聲",
+        "vid": "SO3To4Kp4gM",
+        "surname": "沈",
+        "kid": ""
+    },
+    {
+        "id": 5528,
+        "artist": "沈文程",
+        "title": "+張瀛仁",
+        "vid": "5AjqL0NQ0aQ",
+        "surname": "沈",
+        "kid": "c1Z5KAMueQ8"
+    },
+    {
+        "id": 5529,
+        "artist": "沈文程",
+        "title": "好小子5萬能運動員",
+        "vid": "OwUSUaPwWzI",
+        "surname": "沈",
+        "kid": ""
+    },
+    {
+        "id": 5530,
+        "artist": "沈文程",
+        "title": "紡見的囝仔",
+        "vid": "CgQ45oPYnuY",
+        "surname": "沈",
+        "kid": ""
+    },
+    {
+        "id": 5531,
+        "artist": "沈文程",
+        "title": "來去後山",
+        "vid": "wUzkupY82mI",
+        "surname": "沈",
+        "kid": "_WrbEqos_tg"
+    },
+    {
+        "id": 5532,
+        "artist": "殷正洋",
+        "title": "謝謝我",
+        "vid": "7oBnuyVCH34",
+        "surname": "殷",
+        "kid": ""
+    },
+    {
+        "id": 5533,
+        "artist": "殷正洋",
+        "title": "葉子的眼淚",
+        "vid": "ZCRj9dxrk9c",
+        "surname": "殷",
+        "kid": ""
+    },
+    {
+        "id": 5534,
+        "artist": "殷正洋",
+        "title": "shoreless port",
+        "vid": "dx6v50lcKpQ",
+        "surname": "殷",
+        "kid": ""
+    },
+    {
+        "id": 5535,
+        "artist": "殷正洋",
+        "title": "最後的戀人",
+        "vid": "vULzzJLULv8",
+        "surname": "殷",
+        "kid": ""
+    },
+    {
+        "id": 5536,
+        "artist": "殷正洋",
+        "title": "最後一夜",
+        "vid": "VxrgcJRsIzo",
+        "surname": "殷",
+        "kid": ""
+    },
+    {
+        "id": 5537,
+        "artist": "殷正洋",
+        "title": "問心",
+        "vid": "0CFTputtIBU",
+        "surname": "殷",
+        "kid": ""
+    },
+    {
+        "id": 5538,
+        "artist": "殷正洋",
+        "title": "再想你一回",
+        "vid": "gOOU9tZkX_8",
+        "surname": "殷",
+        "kid": ""
+    },
+    {
+        "id": 5539,
+        "artist": "殷正洋",
+        "title": "人間有愛",
+        "vid": "meQe-I-gJDc",
+        "surname": "殷",
+        "kid": ""
+    },
+    {
+        "id": 5540,
+        "artist": "殷正洋",
+        "title": "八月桂花香",
+        "vid": "J6RylL6R_Qg",
+        "surname": "殷",
+        "kid": ""
+    },
+    {
+        "id": 5541,
+        "artist": "殷正洋",
+        "title": "你是我所有的回憶",
+        "vid": "3c93IVOwmR0",
+        "surname": "殷",
+        "kid": "uxykz6S7T_g"
+    },
+    {
+        "id": 5542,
+        "artist": "殷正洋",
+        "title": "人海中遇見你",
+        "vid": "88dk1Kg6SYQ",
+        "surname": "殷",
+        "kid": ""
+    },
+    {
+        "id": 5543,
+        "artist": "殷正洋",
+        "title": "等一個人",
+        "vid": "HpJwANj6l_w",
+        "surname": "殷",
+        "kid": ""
+    },
+    {
+        "id": 5544,
+        "artist": "殷正洋",
+        "title": "陪我看日出",
+        "vid": "JwNtro5T0e0",
+        "surname": "殷",
+        "kid": ""
+    },
+    {
+        "id": 5545,
+        "artist": "殷正洋",
+        "title": "是你",
+        "vid": "RrZCe4V-I14",
+        "surname": "殷",
+        "kid": ""
+    },
+    {
+        "id": 5546,
+        "artist": "殷正洋",
+        "title": "bei pan de li you",
+        "vid": "Qlun0EojxV4",
+        "surname": "殷",
+        "kid": ""
+    },
+    {
+        "id": 5547,
+        "artist": "殷正洋",
+        "title": "無盡的港口",
+        "vid": "YjhBMr1ugio",
+        "surname": "殷",
+        "kid": "aSUGiqF_1dc"
+    },
+    {
+        "id": 5548,
+        "artist": "殷正洋",
+        "title": "無盡的港口",
+        "vid": "8-NcEPqWbXk",
+        "surname": "殷",
+        "kid": "aSUGiqF_1dc"
+    },
+    {
+        "id": 5549,
+        "artist": "殷正洋",
+        "title": "釵頭鳳",
+        "vid": "PthqIbcoL68",
+        "surname": "殷",
+        "kid": ""
+    },
+    {
+        "id": 5550,
+        "artist": "嚴爵",
+        "title": "吾在場證明",
+        "vid": "BkTqW9ohMTM",
+        "surname": "嚴",
+        "kid": ""
+    },
+    {
+        "id": 5551,
+        "artist": "嚴爵",
+        "title": "輕輕",
+        "vid": "7TmcbZ4FxSw",
+        "surname": "嚴",
+        "kid": ""
+    },
+    {
+        "id": 5552,
+        "artist": "嚴爵",
+        "title": "軍官情人",
+        "vid": "gwGP6gj823o",
+        "surname": "嚴",
+        "kid": ""
+    },
+    {
+        "id": 5553,
+        "artist": "嚴爵",
+        "title": "usa",
+        "vid": "MXDkHHcyIP4",
+        "surname": "嚴",
+        "kid": ""
+    },
+    {
+        "id": 5554,
+        "artist": "嚴爵",
+        "title": "永恆的快樂eternal",
+        "vid": "tS0BM4DbJyo",
+        "surname": "嚴",
+        "kid": ""
+    },
+    {
+        "id": 5555,
+        "artist": "嚴爵",
+        "title": "現代藝術why?",
+        "vid": "rTfjqrcyI9c",
+        "surname": "嚴",
+        "kid": ""
+    },
+    {
+        "id": 5556,
+        "artist": "嚴爵",
+        "title": "好的事情",
+        "vid": "oVkAseYw_wo",
+        "surname": "嚴",
+        "kid": "UXWFeSrshek"
+    },
+    {
+        "id": 5557,
+        "artist": "嚴爵",
+        "title": "我喜歡(不,我愛)",
+        "vid": "2rGzdV-mlo4",
+        "surname": "嚴",
+        "kid": ""
+    },
+    {
+        "id": 5558,
+        "artist": "嚴爵",
+        "title": "愛就是咖哩",
+        "vid": "WMMiyhYRCak",
+        "surname": "嚴",
+        "kid": ""
+    },
+    {
+        "id": 5559,
+        "artist": "嚴爵",
+        "title": "又不是這樣就不孤獨still",
+        "vid": "C7vvbUGkxjk",
+        "surname": "嚴",
+        "kid": ""
+    },
+    {
+        "id": 5560,
+        "artist": "嚴爵",
+        "title": "沒有你怎麼辦",
+        "vid": "V3WglsuL_Ec",
+        "surname": "嚴",
+        "kid": ""
+    },
+    {
+        "id": 5561,
+        "artist": "嚴爵",
+        "title": "我和我的四個男人",
+        "vid": "HWkXRr5WAs0",
+        "surname": "嚴",
+        "kid": ""
+    },
+    {
+        "id": 5562,
+        "artist": "嚴爵",
+        "title": "沒有答案",
+        "vid": "31SFGzVIh2Y",
+        "surname": "嚴",
+        "kid": ""
+    },
+    {
+        "id": 5563,
+        "artist": "嚴爵",
+        "title": "你是我的déjà",
+        "vid": "dKykFoPSAhI",
+        "surname": "嚴",
+        "kid": ""
+    },
+    {
+        "id": 5564,
+        "artist": "嚴爵",
+        "title": "自製",
+        "vid": "llxOaBSQoj4",
+        "surname": "嚴",
+        "kid": ""
+    },
+    {
+        "id": 5565,
+        "artist": "嚴爵",
+        "title": "謝謝你的美好",
+        "vid": "Xy2u6SCB2MQ",
+        "surname": "嚴",
+        "kid": ""
+    },
+    {
+        "id": 5566,
+        "artist": "程響",
+        "title": "程響",
+        "vid": "ec27dpQFLws",
+        "surname": "程",
+        "kid": "ODPwLLsqvs4"
+    },
+    {
+        "id": 5567,
+        "artist": "程響",
+        "title": "新娘不是我",
+        "vid": "DmaVWOkdH-E",
+        "surname": "程",
+        "kid": ""
+    },
+    {
+        "id": 5568,
+        "artist": "程響",
+        "title": "天生敏感",
+        "vid": "d-m9-1vECqY",
+        "surname": "程",
+        "kid": ""
+    },
+    {
+        "id": 5569,
+        "artist": "程響",
+        "title": "可能枕邊有微笑",
+        "vid": "qsKGEbTROF0",
+        "surname": "程",
+        "kid": ""
+    },
+    {
+        "id": 5570,
+        "artist": "程響",
+        "title": "世界這麼大還是遇見你",
+        "vid": "wRmedql89Ro",
+        "surname": "程",
+        "kid": ""
+    },
+    {
+        "id": 5571,
+        "artist": "程響",
+        "title": "世界這麼大還是遇見你（1080p）",
+        "vid": "fGxpG7rKRa8",
+        "surname": "程",
+        "kid": ""
+    },
+    {
+        "id": 5572,
+        "artist": "程響",
+        "title": "~等你歸來🌸完全古風製作情境",
+        "vid": "yvy3hwfZ7Ak",
+        "surname": "程",
+        "kid": ""
+    },
+    {
+        "id": 5573,
+        "artist": "程響",
+        "title": "可能(左伴右唱)",
+        "vid": "GF-EMk0TAas",
+        "surname": "程",
+        "kid": "uqXnmVozsIQ"
+    },
+    {
+        "id": 5574,
+        "artist": "程響",
+        "title": "人間煙火",
+        "vid": "9KKAM9zbJlw",
+        "surname": "程",
+        "kid": "iLL0bVXIzdk"
+    },
+    {
+        "id": 5575,
+        "artist": "程響",
+        "title": "故事終章",
+        "vid": "Ud9pPdP2k9Y",
+        "surname": "程",
+        "kid": ""
+    },
+    {
+        "id": 5576,
+        "artist": "程響",
+        "title": "不再聯繫（1080p）",
+        "vid": "ixNQjjrioxE",
+        "surname": "程",
+        "kid": ""
+    },
+    {
+        "id": 5577,
+        "artist": "程響",
+        "title": "程響的歌果然不同凡響",
+        "vid": "oTdLNWkW73I",
+        "surname": "程",
+        "kid": ""
+    },
+    {
+        "id": 5578,
+        "artist": "程響",
+        "title": "音樂",
+        "vid": "c6Dl0NhJH2M",
+        "surname": "程",
+        "kid": ""
+    },
+    {
+        "id": 5579,
+        "artist": "程響",
+        "title": "|",
+        "vid": "vTStPmDxcos",
+        "surname": "程",
+        "kid": ""
+    },
+    {
+        "id": 5580,
+        "artist": "王菲",
+        "title": "再見螢火蟲（國）",
+        "vid": "R896oAkc2-s",
+        "surname": "王",
+        "kid": ""
+    },
+    {
+        "id": 5581,
+        "artist": "王菲",
+        "title": "螢火蟲",
+        "vid": "FBLzs44hwd4",
+        "surname": "王",
+        "kid": ""
+    },
+    {
+        "id": 5582,
+        "artist": "王菲",
+        "title": "新房客",
+        "vid": "MUC6DZTZL4k",
+        "surname": "王",
+        "kid": ""
+    },
+    {
+        "id": 5583,
+        "artist": "張韶涵",
+        "title": "蜂擁而至",
+        "vid": "edcdUNJVuVE",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5584,
+        "artist": "張韶涵",
+        "title": "完整愛",
+        "vid": "vOKke5yLuGM",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5585,
+        "artist": "張韶涵",
+        "title": "不想懂得",
+        "vid": "YaJWn-Spxfc",
+        "surname": "張",
+        "kid": "DkAT0UFP-UU"
+    },
+    {
+        "id": 5586,
+        "artist": "張韶涵",
+        "title": "猜不透",
+        "vid": "O26xjvaPj3U",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5587,
+        "artist": "鄧麗君",
+        "title": "我只在乎你",
+        "vid": "ndH1BqTlpA8",
+        "surname": "鄧",
+        "kid": "tgkqdEe_Em4"
+    },
+    {
+        "id": 5588,
+        "artist": "鄧麗君",
+        "title": "又見炊煙",
+        "vid": "F6nHzfAYaco",
+        "surname": "鄧",
+        "kid": "aMshSrASqcs"
+    },
+    {
+        "id": 5589,
+        "artist": "鄧麗君",
+        "title": "teresa teng yu zhong pai hui",
+        "vid": "fBe_BN_1ahQ",
+        "surname": "鄧",
+        "kid": ""
+    },
+    {
+        "id": 5590,
+        "artist": "鄧麗君",
+        "title": "向自由飛翔",
+        "vid": "ubxXfd_0u1U",
+        "surname": "鄧",
+        "kid": ""
+    },
+    {
+        "id": 5591,
+        "artist": "鄧麗君",
+        "title": "let me be there teresa teng テレサテン",
+        "vid": "4lQS_EQE_6c",
+        "surname": "鄧",
+        "kid": ""
+    },
+    {
+        "id": 5592,
+        "artist": "鄧麗君",
+        "title": "濃情萬縷",
+        "vid": "SkBGFLRep18",
+        "surname": "鄧",
+        "kid": ""
+    },
+    {
+        "id": 5593,
+        "artist": "鄧麗君",
+        "title": "娘心 mv - 鄧麗君 - vocals (原版主唱） (60fps)",
+        "vid": "OgvGTneBe7w",
+        "surname": "鄧",
+        "kid": ""
+    },
+    {
+        "id": 5594,
+        "artist": "鄧麗君",
+        "title": "赤坂たそがれ（赤坂的黃昏）",
+        "vid": "6O-sdA_p1_0",
+        "surname": "鄧",
+        "kid": ""
+    },
+    {
+        "id": 5595,
+        "artist": "鄧麗君",
+        "title": "soulmate",
+        "vid": "IFlmPxMkZSU",
+        "surname": "鄧",
+        "kid": ""
+    },
+    {
+        "id": 5596,
+        "artist": "鄧麗君",
+        "title": "雲河cloud",
+        "vid": "VPxdb-6r838",
+        "surname": "鄧",
+        "kid": ""
+    },
+    {
+        "id": 5597,
+        "artist": "鄧麗君",
+        "title": "小村之戀",
+        "vid": "D1YHEs8WMz4",
+        "surname": "鄧",
+        "kid": ""
+    },
+    {
+        "id": 5598,
+        "artist": "鄧麗君",
+        "title": "彩雲飛",
+        "vid": "yP3wUhMWTw8",
+        "surname": "鄧",
+        "kid": ""
+    },
+    {
+        "id": 5599,
+        "artist": "鄧麗君",
+        "title": "初戀的地方",
+        "vid": "cfc-sVzg2QY",
+        "surname": "鄧",
+        "kid": ""
+    },
+    {
+        "id": 5600,
+        "artist": "鄧麗君",
+        "title": "難忘的眼睛",
+        "vid": "lSqdC8A0pU0",
+        "surname": "鄧",
+        "kid": ""
+    },
+    {
+        "id": 5601,
+        "artist": "鄧麗君",
+        "title": "恰似你的溫柔",
+        "vid": "HsOeVnaaAXc",
+        "surname": "鄧",
+        "kid": "tHnzC4wZYr4"
+    },
+    {
+        "id": 5602,
+        "artist": "鄧麗君",
+        "title": "如果你喜歡這首歌",
+        "vid": "U6kabVTL3vw",
+        "surname": "鄧",
+        "kid": ""
+    },
+    {
+        "id": 5603,
+        "artist": "鄧麗君",
+        "title": "電影原聲",
+        "vid": "CKu7jeYujGU",
+        "surname": "鄧",
+        "kid": ""
+    },
+    {
+        "id": 5604,
+        "artist": "劉若英",
+        "title": "我敢在你懷裡孤獨",
+        "vid": "7BgkFlmzwzM",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5605,
+        "artist": "劉若英",
+        "title": "很愛很愛你",
+        "vid": "3znMCsScCxo",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5606,
+        "artist": "劉若英",
+        "title": "我不想念",
+        "vid": "4r2GjbkMHYM",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5607,
+        "artist": "劉若英",
+        "title": "分開旅行",
+        "vid": "NBBMw-AciKs",
+        "surname": "劉",
+        "kid": "nHJbod7RKz0"
+    },
+    {
+        "id": 5608,
+        "artist": "劉若英",
+        "title": "分開旅行",
+        "vid": "bsY0uQf3iJk",
+        "surname": "劉",
+        "kid": "nHJbod7RKz0"
+    },
+    {
+        "id": 5609,
+        "artist": "劉若英",
+        "title": "意外勇敢的臉龐",
+        "vid": "E-9N5yCjHHk",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5610,
+        "artist": "莊心妍",
+        "title": "我奮不顧身的愛你，是不想遺憾陪我一輩子，循著心裡的軌跡，瘋狂一次。",
+        "vid": "hgd0Rv8CtvY",
+        "surname": "莊",
+        "kid": ""
+    },
+    {
+        "id": 5611,
+        "artist": "莊心妍",
+        "title": "有些人走著走著就散了",
+        "vid": "oSJ_9otxDo8",
+        "surname": "莊",
+        "kid": ""
+    },
+    {
+        "id": 5612,
+        "artist": "莊心妍",
+        "title": "一個女人其實要的並不多",
+        "vid": "NItGcljw-iQ",
+        "surname": "莊",
+        "kid": ""
+    },
+    {
+        "id": 5613,
+        "artist": "莊心妍",
+        "title": "音樂",
+        "vid": "_ocs-A05fpE",
+        "surname": "莊",
+        "kid": ""
+    },
+    {
+        "id": 5614,
+        "artist": "莊心妍",
+        "title": "敢與全世界為敵",
+        "vid": "0IezNuAgkUU",
+        "surname": "莊",
+        "kid": ""
+    },
+    {
+        "id": 5615,
+        "artist": "莊心妍",
+        "title": "莊心妍ada",
+        "vid": "c7V4OPFU9Uw",
+        "surname": "莊",
+        "kid": ""
+    },
+    {
+        "id": 5616,
+        "artist": "莊心妍",
+        "title": "愛情一旦撕破",
+        "vid": "WpHXyHVh85Q",
+        "surname": "莊",
+        "kid": "WpHXyHVh85Q"
+    },
+    {
+        "id": 5617,
+        "artist": "莊心妍",
+        "title": "我們愛的難捨難分",
+        "vid": "Jm9coUf2PqA",
+        "surname": "莊",
+        "kid": "Jm9coUf2PqA"
+    },
+    {
+        "id": 5618,
+        "artist": "莊心妍",
+        "title": "那一年的秋天",
+        "vid": "rUCBnwqOhes",
+        "surname": "莊",
+        "kid": ""
+    },
+    {
+        "id": 5619,
+        "artist": "莊心妍",
+        "title": "你的驕傲和謊言是我離開的動力",
+        "vid": "8WA47rXHuVQ",
+        "surname": "莊",
+        "kid": ""
+    },
+    {
+        "id": 5620,
+        "artist": "莊心妍",
+        "title": "淚落都是為了彼此快樂",
+        "vid": "AxOMPoN2zvM",
+        "surname": "莊",
+        "kid": ""
+    },
+    {
+        "id": 5621,
+        "artist": "莊心妍",
+        "title": "也許沒有你",
+        "vid": "hCgC81f1djE",
+        "surname": "莊",
+        "kid": ""
+    },
+    {
+        "id": 5622,
+        "artist": "莊心妍",
+        "title": "到現在還愛你",
+        "vid": "UfoscP4YptI",
+        "surname": "莊",
+        "kid": "ghPymIX8esc"
+    },
+    {
+        "id": 5623,
+        "artist": "莊心妍",
+        "title": "眼睛裡的疲憊",
+        "vid": "Mals0qXwpYs",
+        "surname": "莊",
+        "kid": ""
+    },
+    {
+        "id": 5624,
+        "artist": "莊心妍",
+        "title": "你既然無心",
+        "vid": "Wj83bZKdblQ",
+        "surname": "莊",
+        "kid": ""
+    },
+    {
+        "id": 5625,
+        "artist": "莊心妍",
+        "title": "是我太過愛你",
+        "vid": "xQLJl1ANaXA",
+        "surname": "莊",
+        "kid": ""
+    },
+    {
+        "id": 5626,
+        "artist": "莊心妍",
+        "title": "幸福離我好遠",
+        "vid": "lG2ij3zgExY",
+        "surname": "莊",
+        "kid": ""
+    },
+    {
+        "id": 5627,
+        "artist": "王心凌",
+        "title": "匿名的安慰",
+        "vid": "d8ensl0HuF4",
+        "surname": "王",
+        "kid": ""
+    },
+    {
+        "id": 5628,
+        "artist": "王心凌",
+        "title": "變成陌生人",
+        "vid": "B58pjjUq6fg",
+        "surname": "王",
+        "kid": "cwX_yPgdKqM"
+    },
+    {
+        "id": 5629,
+        "artist": "王心凌",
+        "title": "on my way",
+        "vid": "7VUaX_YYA4g",
+        "surname": "王",
+        "kid": ""
+    },
+    {
+        "id": 5630,
+        "artist": "王心凌",
+        "title": "cyndi紅心凌(水仙)",
+        "vid": "05n-Y0zc_cA",
+        "surname": "王",
+        "kid": ""
+    },
+    {
+        "id": 5631,
+        "artist": "任然",
+        "title": "十二封信",
+        "vid": "7dtadeQsy-0",
+        "surname": "任",
+        "kid": ""
+    },
+    {
+        "id": 5632,
+        "artist": "任然",
+        "title": "mv  任然  《飛鳥和蟬》【官方mv official music video】",
+        "vid": "Sdh16YlinNE",
+        "surname": "任",
+        "kid": ""
+    },
+    {
+        "id": 5633,
+        "artist": "任然",
+        "title": "感情作家",
+        "vid": "FFTuPBrsuKU",
+        "surname": "任",
+        "kid": ""
+    },
+    {
+        "id": 5634,
+        "artist": "任然",
+        "title": "涼生，我們可不可以不憂傷",
+        "vid": "R0cERyuYtxo",
+        "surname": "任",
+        "kid": ""
+    },
+    {
+        "id": 5635,
+        "artist": "任然",
+        "title": "化了",
+        "vid": "dhAfAZllF78",
+        "surname": "任",
+        "kid": ""
+    },
+    {
+        "id": 5636,
+        "artist": "任然",
+        "title": "朱槿花開",
+        "vid": "NjmA3L9sY3I",
+        "surname": "任",
+        "kid": ""
+    },
+    {
+        "id": 5637,
+        "artist": "任然",
+        "title": "創作",
+        "vid": "vXadQ7pWJ74",
+        "surname": "任",
+        "kid": ""
+    },
+    {
+        "id": 5638,
+        "artist": "任然",
+        "title": "後繼者",
+        "vid": "IPLRAbD-q9I",
+        "surname": "任",
+        "kid": "P4m1V5M_5Jw"
+    },
+    {
+        "id": 5639,
+        "artist": "任然",
+        "title": "走不出的回憶",
+        "vid": "Tnga4DomD50",
+        "surname": "任",
+        "kid": ""
+    },
+    {
+        "id": 5640,
+        "artist": "任然",
+        "title": "涼城",
+        "vid": "slb9uQw8n1M",
+        "surname": "任",
+        "kid": ""
+    },
+    {
+        "id": 5641,
+        "artist": "任然",
+        "title": "只要你別來就無恙，很痛是成長。",
+        "vid": "pjoq_tywfYs",
+        "surname": "任",
+        "kid": ""
+    },
+    {
+        "id": 5642,
+        "artist": "任然",
+        "title": "如果雲層是天空的一封信，能不能再聽一聽",
+        "vid": "0RsL8Ga73QQ",
+        "surname": "任",
+        "kid": ""
+    },
+    {
+        "id": 5643,
+        "artist": "任然",
+        "title": "這剎人生幻幻",
+        "vid": "41I2U9uY1A0",
+        "surname": "任",
+        "kid": ""
+    },
+    {
+        "id": 5644,
+        "artist": "任然",
+        "title": "疑心病（初始版）",
+        "vid": "o80MiB7wV-8",
+        "surname": "任",
+        "kid": ""
+    },
+    {
+        "id": 5645,
+        "artist": "任然",
+        "title": "那年",
+        "vid": "2mK9HS-dlBs",
+        "surname": "任",
+        "kid": ""
+    },
+    {
+        "id": 5646,
+        "artist": "任然",
+        "title": "疑心病",
+        "vid": "7mmp36lh33U",
+        "surname": "任",
+        "kid": "R8oO1MKlxnI"
+    },
+    {
+        "id": 5647,
+        "artist": "李翊君",
+        "title": "勇敢的愛",
+        "vid": "qQXXkp5uK-A",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5648,
+        "artist": "李翊君",
+        "title": "沙漠寂寞",
+        "vid": "zcKhXaxkrAE",
+        "surname": "李",
+        "kid": "ZNKfy7OIr0s"
+    },
+    {
+        "id": 5649,
+        "artist": "李翊君",
+        "title": "珍",
+        "vid": "HEDoSnpjPSI",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5650,
+        "artist": "李翊君",
+        "title": "那些年聽的華語歌",
+        "vid": "h9dL7CdGDCM",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5651,
+        "artist": "郁可唯",
+        "title": "我行我素我愛你",
+        "vid": "EqcHJTDZKHo",
+        "surname": "郁",
+        "kid": ""
+    },
+    {
+        "id": 5652,
+        "artist": "孫燕姿",
+        "title": "慢慢來",
+        "vid": "yYdxRyHcqnY",
+        "surname": "孫",
+        "kid": ""
+    },
+    {
+        "id": 5653,
+        "artist": "孫燕姿",
+        "title": "飄著",
+        "vid": "EM6fCWanCP4",
+        "surname": "孫",
+        "kid": ""
+    },
+    {
+        "id": 5654,
+        "artist": "孟庭葦",
+        "title": "亭亭",
+        "vid": "SrGz7bQ8IZs",
+        "surname": "孟",
+        "kid": ""
+    },
+    {
+        "id": 5655,
+        "artist": "孟庭葦",
+        "title": "1080p",
+        "vid": "Elmz-MVVoSk",
+        "surname": "孟",
+        "kid": ""
+    },
+    {
+        "id": 5656,
+        "artist": "孟庭葦",
+        "title": "你看你看月亮的臉",
+        "vid": "7atoOChTsXE",
+        "surname": "孟",
+        "kid": "rxRJR6Mkxro"
+    },
+    {
+        "id": 5657,
+        "artist": "孟庭葦",
+        "title": "心電感應",
+        "vid": "QM9fQvWoRfQ",
+        "surname": "孟",
+        "kid": ""
+    },
+    {
+        "id": 5658,
+        "artist": "孟庭葦",
+        "title": "第二道彩虹",
+        "vid": "sA3FR06OvnE",
+        "surname": "孟",
+        "kid": ""
+    },
+    {
+        "id": 5659,
+        "artist": "孟庭葦",
+        "title": "往事",
+        "vid": "IGZdshq042g",
+        "surname": "孟",
+        "kid": "vbWIAT-cSTw"
+    },
+    {
+        "id": 5660,
+        "artist": "孟庭葦",
+        "title": "祈禱",
+        "vid": "LrAhe7lk5lk",
+        "surname": "孟",
+        "kid": ""
+    },
+    {
+        "id": 5661,
+        "artist": "孟庭葦",
+        "title": "其實我還是有些在乎",
+        "vid": "ll1tby7_I9M",
+        "surname": "孟",
+        "kid": ""
+    },
+    {
+        "id": 5662,
+        "artist": "孟庭葦",
+        "title": "不快樂的愛人",
+        "vid": "ss9V49tKW84",
+        "surname": "孟",
+        "kid": ""
+    },
+    {
+        "id": 5663,
+        "artist": "孟庭葦",
+        "title": "【孟庭葦】你看你看月亮的臉(2005版)",
+        "vid": "d9iJqz7d2Gc",
+        "surname": "孟",
+        "kid": ""
+    },
+    {
+        "id": 5664,
+        "artist": "孟庭葦",
+        "title": "風是我回憶的方向",
+        "vid": "O7MDq-ohWpA",
+        "surname": "孟",
+        "kid": ""
+    },
+    {
+        "id": 5665,
+        "artist": "孟庭葦",
+        "title": "春雪",
+        "vid": "FjfgvvtG_0M",
+        "surname": "孟",
+        "kid": ""
+    },
+    {
+        "id": 5666,
+        "artist": "孟庭葦",
+        "title": "孟庭葦",
+        "vid": "njBrft_fKW4",
+        "surname": "孟",
+        "kid": "rxRJR6Mkxro"
+    },
+    {
+        "id": 5667,
+        "artist": "孟庭葦",
+        "title": "心港",
+        "vid": "p98I6216EVo",
+        "surname": "孟",
+        "kid": ""
+    },
+    {
+        "id": 5668,
+        "artist": "孟庭葦",
+        "title": "遇見阿彌陀",
+        "vid": "qjNfKeFuuRc",
+        "surname": "孟",
+        "kid": ""
+    },
+    {
+        "id": 5669,
+        "artist": "孟庭葦",
+        "title": "屠穎剪輯版",
+        "vid": "H488AHoWE4s",
+        "surname": "孟",
+        "kid": ""
+    },
+    {
+        "id": 5670,
+        "artist": "孟庭葦",
+        "title": "把他換做你",
+        "vid": "PMHdUn4tiCA",
+        "surname": "孟",
+        "kid": ""
+    },
+    {
+        "id": 5671,
+        "artist": "林憶蓮",
+        "title": "與愛長流",
+        "vid": "1wbolDkEoDA",
+        "surname": "林",
+        "kid": ""
+    },
+    {
+        "id": 5672,
+        "artist": "林憶蓮",
+        "title": "走在大街的女子(a",
+        "vid": "7qaE1JokwqA",
+        "surname": "林",
+        "kid": ""
+    },
+    {
+        "id": 5673,
+        "artist": "劉惜君",
+        "title": "花琉璃軼聞",
+        "vid": "-os11ClY4HQ",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5674,
+        "artist": "劉惜君",
+        "title": "我們都在這裡",
+        "vid": "PeRN7OXyAbA",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5675,
+        "artist": "劉惜君",
+        "title": "春風得意",
+        "vid": "6Q-5IdQAQPI",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5676,
+        "artist": "劉惜君",
+        "title": "星辰如約",
+        "vid": "E11ierF7YzE",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5677,
+        "artist": "劉惜君",
+        "title": "來",
+        "vid": "eqaU_36Gksk",
+        "surname": "劉",
+        "kid": "m-MyJouVCKQ"
+    },
+    {
+        "id": 5678,
+        "artist": "劉惜君",
+        "title": "女醫明妃傳",
+        "vid": "gwrOBQ8pr_Q",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5679,
+        "artist": "劉惜君",
+        "title": "愛無界",
+        "vid": "PCVwi3aNJTU",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5680,
+        "artist": "劉惜君",
+        "title": "光",
+        "vid": "ZmfUWM57sk4",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5681,
+        "artist": "劉惜君",
+        "title": "紅石榴餐廳",
+        "vid": "xAvdNMijSHw",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5682,
+        "artist": "劉惜君",
+        "title": "如我",
+        "vid": "X66yl26Ms40",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5683,
+        "artist": "劉惜君",
+        "title": "循光者",
+        "vid": "VErvsw-LnK8",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5684,
+        "artist": "劉惜君",
+        "title": "線",
+        "vid": "wTYOJxv1pAo",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5685,
+        "artist": "劉惜君",
+        "title": "你忘的我忘了",
+        "vid": "Uv-z6ClioL0",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5686,
+        "artist": "劉惜君",
+        "title": "替你愛我",
+        "vid": "YmgWcfg3r_I",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5687,
+        "artist": "劉惜君",
+        "title": "你好,",
+        "vid": "NQvX62W4Y_Q",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5688,
+        "artist": "劉惜君",
+        "title": "無盡",
+        "vid": "B3u9Yefpny8",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5689,
+        "artist": "劉惜君",
+        "title": "該忘了",
+        "vid": "JicHdm_yYtU",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5690,
+        "artist": "劉惜君",
+        "title": "聊表心意",
+        "vid": "mWrRsdnkKEc",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5691,
+        "artist": "劉惜君",
+        "title": "浪裡游",
+        "vid": "QNpAwjCbHio",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5692,
+        "artist": "劉惜君",
+        "title": "退出",
+        "vid": "T5fpr277h58",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 5693,
+        "artist": "周慧敏",
+        "title": "新娘的眼淚",
+        "vid": "xclGCraiFTs",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5694,
+        "artist": "周慧敏",
+        "title": "感激",
+        "vid": "MxB5XfGEC2Q",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5695,
+        "artist": "周慧敏",
+        "title": "承認愛",
+        "vid": "oEjKhBPVo8Q",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5696,
+        "artist": "楊丞琳",
+        "title": "曖昧",
+        "vid": "uz3rrXApl8U",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 5697,
+        "artist": "曲婉婷",
+        "title": "愛的罐子",
+        "vid": "SanW10wFit8",
+        "surname": "曲",
+        "kid": ""
+    },
+    {
+        "id": 5698,
+        "artist": "蕭亞軒",
+        "title": "因為你",
+        "vid": "aoY7ihKKD5k",
+        "surname": "蕭",
+        "kid": ""
+    },
+    {
+        "id": 5699,
+        "artist": "蕭亞軒",
+        "title": "瀟灑小姐",
+        "vid": "ogBaunu021g",
+        "surname": "蕭",
+        "kid": ""
+    },
+    {
+        "id": 5700,
+        "artist": "蕭亞軒",
+        "title": "不解釋親吻",
+        "vid": "ZNgZUJkg2a0",
+        "surname": "蕭",
+        "kid": "fQhO9mN19W0"
+    },
+    {
+        "id": 5701,
+        "artist": "許茹芸",
+        "title": "單身日記(四季歌)",
+        "vid": "SxzQXwI3v-s",
+        "surname": "許",
+        "kid": ""
+    },
+    {
+        "id": 5702,
+        "artist": "許茹芸",
+        "title": "好像跳舞",
+        "vid": "0XsVJS7UKgc",
+        "surname": "許",
+        "kid": ""
+    },
+    {
+        "id": 5703,
+        "artist": "阿桑",
+        "title": "一直很安靜",
+        "vid": "OC6k-fm09CQ",
+        "surname": "阿",
+        "kid": "R-X242Z9rFc"
+    },
+    {
+        "id": 5704,
+        "artist": "阿桑",
+        "title": "受了點傷",
+        "vid": "j8EEjLPfAoo",
+        "surname": "阿",
+        "kid": ""
+    },
+    {
+        "id": 5705,
+        "artist": "阿桑",
+        "title": "保管",
+        "vid": "So-EBumI7DE",
+        "surname": "阿",
+        "kid": ""
+    },
+    {
+        "id": 5706,
+        "artist": "阿桑",
+        "title": "寂寞在唱歌",
+        "vid": "rb-vNJcW7MY",
+        "surname": "阿",
+        "kid": ""
+    },
+    {
+        "id": 5707,
+        "artist": "阿桑",
+        "title": "你的世界",
+        "vid": "KiRJeHbyMEg",
+        "surname": "阿",
+        "kid": ""
+    },
+    {
+        "id": 5708,
+        "artist": "阿桑",
+        "title": "葉子",
+        "vid": "uaEDHeIaqnA",
+        "surname": "阿",
+        "kid": "pIonSS-Ewv8"
+    },
+    {
+        "id": 5709,
+        "artist": "阿桑",
+        "title": "瘋了",
+        "vid": "OEWx94w3lw8",
+        "surname": "阿",
+        "kid": ""
+    },
+    {
+        "id": 5710,
+        "artist": "阿桑",
+        "title": "開車",
+        "vid": "PSWbREyehPo",
+        "surname": "阿",
+        "kid": ""
+    },
+    {
+        "id": 5711,
+        "artist": "阿桑",
+        "title": "讓我愛",
+        "vid": "tiJaL0hY72E",
+        "surname": "阿",
+        "kid": ""
+    },
+    {
+        "id": 5712,
+        "artist": "阿桑",
+        "title": "被動",
+        "vid": "774-npjNed4",
+        "surname": "阿",
+        "kid": ""
+    },
+    {
+        "id": 5713,
+        "artist": "阿桑",
+        "title": "我不想",
+        "vid": "NV1SPXordGY",
+        "surname": "阿",
+        "kid": ""
+    },
+    {
+        "id": 5714,
+        "artist": "阿桑",
+        "title": "葉子.",
+        "vid": "ysDjNnHa7ag",
+        "surname": "阿",
+        "kid": ""
+    },
+    {
+        "id": 5715,
+        "artist": "阿桑",
+        "title": "溫柔的慈悲 -- 阿桑",
+        "vid": "lDHbANanvxI",
+        "surname": "阿",
+        "kid": ""
+    },
+    {
+        "id": 5716,
+        "artist": "阿桑",
+        "title": "一直很安靜 - 阿桑",
+        "vid": "nlg1y6hLsRs",
+        "surname": "阿",
+        "kid": ""
+    },
+    {
+        "id": 5717,
+        "artist": "阿桑",
+        "title": "跟我說愛我",
+        "vid": "PAAjB6GFvDw",
+        "surname": "阿",
+        "kid": ""
+    },
+    {
+        "id": 5718,
+        "artist": "梁詠琪",
+        "title": "gigi leung",
+        "vid": "56CXXD-RUTo",
+        "surname": "梁",
+        "kid": "p_kiHa5f7wo"
+    },
+    {
+        "id": 5719,
+        "artist": "梁詠琪",
+        "title": "透明",
+        "vid": "U20SrSXoQ8A",
+        "surname": "梁",
+        "kid": ""
+    },
+    {
+        "id": 5720,
+        "artist": "梁詠琪",
+        "title": "口香糖",
+        "vid": "9Fmsk85-s-g",
+        "surname": "梁",
+        "kid": "pBrP2E-Yn30"
+    },
+    {
+        "id": 5721,
+        "artist": "梁詠琪",
+        "title": "給自己的情歌",
+        "vid": "TT1HwwrMauA",
+        "surname": "梁",
+        "kid": ""
+    },
+    {
+        "id": 5722,
+        "artist": "梁詠琪",
+        "title": "未來的未來",
+        "vid": "vlTfb6KzLeo",
+        "surname": "梁",
+        "kid": ""
+    },
+    {
+        "id": 5723,
+        "artist": "梁詠琪",
+        "title": "愛的代價",
+        "vid": "93LRcx289FQ",
+        "surname": "梁",
+        "kid": ""
+    },
+    {
+        "id": 5724,
+        "artist": "梁詠琪",
+        "title": "",
+        "vid": "wIqvUai1lh0",
+        "surname": "梁",
+        "kid": "fBOwRr3Adio"
+    },
+    {
+        "id": 5725,
+        "artist": "范瑋琪",
+        "title": "感動就不遠",
+        "vid": "S-PSqs18SAc",
+        "surname": "范",
+        "kid": ""
+    },
+    {
+        "id": 5726,
+        "artist": "范瑋琪",
+        "title": "怎麼辦",
+        "vid": "548ZTgHQchE",
+        "surname": "范",
+        "kid": ""
+    },
+    {
+        "id": 5727,
+        "artist": "范瑋琪",
+        "title": "讓我們自由",
+        "vid": "s1PewoVwdHw",
+        "surname": "范",
+        "kid": ""
+    },
+    {
+        "id": 5728,
+        "artist": "蔡琴",
+        "title": "你的眼神",
+        "vid": "da8t3ZsAT-s",
+        "surname": "蔡",
+        "kid": ""
+    },
+    {
+        "id": 5729,
+        "artist": "蔡琴",
+        "title": "讀你",
+        "vid": "CAtivvxfA_8",
+        "surname": "蔡",
+        "kid": "MInEDZOV6Zo"
+    },
+    {
+        "id": 5730,
+        "artist": "蔡琴",
+        "title": "聽見我的心在哭",
+        "vid": "yoA4YZN5-jg",
+        "surname": "蔡",
+        "kid": ""
+    },
+    {
+        "id": 5731,
+        "artist": "蔡琴",
+        "title": "出塞曲",
+        "vid": "Piu7cK1HCUA",
+        "surname": "蔡",
+        "kid": "LRht3We6KX0"
+    },
+    {
+        "id": 5732,
+        "artist": "蔡琴",
+        "title": "讀你",
+        "vid": "PmYpl44hj7Q",
+        "surname": "蔡",
+        "kid": "MInEDZOV6Zo"
+    },
+    {
+        "id": 5733,
+        "artist": "彭佳慧",
+        "title": "關你屁事啊",
+        "vid": "J0zoihHFL1g",
+        "surname": "彭",
+        "kid": ""
+    },
+    {
+        "id": 5734,
+        "artist": "彭佳慧",
+        "title": "相見恨晚 - 彭佳慧",
+        "vid": "qFfuhw-FonU",
+        "surname": "彭",
+        "kid": "EUaYjw_H-pc"
+    },
+    {
+        "id": 5735,
+        "artist": "蘇芮",
+        "title": "奉獻",
+        "vid": "nrqFjEbk-bU",
+        "surname": "蘇",
+        "kid": ""
+    },
+    {
+        "id": 5736,
+        "artist": "蘇芮",
+        "title": "julie sue",
+        "vid": "WoxTUe9ighU",
+        "surname": "蘇",
+        "kid": ""
+    },
+    {
+        "id": 5737,
+        "artist": "蘇芮",
+        "title": "十年前的愛",
+        "vid": "cpB9TVrMGS8",
+        "surname": "蘇",
+        "kid": ""
+    },
+    {
+        "id": 5738,
+        "artist": "蘇芮",
+        "title": "砂之船",
+        "vid": "_L-tB-pVC0g",
+        "surname": "蘇",
+        "kid": ""
+    },
+    {
+        "id": 5739,
+        "artist": "蘇芮",
+        "title": "changes",
+        "vid": "3Ru1ugGgoMk",
+        "surname": "蘇",
+        "kid": ""
+    },
+    {
+        "id": 5740,
+        "artist": "許美靜",
+        "title": "明知道 - 許美靜",
+        "vid": "h-OioZ1KnBo",
+        "surname": "許",
+        "kid": ""
+    },
+    {
+        "id": 5741,
+        "artist": "金莎",
+        "title": "想聽聽你說謊",
+        "vid": "z1qd7rYFAWg",
+        "surname": "金",
+        "kid": ""
+    },
+    {
+        "id": 5742,
+        "artist": "丁當",
+        "title": "丁噹",
+        "vid": "3lbp0z4lCk0",
+        "surname": "丁",
+        "kid": "SW50-tgGfR8"
+    },
+    {
+        "id": 5743,
+        "artist": "郭靜",
+        "title": "別去問他好嗎",
+        "vid": "t-_geyqFB4U",
+        "surname": "郭",
+        "kid": ""
+    },
+    {
+        "id": 5744,
+        "artist": "戴佩妮",
+        "title": "愛在被愛之前",
+        "vid": "ydjAxnxUcOc",
+        "surname": "戴",
+        "kid": ""
+    },
+    {
+        "id": 5745,
+        "artist": "彭羚",
+        "title": "情人淚",
+        "vid": "Rq28z3uIACc",
+        "surname": "彭",
+        "kid": ""
+    },
+    {
+        "id": 5746,
+        "artist": "彭羚",
+        "title": "只當是個夢",
+        "vid": "wedQRm3Da7E",
+        "surname": "彭",
+        "kid": "u87HNNOiJK8"
+    },
+    {
+        "id": 5747,
+        "artist": "彭羚",
+        "title": "漩渦",
+        "vid": "1JROatn6K6k",
+        "surname": "彭",
+        "kid": ""
+    },
+    {
+        "id": 5748,
+        "artist": "周蕙",
+        "title": "流域",
+        "vid": "DJhtdeXMuiI",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5749,
+        "artist": "黃小琥",
+        "title": "心酸的成熟",
+        "vid": "UTwJRtxLQHU",
+        "surname": "黃",
+        "kid": ""
+    },
+    {
+        "id": 5750,
+        "artist": "黃小琥",
+        "title": "順其自然",
+        "vid": "vQ-nZL4gamY",
+        "surname": "黃",
+        "kid": ""
+    },
+    {
+        "id": 5751,
+        "artist": "黃小琥",
+        "title": "交換",
+        "vid": "OmEAHvpfWgw",
+        "surname": "黃",
+        "kid": ""
+    },
+    {
+        "id": 5752,
+        "artist": "蔡幸娟",
+        "title": "半點心",
+        "vid": "Sbwbi_XDAKM",
+        "surname": "蔡",
+        "kid": ""
+    },
+    {
+        "id": 5753,
+        "artist": "蔡幸娟",
+        "title": "什麼都不留",
+        "vid": "UCHbnLtkyhs",
+        "surname": "蔡",
+        "kid": ""
+    },
+    {
+        "id": 5754,
+        "artist": "蔡幸娟",
+        "title": "姊妹",
+        "vid": "lacy7lXM1eI",
+        "surname": "蔡",
+        "kid": "Kw80nCTr2Bo"
+    },
+    {
+        "id": 5755,
+        "artist": "蔡幸娟",
+        "title": "變調的戀曲",
+        "vid": "2Umm3L653HU",
+        "surname": "蔡",
+        "kid": ""
+    },
+    {
+        "id": 5756,
+        "artist": "陳潔儀",
+        "title": "情人",
+        "vid": "JHX3Tx3sPBQ",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5757,
+        "artist": "范曉萱",
+        "title": "海浪沙",
+        "vid": "kXxVwzFJsoE",
+        "surname": "范",
+        "kid": ""
+    },
+    {
+        "id": 5758,
+        "artist": "范曉萱",
+        "title": "bartender angel",
+        "vid": "6GwnhOf5qyk",
+        "surname": "范",
+        "kid": ""
+    },
+    {
+        "id": 5759,
+        "artist": "范曉萱",
+        "title": "深呼吸",
+        "vid": "AWJ7Mk6qOmo",
+        "surname": "范",
+        "kid": "LaW3ObuGWUM"
+    },
+    {
+        "id": 5760,
+        "artist": "范曉萱",
+        "title": "好想談戀愛",
+        "vid": "SswJY_PDoqc",
+        "surname": "范",
+        "kid": ""
+    },
+    {
+        "id": 5761,
+        "artist": "范曉萱",
+        "title": "想你",
+        "vid": "yu0_x88oiJs",
+        "surname": "范",
+        "kid": ""
+    },
+    {
+        "id": 5762,
+        "artist": "李麗芬",
+        "title": "愛江山更愛美人",
+        "vid": "91RS6TrnUIc",
+        "surname": "李",
+        "kid": "udZlfaG8wU0"
+    },
+    {
+        "id": 5763,
+        "artist": "李麗芬",
+        "title": "愛江山更愛美人",
+        "vid": "Rl_loCKeLig",
+        "surname": "李",
+        "kid": "udZlfaG8wU0"
+    },
+    {
+        "id": 5764,
+        "artist": "李麗芬",
+        "title": "城市英雄",
+        "vid": "_jA164dyp9w",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5765,
+        "artist": "李麗芬",
+        "title": "月兒彎彎",
+        "vid": "mt0drjCcud4",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5766,
+        "artist": "李麗芬",
+        "title": "就這樣約定",
+        "vid": "mnQ1mMM2ei4",
+        "surname": "李",
+        "kid": "86UIrOmxjAM"
+    },
+    {
+        "id": 5767,
+        "artist": "李麗芬",
+        "title": "親密愛人",
+        "vid": "W_Ygc_7nl2E",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5768,
+        "artist": "李麗芬",
+        "title": "一往情深",
+        "vid": "HQMp9RBDmuw",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5769,
+        "artist": "李麗芬",
+        "title": "愛江山更愛美人()",
+        "vid": "0RiLS6RKaPA",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5770,
+        "artist": "李麗芬",
+        "title": "華語",
+        "vid": "b0PgXOKrkwQ",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5771,
+        "artist": "李麗芬",
+        "title": "暫時離開家的女子",
+        "vid": "vKnyhDX3cL8",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5772,
+        "artist": "李麗芬",
+        "title": "梳子與刮鬍刀",
+        "vid": "2pBcwVqL-kI",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5773,
+        "artist": "李麗芬",
+        "title": "愛不釋手",
+        "vid": "YO9n1TTekKc",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5774,
+        "artist": "李麗芬",
+        "title": "有音樂真好",
+        "vid": "84oIBYRWYfE",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5775,
+        "artist": "李麗芬",
+        "title": "黯淡的月",
+        "vid": "TwPui8TzhEo",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5777,
+        "artist": "李麗芬",
+        "title": "天天想你",
+        "vid": "pIe3U1Sjlpc",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5778,
+        "artist": "李麗芬",
+        "title": "原諒我的心",
+        "vid": "hYwee_7OqYo",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5779,
+        "artist": "陳卓璇",
+        "title": "千年之戀",
+        "vid": "yvcoCO_0tlw",
+        "surname": "陳",
+        "kid": "w5KR7kcaILo"
+    },
+    {
+        "id": 5780,
+        "artist": "陳卓璇",
+        "title": "成人禮",
+        "vid": "eiB76M1Yz3M",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5781,
+        "artist": "陳卓璇",
+        "title": "海事版小幸運",
+        "vid": "EEr47uzKIUY",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5782,
+        "artist": "徐懷鈺",
+        "title": "達爾文步伐",
+        "vid": "d02zUhEE288",
+        "surname": "徐",
+        "kid": ""
+    },
+    {
+        "id": 5783,
+        "artist": "徐懷鈺",
+        "title": "他忘了回來",
+        "vid": "yqAHA5efqUw",
+        "surname": "徐",
+        "kid": ""
+    },
+    {
+        "id": 5784,
+        "artist": "徐懷鈺",
+        "title": "完美小姐",
+        "vid": "74DpMwcV4Q0",
+        "surname": "徐",
+        "kid": ""
+    },
+    {
+        "id": 5785,
+        "artist": "王若琳",
+        "title": "hello anyung",
+        "vid": "QZWNOfB9teE",
+        "surname": "王",
+        "kid": ""
+    },
+    {
+        "id": 5786,
+        "artist": "王若琳",
+        "title": "金曲快訊",
+        "vid": "pz2EwVBuaSI",
+        "surname": "王",
+        "kid": ""
+    },
+    {
+        "id": 5787,
+        "artist": "魏如萱",
+        "title": "惡口",
+        "vid": "K4f_zYxVWeI",
+        "surname": "魏",
+        "kid": ""
+    },
+    {
+        "id": 5788,
+        "artist": "魏如萱",
+        "title": "想怎樣",
+        "vid": "oj3XSsdeI9o",
+        "surname": "魏",
+        "kid": ""
+    },
+    {
+        "id": 5789,
+        "artist": "薛凱琪",
+        "title": "月台上碰面",
+        "vid": "sFsGDMUFFsg",
+        "surname": "薛",
+        "kid": ""
+    },
+    {
+        "id": 5790,
+        "artist": "薛凱琪",
+        "title": "一直一直",
+        "vid": "SC9dp1XTQ4w",
+        "surname": "薛",
+        "kid": ""
+    },
+    {
+        "id": 5791,
+        "artist": "薛凱琪",
+        "title": "爭",
+        "vid": "5KXNf9UGURg",
+        "surname": "薛",
+        "kid": ""
+    },
+    {
+        "id": 5792,
+        "artist": "家家",
+        "title": "戒指流浪記",
+        "vid": "4ssyOfaN-II",
+        "surname": "家",
+        "kid": ""
+    },
+    {
+        "id": 5793,
+        "artist": "家家",
+        "title": "甜蜜的家",
+        "vid": "tRScvmbG7DA",
+        "surname": "家",
+        "kid": ""
+    },
+    {
+        "id": 5794,
+        "artist": "家家",
+        "title": "愛情發生在三天後",
+        "vid": "f3RoPXTmAJQ",
+        "surname": "家",
+        "kid": ""
+    },
+    {
+        "id": 5795,
+        "artist": "家家",
+        "title": "給自己的命書",
+        "vid": "w-NJiC1HDss",
+        "surname": "家",
+        "kid": ""
+    },
+    {
+        "id": 5796,
+        "artist": "陶晶瑩",
+        "title": "想要",
+        "vid": "DQqd-o6sQYE",
+        "surname": "陶",
+        "kid": ""
+    },
+    {
+        "id": 5797,
+        "artist": "藍心湄",
+        "title": "mv-藍心湄-愛我到今生 (tvb版)",
+        "vid": "HdflChWiX1I",
+        "surname": "藍",
+        "kid": ""
+    },
+    {
+        "id": 5798,
+        "artist": "藍心湄",
+        "title": "車窗外的身影",
+        "vid": "6F1ypAWYV5Q",
+        "surname": "藍",
+        "kid": ""
+    },
+    {
+        "id": 5799,
+        "artist": "藍心湄",
+        "title": "用你的吻接我的淚",
+        "vid": "OGu5x-pRlpE",
+        "surname": "藍",
+        "kid": ""
+    },
+    {
+        "id": 5800,
+        "artist": "江蕙",
+        "title": "花香",
+        "vid": "XTjKglBZa1E",
+        "surname": "江",
+        "kid": ""
+    },
+    {
+        "id": 5801,
+        "artist": "江蕙",
+        "title": "靠岸",
+        "vid": "ygNKSOnfCVQ",
+        "surname": "江",
+        "kid": ""
+    },
+    {
+        "id": 5802,
+        "artist": "江蕙",
+        "title": "一嘴乾一杯",
+        "vid": "1PYoPUgNweE",
+        "surname": "江",
+        "kid": ""
+    },
+    {
+        "id": 5803,
+        "artist": "江蕙",
+        "title": "何去何從",
+        "vid": "tJoGbgPwj4E",
+        "surname": "江",
+        "kid": ""
+    },
+    {
+        "id": 5804,
+        "artist": "郭采潔",
+        "title": "給他",
+        "vid": "21JTDY-6MGk",
+        "surname": "郭",
+        "kid": ""
+    },
+    {
+        "id": 5805,
+        "artist": "郭采潔",
+        "title": "i need you (  ultra )",
+        "vid": "e8CWFtwcvXw",
+        "surname": "郭",
+        "kid": ""
+    },
+    {
+        "id": 5806,
+        "artist": "郭采潔",
+        "title": "你在不在",
+        "vid": "J0geXNgGNU8",
+        "surname": "郭",
+        "kid": "LYFNUYXljY4"
+    },
+    {
+        "id": 5807,
+        "artist": "郭采潔",
+        "title": "該忘了",
+        "vid": "xzDj50x6-vc",
+        "surname": "郭",
+        "kid": ""
+    },
+    {
+        "id": 5808,
+        "artist": "郭采潔",
+        "title": "大夢歸離",
+        "vid": "LOY9eynLh3A",
+        "surname": "郭",
+        "kid": ""
+    },
+    {
+        "id": 5809,
+        "artist": "郭采潔",
+        "title": "喜寶",
+        "vid": "nMBBAkDJbE8",
+        "surname": "郭",
+        "kid": ""
+    },
+    {
+        "id": 5810,
+        "artist": "郭采潔",
+        "title": "i need you",
+        "vid": "sSo1yYfSZ6c",
+        "surname": "郭",
+        "kid": ""
+    },
+    {
+        "id": 5811,
+        "artist": "郭采潔",
+        "title": "nakuna",
+        "vid": "hdYVE3fIqxs",
+        "surname": "郭",
+        "kid": ""
+    },
+    {
+        "id": 5812,
+        "artist": "郭采潔",
+        "title": "別派一群兔子獵殺一隻狐狸",
+        "vid": "VFnmNG5okhc",
+        "surname": "郭",
+        "kid": ""
+    },
+    {
+        "id": 5813,
+        "artist": "郭采潔",
+        "title": "船碇",
+        "vid": "AiQpIuTbCmg",
+        "surname": "郭",
+        "kid": ""
+    },
+    {
+        "id": 5814,
+        "artist": "郭采潔",
+        "title": "在我成為井井有條的大人之前",
+        "vid": "X6nUsApyd7M",
+        "surname": "郭",
+        "kid": ""
+    },
+    {
+        "id": 5815,
+        "artist": "郭采潔",
+        "title": "世界上的另一個我",
+        "vid": "XRudAm148AY",
+        "surname": "郭",
+        "kid": "KOjZ75skjAM"
+    },
+    {
+        "id": 5816,
+        "artist": "郭采潔",
+        "title": "又圓了的月亮",
+        "vid": "OfZfw3S_ZEk",
+        "surname": "郭",
+        "kid": "5ael52EcmFc"
+    },
+    {
+        "id": 5817,
+        "artist": "郭采潔",
+        "title": "快一點",
+        "vid": "pfGgkjrWKFQ",
+        "surname": "郭",
+        "kid": ""
+    },
+    {
+        "id": 5818,
+        "artist": "郭采潔",
+        "title": "狠狠哭",
+        "vid": "l7D5YA-sYgw",
+        "surname": "郭",
+        "kid": ""
+    },
+    {
+        "id": 5819,
+        "artist": "郭采潔",
+        "title": "不過問",
+        "vid": "UYq-IqRn2tY",
+        "surname": "郭",
+        "kid": ""
+    },
+    {
+        "id": 5820,
+        "artist": "郭采潔",
+        "title": "原諒",
+        "vid": "-Uh0mki1vlM",
+        "surname": "郭",
+        "kid": ""
+    },
+    {
+        "id": 5821,
+        "artist": "郭采潔",
+        "title": "隱形超人",
+        "vid": "zpphrk9soGY",
+        "surname": "郭",
+        "kid": ""
+    },
+    {
+        "id": 5822,
+        "artist": "陳綺貞",
+        "title": "小步舞曲",
+        "vid": "1iujiTGBeaw",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5823,
+        "artist": "陳綺貞",
+        "title": "喜歡你",
+        "vid": "UHcjCIpr700",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5824,
+        "artist": "陳綺貞",
+        "title": "時空永恆的愛戀",
+        "vid": "xgjb_UOW1rc",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5825,
+        "artist": "陳綺貞",
+        "title": "告訴我",
+        "vid": "mJsT0i95cAY",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5826,
+        "artist": "陳綺貞",
+        "title": "躺在你的衣櫃",
+        "vid": "BPNXyVzJjtw",
+        "surname": "陳",
+        "kid": "YWjGasP8II8"
+    },
+    {
+        "id": 5827,
+        "artist": "陳綺貞",
+        "title": "微涼的你",
+        "vid": "82J7m2tWqIo",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5828,
+        "artist": "陳綺貞",
+        "title": "偶然與巧合",
+        "vid": "XmikT-zHS9c",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5829,
+        "artist": "陳綺貞",
+        "title": "愛慕amour",
+        "vid": "OeyIK1lOeOo",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5830,
+        "artist": "陳綺貞",
+        "title": "沙漏",
+        "vid": "0tv7fRCvwt8",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5831,
+        "artist": "陳綺貞",
+        "title": "魚",
+        "vid": "TK2xCJq0tfI",
+        "surname": "陳",
+        "kid": "UEsQAn5muDM"
+    },
+    {
+        "id": 5832,
+        "artist": "陳綺貞",
+        "title": "九份的咖啡店",
+        "vid": "saEUqqXLZxo",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5833,
+        "artist": "陳綺貞",
+        "title": "下午三點",
+        "vid": "QoW1rUYxGvI",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5834,
+        "artist": "陳綺貞",
+        "title": "華麗的冒險",
+        "vid": "JcK1BKDHEKA",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5835,
+        "artist": "陳綺貞",
+        "title": "sentimental kills mv -陳綺貞",
+        "vid": "yk6U4f_c8Cg",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5836,
+        "artist": "陳綺貞",
+        "title": "旅行的意義",
+        "vid": "VaHgEZcFv-Y",
+        "surname": "陳",
+        "kid": "ELQvFZf2Cnw"
+    },
+    {
+        "id": 5837,
+        "artist": "陳綺貞",
+        "title": "最初的起點",
+        "vid": "ibovyku72rY",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5838,
+        "artist": "陳綺貞",
+        "title": "距離",
+        "vid": "bi0dMbLFw0A",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5839,
+        "artist": "陳綺貞",
+        "title": "普魯斯特行動",
+        "vid": "dMobG7kWY7o",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5840,
+        "artist": "陳綺貞",
+        "title": "私奔到月球1080p",
+        "vid": "oN85hANN4Fg",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5841,
+        "artist": "陳綺貞",
+        "title": "華麗的冒險",
+        "vid": "NCxAUU1xwuw",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5842,
+        "artist": "江美琪",
+        "title": "我又想起你",
+        "vid": "lmYcwmASpOw",
+        "surname": "江",
+        "kid": ""
+    },
+    {
+        "id": 5843,
+        "artist": "艾怡良",
+        "title": "偏愛",
+        "vid": "4GCFnBqkhGs",
+        "surname": "艾",
+        "kid": ""
+    },
+    {
+        "id": 5844,
+        "artist": "戴愛玲",
+        "title": "想你的距離",
+        "vid": "IyShLIE8cEw",
+        "surname": "戴",
+        "kid": "0c5Q0Qhqbdw"
+    },
+    {
+        "id": 5845,
+        "artist": "戴愛玲",
+        "title": "我該得到",
+        "vid": "05hjpYoaq0k",
+        "surname": "戴",
+        "kid": ""
+    },
+    {
+        "id": 5846,
+        "artist": "趙詠華",
+        "title": "【 官方版 】趙詠華：紅花雨 mv - 480p",
+        "vid": "LAnw94BV-fc",
+        "surname": "趙",
+        "kid": ""
+    },
+    {
+        "id": 5847,
+        "artist": "趙詠華",
+        "title": "問心無愧",
+        "vid": "CwBlGEsGPX4",
+        "surname": "趙",
+        "kid": ""
+    },
+    {
+        "id": 5848,
+        "artist": "侯湘婷",
+        "title": "關於永遠",
+        "vid": "gE5LhOCmmeY",
+        "surname": "侯",
+        "kid": ""
+    },
+    {
+        "id": 5849,
+        "artist": "侯湘婷",
+        "title": "白紙黑夜",
+        "vid": "Lu0dQ6Zsi_0",
+        "surname": "侯",
+        "kid": ""
+    },
+    {
+        "id": 5850,
+        "artist": "萬芳",
+        "title": "我愛月亮",
+        "vid": "L4Zzd9e2vWI",
+        "surname": "萬",
+        "kid": ""
+    },
+    {
+        "id": 5851,
+        "artist": "萬芳",
+        "title": "true colors",
+        "vid": "nygwYHQqO84",
+        "surname": "萬",
+        "kid": ""
+    },
+    {
+        "id": 5852,
+        "artist": "萬芳",
+        "title": "了斷",
+        "vid": "MtKW3fYmBIg",
+        "surname": "萬",
+        "kid": ""
+    },
+    {
+        "id": 5853,
+        "artist": "梁文音",
+        "title": "黃色夾克",
+        "vid": "xKRgRIdb7oo",
+        "surname": "梁",
+        "kid": ""
+    },
+    {
+        "id": 5854,
+        "artist": "梁文音",
+        "title": "最幸福的事",
+        "vid": "9_6qqdPVyco",
+        "surname": "梁",
+        "kid": "WoF0h84oVHs"
+    },
+    {
+        "id": 5855,
+        "artist": "梁文音",
+        "title": "還是朋友",
+        "vid": "Zj0wxRlazr0",
+        "surname": "梁",
+        "kid": ""
+    },
+    {
+        "id": 5856,
+        "artist": "潘越雲",
+        "title": "四月有時也有雨封面版",
+        "vid": "ZDV47GOSx9o",
+        "surname": "潘",
+        "kid": ""
+    },
+    {
+        "id": 5857,
+        "artist": "潘越雲",
+        "title": "暗夜",
+        "vid": "63KbZCSrAbo",
+        "surname": "潘",
+        "kid": ""
+    },
+    {
+        "id": 5858,
+        "artist": "范文芳",
+        "title": "神鵰俠侶",
+        "vid": "oTAWt10NuSY",
+        "surname": "范",
+        "kid": ""
+    },
+    {
+        "id": 5859,
+        "artist": "徐若瑄",
+        "title": "甩",
+        "vid": "TilZQtJfK-0",
+        "surname": "徐",
+        "kid": ""
+    },
+    {
+        "id": 5860,
+        "artist": "徐若瑄",
+        "title": "希臘咒語",
+        "vid": "w__-wiVl8X4",
+        "surname": "徐",
+        "kid": ""
+    },
+    {
+        "id": 5861,
+        "artist": "徐若瑄",
+        "title": "瑪德2號",
+        "vid": "FtUVDq3Xb-o",
+        "surname": "徐",
+        "kid": ""
+    },
+    {
+        "id": 5862,
+        "artist": "林慧萍",
+        "title": "惜別",
+        "vid": "riBFVIz7fa4",
+        "surname": "林",
+        "kid": ""
+    },
+    {
+        "id": 5863,
+        "artist": "林慧萍",
+        "title": "夏在雨中",
+        "vid": "XR-UzO03GmI",
+        "surname": "林",
+        "kid": ""
+    },
+    {
+        "id": 5864,
+        "artist": "林慧萍",
+        "title": "三毛；作曲",
+        "vid": "khDksKnvlAg",
+        "surname": "林",
+        "kid": ""
+    },
+    {
+        "id": 5865,
+        "artist": "林慧萍",
+        "title": "想念是一首愉快的詩",
+        "vid": "a7a6DeEQypw",
+        "surname": "林",
+        "kid": ""
+    },
+    {
+        "id": 5866,
+        "artist": "林凡",
+        "title": "浪漫體質",
+        "vid": "jj2ILzL_OsU",
+        "surname": "林",
+        "kid": ""
+    },
+    {
+        "id": 5867,
+        "artist": "林凡",
+        "title": "明明愛你",
+        "vid": "bngVWUao0SY",
+        "surname": "林",
+        "kid": ""
+    },
+    {
+        "id": 5868,
+        "artist": "林凡",
+        "title": "愛已經受傷",
+        "vid": "ZrjwTEqlPlE",
+        "surname": "林",
+        "kid": ""
+    },
+    {
+        "id": 5869,
+        "artist": "白安",
+        "title": "安慰",
+        "vid": "AI4U86ZzXxU",
+        "surname": "白",
+        "kid": ""
+    },
+    {
+        "id": 5870,
+        "artist": "Olivia Ong",
+        "title": "光影",
+        "vid": "s-yGiIYtrIo",
+        "surname": "O",
+        "kid": "bG_Os9E6r_0"
+    },
+    {
+        "id": 5871,
+        "artist": "Olivia Ong",
+        "title": "a love theme",
+        "vid": "kj7HrAKlTKY",
+        "surname": "O",
+        "kid": ""
+    },
+    {
+        "id": 5872,
+        "artist": "Olivia Ong",
+        "title": "愛夠了",
+        "vid": "SqwpF8NQ0-M",
+        "surname": "O",
+        "kid": ""
+    },
+    {
+        "id": 5873,
+        "artist": "Olivia Ong",
+        "title": "美人龍湯",
+        "vid": "OJl8-xkGVVQ",
+        "surname": "O",
+        "kid": ""
+    },
+    {
+        "id": 5874,
+        "artist": "Olivia Ong",
+        "title": "金大花的華麗冒險",
+        "vid": "O_p5cQ4i1uc",
+        "surname": "O",
+        "kid": ""
+    },
+    {
+        "id": 5875,
+        "artist": "Olivia Ong",
+        "title": "幸福記號",
+        "vid": "GUefe0BCfus",
+        "surname": "O",
+        "kid": ""
+    },
+    {
+        "id": 5876,
+        "artist": "Olivia Ong",
+        "title": "沒有名字的甜點店",
+        "vid": "P7XLt-BxbZ4",
+        "surname": "O",
+        "kid": ""
+    },
+    {
+        "id": 5877,
+        "artist": "Olivia Ong",
+        "title": "海枯石爛",
+        "vid": "b5EFKNmeovM",
+        "surname": "O",
+        "kid": ""
+    },
+    {
+        "id": 5878,
+        "artist": "Olivia Ong",
+        "title": "如燕",
+        "vid": "rnX00KoNf2I",
+        "surname": "O",
+        "kid": "DW1Jz9Qxtzg"
+    },
+    {
+        "id": 5879,
+        "artist": "Olivia Ong",
+        "title": "ready for love",
+        "vid": "ukPPYtu8m9U",
+        "surname": "O",
+        "kid": ""
+    },
+    {
+        "id": 5880,
+        "artist": "Olivia Ong",
+        "title": "aint no sunshine",
+        "vid": "59mkLoEukZ0",
+        "surname": "O",
+        "kid": ""
+    },
+    {
+        "id": 5881,
+        "artist": "Olivia Ong",
+        "title": "you and me",
+        "vid": "3sre1IM0pIU",
+        "surname": "O",
+        "kid": ""
+    },
+    {
+        "id": 5882,
+        "artist": "Olivia Ong",
+        "title": "invisible wings",
+        "vid": "5PFQfixfLoo",
+        "surname": "O",
+        "kid": ""
+    },
+    {
+        "id": 5883,
+        "artist": "Olivia Ong",
+        "title": "最後一眼",
+        "vid": "XTFi1iDoFlY",
+        "surname": "O",
+        "kid": ""
+    },
+    {
+        "id": 5884,
+        "artist": "Olivia Ong",
+        "title": "我在想",
+        "vid": "rLwwn2qqS7M",
+        "surname": "O",
+        "kid": ""
+    },
+    {
+        "id": 5885,
+        "artist": "Olivia Ong",
+        "title": "夢一場",
+        "vid": "mTOh2YJRJ5Y",
+        "surname": "O",
+        "kid": ""
+    },
+    {
+        "id": 5886,
+        "artist": "Olivia Ong",
+        "title": "插曲)",
+        "vid": "KvXSN5PMMv4",
+        "surname": "O",
+        "kid": ""
+    },
+    {
+        "id": 5887,
+        "artist": "魏嘉瑩",
+        "title": "我不在意你曾經吻過誰",
+        "vid": "lc-ce20XRdg",
+        "surname": "魏",
+        "kid": ""
+    },
+    {
+        "id": 5888,
+        "artist": "魏嘉瑩",
+        "title": "為你寫詩",
+        "vid": "uRWWkUeSw5M",
+        "surname": "魏",
+        "kid": ""
+    },
+    {
+        "id": 5889,
+        "artist": "魏嘉瑩",
+        "title": "盧彥澤剪輯",
+        "vid": "vgvaHe9IbH8",
+        "surname": "魏",
+        "kid": ""
+    },
+    {
+        "id": 5890,
+        "artist": "魏嘉瑩",
+        "title": "喜歡我吧",
+        "vid": "jLpf9oDqCjE",
+        "surname": "魏",
+        "kid": "pPLoeiZivbo"
+    },
+    {
+        "id": 5891,
+        "artist": "魏嘉瑩",
+        "title": "murmur",
+        "vid": "ByF1lCqc-HQ",
+        "surname": "魏",
+        "kid": ""
+    },
+    {
+        "id": 5892,
+        "artist": "魏嘉瑩",
+        "title": "是什麼奪走太陽",
+        "vid": "PQAcB8kp-Vo",
+        "surname": "魏",
+        "kid": ""
+    },
+    {
+        "id": 5893,
+        "artist": "魏嘉瑩",
+        "title": "空氣槍",
+        "vid": "HxWKa8B4r3w",
+        "surname": "魏",
+        "kid": ""
+    },
+    {
+        "id": 5894,
+        "artist": "魏嘉瑩",
+        "title": "脫軌",
+        "vid": "NT_HkuiwMXE",
+        "surname": "魏",
+        "kid": ""
+    },
+    {
+        "id": 5895,
+        "artist": "魏嘉瑩",
+        "title": "航海家",
+        "vid": "yGlI9-a7Ap4",
+        "surname": "魏",
+        "kid": ""
+    },
+    {
+        "id": 5896,
+        "artist": "魏嘉瑩",
+        "title": "要怎麼告訴你我多喜歡",
+        "vid": "2fWwbhl0d8Q",
+        "surname": "魏",
+        "kid": ""
+    },
+    {
+        "id": 5897,
+        "artist": "魏嘉瑩",
+        "title": "不完美不後悔",
+        "vid": "Isi0YFrFIz0",
+        "surname": "魏",
+        "kid": ""
+    },
+    {
+        "id": 5898,
+        "artist": "魏嘉瑩",
+        "title": "我想你知道",
+        "vid": "cPg_LvpABMU",
+        "surname": "魏",
+        "kid": ""
+    },
+    {
+        "id": 5899,
+        "artist": "魏嘉瑩",
+        "title": "太陽",
+        "vid": "MVPk-44rRdE",
+        "surname": "魏",
+        "kid": ""
+    },
+    {
+        "id": 5900,
+        "artist": "魏嘉瑩",
+        "title": "life",
+        "vid": "Qu8UQuUc1EY",
+        "surname": "魏",
+        "kid": ""
+    },
+    {
+        "id": 5901,
+        "artist": "魏嘉瑩",
+        "title": "披星戴月的想你",
+        "vid": "sa30czL_9hQ",
+        "surname": "魏",
+        "kid": ""
+    },
+    {
+        "id": 5902,
+        "artist": "卓文萱",
+        "title": "冬天的桔子",
+        "vid": "IdKhxHO0E0I",
+        "surname": "卓",
+        "kid": ""
+    },
+    {
+        "id": 5903,
+        "artist": "魏如昀",
+        "title": "星光二班專輯",
+        "vid": "BhpRsHUNSfE",
+        "surname": "魏",
+        "kid": ""
+    },
+    {
+        "id": 5904,
+        "artist": "魏如昀",
+        "title": "星光傳奇",
+        "vid": "xWe2txdCmGY",
+        "surname": "魏",
+        "kid": ""
+    },
+    {
+        "id": 5905,
+        "artist": "魏如昀",
+        "title": "我們",
+        "vid": "su7koTDEETU",
+        "surname": "魏",
+        "kid": ""
+    },
+    {
+        "id": 5906,
+        "artist": "魏如昀",
+        "title": "太陽",
+        "vid": "PGcyXBxUurI",
+        "surname": "魏",
+        "kid": "5RooqP8YhE0"
+    },
+    {
+        "id": 5907,
+        "artist": "吳汶芳",
+        "title": "我也很想他",
+        "vid": "anSiC9vTD48",
+        "surname": "吳",
+        "kid": ""
+    },
+    {
+        "id": 5908,
+        "artist": "吳汶芳",
+        "title": "重遊舊地",
+        "vid": "TSmS1o3rK4k",
+        "surname": "吳",
+        "kid": ""
+    },
+    {
+        "id": 5909,
+        "artist": "吳汶芳",
+        "title": "愛的生存之道",
+        "vid": "kBlUJD858N4",
+        "surname": "吳",
+        "kid": ""
+    },
+    {
+        "id": 5910,
+        "artist": "縱貫線",
+        "title": "vietsub",
+        "vid": "EKIAnCdy9DA",
+        "surname": "縱",
+        "kid": ""
+    },
+    {
+        "id": 5911,
+        "artist": "縱貫線",
+        "title": "張震岳講述創作的歷程",
+        "vid": "d3aJYizvOuk",
+        "surname": "縱",
+        "kid": ""
+    },
+    {
+        "id": 5912,
+        "artist": "縱貫線",
+        "title": "2009央視春節聯歡晚會",
+        "vid": "HeylVtZISxI",
+        "surname": "縱",
+        "kid": ""
+    },
+    {
+        "id": 5913,
+        "artist": "無印良品",
+        "title": "愛情轉彎的地方",
+        "vid": "kvgfJDGoovo",
+        "surname": "無",
+        "kid": ""
+    },
+    {
+        "id": 5914,
+        "artist": "無印良品",
+        "title": "最美",
+        "vid": "XvvgGkpHilo",
+        "surname": "無",
+        "kid": ""
+    },
+    {
+        "id": 5915,
+        "artist": "無印良品",
+        "title": "愛多一點點",
+        "vid": "gQmcARbbBkM",
+        "surname": "無",
+        "kid": ""
+    },
+    {
+        "id": 5916,
+        "artist": "無印良品",
+        "title": "想見你",
+        "vid": "1mr-VukxMEo",
+        "surname": "無",
+        "kid": ""
+    },
+    {
+        "id": 5917,
+        "artist": "無印良品",
+        "title": "90年代至00年代雙人男子組合組曲",
+        "vid": "JKhPtU8u7lY",
+        "surname": "無",
+        "kid": ""
+    },
+    {
+        "id": 5918,
+        "artist": "優客李林",
+        "title": "有夢有朋友正式版",
+        "vid": "m0jxeDrUNLo",
+        "surname": "優",
+        "kid": ""
+    },
+    {
+        "id": 5919,
+        "artist": "玖壹壹",
+        "title": "籠裡",
+        "vid": "c_5UObLOEUU",
+        "surname": "玖",
+        "kid": "2u7vwdVzYeA"
+    },
+    {
+        "id": 5920,
+        "artist": "玖壹壹",
+        "title": "need your body",
+        "vid": "hCghSC8KTW4",
+        "surname": "玖",
+        "kid": ""
+    },
+    {
+        "id": 5921,
+        "artist": "玖壹壹",
+        "title": "母湯對我",
+        "vid": "KyLxRZBIfX0",
+        "surname": "玖",
+        "kid": ""
+    },
+    {
+        "id": 5922,
+        "artist": "玖壹壹",
+        "title": "世界都看見",
+        "vid": "dH4U-xYei1E",
+        "surname": "玖",
+        "kid": "c4-zXt5Zn6k"
+    },
+    {
+        "id": 5923,
+        "artist": "玖壹壹",
+        "title": "都是我的錯",
+        "vid": "aRV0ZOOnJII",
+        "surname": "玖",
+        "kid": ""
+    },
+    {
+        "id": 5924,
+        "artist": "玖壹壹",
+        "title": "oh my god!",
+        "vid": "12Xh5pK_zQ0",
+        "surname": "玖",
+        "kid": ""
+    },
+    {
+        "id": 5925,
+        "artist": "玖壹壹",
+        "title": "9453",
+        "vid": "6P8_hBRYxjw",
+        "surname": "玖",
+        "kid": "Lpv86bUg1x0"
+    },
+    {
+        "id": 5926,
+        "artist": "玖壹壹",
+        "title": "foreigner",
+        "vid": "kkc797WQfs0",
+        "surname": "玖",
+        "kid": ""
+    },
+    {
+        "id": 5927,
+        "artist": "玖壹壹",
+        "title": "嫁給我吧",
+        "vid": "UapMQdq0NB4",
+        "surname": "玖",
+        "kid": ""
+    },
+    {
+        "id": 5928,
+        "artist": "玖壹壹",
+        "title": "美幹拎",
+        "vid": "0-QsQgEmwj8",
+        "surname": "玖",
+        "kid": ""
+    },
+    {
+        "id": 5929,
+        "artist": "玖壹壹",
+        "title": "富末代",
+        "vid": "kGIs51UpyVo",
+        "surname": "玖",
+        "kid": ""
+    },
+    {
+        "id": 5930,
+        "artist": "玖壹壹",
+        "title": "丹尼爾",
+        "vid": "ta4KRiP3FTE",
+        "surname": "玖",
+        "kid": ""
+    },
+    {
+        "id": 5931,
+        "artist": "玖壹壹",
+        "title": "派對俠",
+        "vid": "05c6-aO--GE",
+        "surname": "玖",
+        "kid": ""
+    },
+    {
+        "id": 5932,
+        "artist": "玖壹壹",
+        "title": "嘻哈莊腳情",
+        "vid": "O9In0ZkMObI",
+        "surname": "玖",
+        "kid": "YZOFFjCXaB8"
+    },
+    {
+        "id": 5933,
+        "artist": "玖壹壹",
+        "title": "宅男俱樂部",
+        "vid": "gKBD429AP1o",
+        "surname": "玖",
+        "kid": ""
+    },
+    {
+        "id": 5935,
+        "artist": "玖壹壹",
+        "title": "極樂世界",
+        "vid": "qjIAL8B6aE8",
+        "surname": "玖",
+        "kid": "ppULau1uqMs"
+    },
+    {
+        "id": 5936,
+        "artist": "玖壹壹",
+        "title": "我的路",
+        "vid": "mNMH7SLGDOw",
+        "surname": "玖",
+        "kid": ""
+    },
+    {
+        "id": 5937,
+        "artist": "告五人",
+        "title": "成長的錯",
+        "vid": "KveGJklq7Ho",
+        "surname": "告",
+        "kid": ""
+    },
+    {
+        "id": 5938,
+        "artist": "告五人",
+        "title": "我以為你不會出現",
+        "vid": "aqRmdVYpN1k",
+        "surname": "告",
+        "kid": ""
+    },
+    {
+        "id": 5939,
+        "artist": "F.I.R.飛兒樂團",
+        "title": "戀戀",
+        "vid": "1-ttW1yeXSQ",
+        "surname": "F",
+        "kid": ""
+    },
+    {
+        "id": 5940,
+        "artist": "F.I.R.飛兒樂團",
+        "title": "三個心願",
+        "vid": "DHCBbAgfbbg",
+        "surname": "F",
+        "kid": ""
+    },
+    {
+        "id": 5941,
+        "artist": "F.I.R.飛兒樂團",
+        "title": "讓愛重生",
+        "vid": "F8pLZA0CIj4",
+        "surname": "F",
+        "kid": ""
+    },
+    {
+        "id": 5942,
+        "artist": "馮提莫",
+        "title": "楓",
+        "vid": "vBdqJwD_XGM",
+        "surname": "馮",
+        "kid": ""
+    },
+    {
+        "id": 5943,
+        "artist": "馮提莫",
+        "title": "孤勇者",
+        "vid": "EffBL0lva-0",
+        "surname": "馮",
+        "kid": ""
+    },
+    {
+        "id": 5944,
+        "artist": "杜德偉",
+        "title": "原來我love",
+        "vid": "4l9tqlN73Yo",
+        "surname": "杜",
+        "kid": ""
+    },
+    {
+        "id": 5945,
+        "artist": "杜德偉",
+        "title": "刺",
+        "vid": "w_HdWV3DGzw",
+        "surname": "杜",
+        "kid": ""
+    },
+    {
+        "id": 5946,
+        "artist": "杜德偉",
+        "title": "i miss you",
+        "vid": "y9-k4A48F4g",
+        "surname": "杜",
+        "kid": ""
+    },
+    {
+        "id": 5947,
+        "artist": "八三夭樂團",
+        "title": "一事無成的偉大",
+        "vid": "CxvoFrGRKCw",
+        "surname": "八",
+        "kid": "-Uo-lR2mGZ8"
+    },
+    {
+        "id": 5948,
+        "artist": "八三夭樂團",
+        "title": "抱一抱一下",
+        "vid": "yp8r5OXUxHk",
+        "surname": "八",
+        "kid": ""
+    },
+    {
+        "id": 5949,
+        "artist": "孫盛希",
+        "title": "broken world",
+        "vid": "Q4mAEPrDBxg",
+        "surname": "孫",
+        "kid": ""
+    },
+    {
+        "id": 5950,
+        "artist": "孫盛希",
+        "title": "單身≠失戀",
+        "vid": "QLAbTG88OPQ",
+        "surname": "孫",
+        "kid": ""
+    },
+    {
+        "id": 5951,
+        "artist": "孫盛希",
+        "title": "另一個結局",
+        "vid": "g8HfPwHK4PA",
+        "surname": "孫",
+        "kid": ""
+    },
+    {
+        "id": 5952,
+        "artist": "張碧晨",
+        "title": "流心",
+        "vid": "ZICGEjzRVsU",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5953,
+        "artist": "張碧晨",
+        "title": "摯友",
+        "vid": "1SH6xma_AxQ",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5954,
+        "artist": "張碧晨",
+        "title": "我是歌手頻道",
+        "vid": "NGoOpniJwnM",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5955,
+        "artist": "張碧晨",
+        "title": "三拜紅塵涼",
+        "vid": "gDvrlRGks0k",
+        "surname": "張",
+        "kid": "D9aTtGbb2rw"
+    },
+    {
+        "id": 5956,
+        "artist": "張碧晨",
+        "title": "舞台",
+        "vid": "U-aMawMBjYM",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5957,
+        "artist": "張碧晨",
+        "title": "紅玫瑰",
+        "vid": "8ZCsvtaXtO4",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5958,
+        "artist": "張碧晨",
+        "title": "你給我聽好",
+        "vid": "QfH8EzQWQdk",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5959,
+        "artist": "趙露思",
+        "title": "zhao lusis version (pixxie cover)",
+        "vid": "XQAQG6d4wEY",
+        "surname": "趙",
+        "kid": ""
+    },
+    {
+        "id": 5960,
+        "artist": "趙露思",
+        "title": "偷偷藏不住hidden",
+        "vid": "OhHvXIArJMY",
+        "surname": "趙",
+        "kid": ""
+    },
+    {
+        "id": 5961,
+        "artist": "王笠人",
+        "title": "延禧攻略",
+        "vid": "iny0CbWk_ZE",
+        "surname": "王",
+        "kid": ""
+    },
+    {
+        "id": 5962,
+        "artist": "王笠人",
+        "title": "致，第三者",
+        "vid": "3z5ruMuHi0A",
+        "surname": "王",
+        "kid": ""
+    },
+    {
+        "id": 5963,
+        "artist": "單依純",
+        "title": "我表示理解",
+        "vid": "sU2NsgQQDVU",
+        "surname": "單",
+        "kid": ""
+    },
+    {
+        "id": 5964,
+        "artist": "單依純",
+        "title": "假如我們還愛著",
+        "vid": "6v8sR8CU1JE",
+        "surname": "單",
+        "kid": ""
+    },
+    {
+        "id": 5965,
+        "artist": "單依純",
+        "title": "超清",
+        "vid": "4nIZts5piRc",
+        "surname": "單",
+        "kid": ""
+    },
+    {
+        "id": 5966,
+        "artist": "單依純",
+        "title": "hires",
+        "vid": "U9kElmUk_iI",
+        "surname": "單",
+        "kid": ""
+    },
+    {
+        "id": 5967,
+        "artist": "單依純",
+        "title": "奇蹟",
+        "vid": "WZhbcLdP7bE",
+        "surname": "單",
+        "kid": ""
+    },
+    {
+        "id": 5968,
+        "artist": "單依純",
+        "title": "人之初",
+        "vid": "jvVAZaqmFD4",
+        "surname": "單",
+        "kid": ""
+    },
+    {
+        "id": 5969,
+        "artist": "BOOM！怪物星人",
+        "title": "蝦啦啦",
+        "vid": "CIArUxp_AVY",
+        "surname": "B",
+        "kid": "ocIkXqsb5L8"
+    },
+    {
+        "id": 5970,
+        "artist": "BOOM！怪物星人",
+        "title": "重生",
+        "vid": "Hc49zfIK-bo",
+        "surname": "B",
+        "kid": "YYwc2wYKxvA"
+    },
+    {
+        "id": 5971,
+        "artist": "姜育恆",
+        "title": "飄",
+        "vid": "MJmkNbdrYaE",
+        "surname": "姜",
+        "kid": ""
+    },
+    {
+        "id": 5972,
+        "artist": "姜育恆",
+        "title": "浪花",
+        "vid": "YNO6E32HlFk",
+        "surname": "姜",
+        "kid": ""
+    },
+    {
+        "id": 5973,
+        "artist": "姜育恆",
+        "title": "女人的選擇",
+        "vid": "o8IkU-K_UKM",
+        "surname": "姜",
+        "kid": "TMN8lTIgMDg"
+    },
+    {
+        "id": 5974,
+        "artist": "段奧娟",
+        "title": "山月不知心底事",
+        "vid": "q19SPaIESz4",
+        "surname": "段",
+        "kid": ""
+    },
+    {
+        "id": 5975,
+        "artist": "段奧娟",
+        "title": "看過晚霞",
+        "vid": "2SFOb23xKwM",
+        "surname": "段",
+        "kid": ""
+    },
+    {
+        "id": 5976,
+        "artist": "張雨生",
+        "title": "這一夜我睡不著",
+        "vid": "F54Wk3C6-B4",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5977,
+        "artist": "張雨生",
+        "title": "我學會飛翔",
+        "vid": "aDPkw7D5jJM",
+        "surname": "張",
+        "kid": "5YzW2UFQ_Ic"
+    },
+    {
+        "id": 5979,
+        "artist": "鄭怡",
+        "title": "小雨來得正是時候",
+        "vid": "ONMvQBnviDs",
+        "surname": "鄭",
+        "kid": ""
+    },
+    {
+        "id": 5980,
+        "artist": "鄭怡",
+        "title": "楊花",
+        "vid": "UObwpeoNZ4A",
+        "surname": "鄭",
+        "kid": ""
+    },
+    {
+        "id": 5981,
+        "artist": "李玖哲",
+        "title": "如常",
+        "vid": "gD52RonSMOU",
+        "surname": "李",
+        "kid": "se-sWqZlE5M"
+    },
+    {
+        "id": 5982,
+        "artist": "李玖哲",
+        "title": "細數沙漏",
+        "vid": "sNNxZ5-SWFs",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5983,
+        "artist": "李玖哲",
+        "title": "落空",
+        "vid": "jYYT5N5cyGA",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5984,
+        "artist": "李玖哲",
+        "title": "不缺",
+        "vid": "qOxIv02Fh9I",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5985,
+        "artist": "李玖哲",
+        "title": "secrets",
+        "vid": "CaLlsFC5RBM",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5986,
+        "artist": "李玖哲",
+        "title": "想太多think",
+        "vid": "fVtmLnmkrp4",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 5987,
+        "artist": "小男孩樂團",
+        "title": "梧桐樹",
+        "vid": "I9xyCoruniU",
+        "surname": "小",
+        "kid": ""
+    },
+    {
+        "id": 5988,
+        "artist": "小男孩樂團",
+        "title": "rise and shine",
+        "vid": "TSCr87KQeXs",
+        "surname": "小",
+        "kid": ""
+    },
+    {
+        "id": 5989,
+        "artist": "陳芳語",
+        "title": "(not) over you",
+        "vid": "CWbMlNI9KPs",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 5990,
+        "artist": "溫嵐",
+        "title": "來我家",
+        "vid": "V3Qf_5T7eXo",
+        "surname": "溫",
+        "kid": ""
+    },
+    {
+        "id": 5991,
+        "artist": "溫嵐",
+        "title": "you will get my heart",
+        "vid": "Uijyq1yNWTM",
+        "surname": "溫",
+        "kid": ""
+    },
+    {
+        "id": 5992,
+        "artist": "溫嵐",
+        "title": "滿月",
+        "vid": "z4EQOZFWJ8I",
+        "surname": "溫",
+        "kid": ""
+    },
+    {
+        "id": 5993,
+        "artist": "周杰倫",
+        "title": "最偉大的作品",
+        "vid": "AfTHv9PrD6o",
+        "surname": "周",
+        "kid": "3m7vfR8aC94"
+    },
+    {
+        "id": 5994,
+        "artist": "周杰倫",
+        "title": "chen",
+        "vid": "JrPh8wHzF8I",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5995,
+        "artist": "周杰倫",
+        "title": "now you see me",
+        "vid": "kLFKflCDaNg",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 5996,
+        "artist": "張學友",
+        "title": "遙遠的她amour",
+        "vid": "Kq7yf43uyWs",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5997,
+        "artist": "林俊傑",
+        "title": "完美新世界",
+        "vid": "FyH3tw8NQlI",
+        "surname": "林",
+        "kid": ""
+    },
+    {
+        "id": 5998,
+        "artist": "張信哲",
+        "title": "直覺",
+        "vid": "6_fg8FDEl6w",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 5999,
+        "artist": "周華健",
+        "title": "我站在全世界的屋頂",
+        "vid": "3IyOAEG6Hnw",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 6000,
+        "artist": "周華健",
+        "title": "我上大名府",
+        "vid": "JOxvtrjKgI0",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 6001,
+        "artist": "周華健",
+        "title": "心魔",
+        "vid": "2R_hC27TCQM",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 6002,
+        "artist": "李宗盛",
+        "title": "娃娃",
+        "vid": "idmV6aAaCbk",
+        "surname": "李",
+        "kid": "u8bKwxifIR0"
+    },
+    {
+        "id": 6003,
+        "artist": "李宗盛",
+        "title": "超高無損音質",
+        "vid": "VAW_BbLAOCc",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 6004,
+        "artist": "羅大佑",
+        "title": "羅大佑青春舞曲",
+        "vid": "i2ihbgMZ_WA",
+        "surname": "羅",
+        "kid": ""
+    },
+    {
+        "id": 6005,
+        "artist": "羅大佑",
+        "title": "飛車",
+        "vid": "uzXumuqrptk",
+        "surname": "羅",
+        "kid": "dOVWRHb-_I8"
+    },
+    {
+        "id": 6006,
+        "artist": "羅大佑",
+        "title": "歌",
+        "vid": "5ytn0f51sN0",
+        "surname": "羅",
+        "kid": "N6dfMH9YSLA"
+    },
+    {
+        "id": 6007,
+        "artist": "李聖傑",
+        "title": "很想說有你是幸福的",
+        "vid": "hOi7xszjWJc",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 6008,
+        "artist": "李聖傑",
+        "title": "李聖傑",
+        "vid": "ruDDjB46Rmw",
+        "surname": "李",
+        "kid": "xkMIub6d4mY"
+    },
+    {
+        "id": 6009,
+        "artist": "李聖傑",
+        "title": "明白",
+        "vid": "kY4IMt0uCGI",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 6010,
+        "artist": "李聖傑",
+        "title": "好想他",
+        "vid": "bZX0xPmP7r4",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 6012,
+        "artist": "伍佰",
+        "title": "挪威的森林",
+        "vid": "S_mKeP5YGCo",
+        "surname": "伍",
+        "kid": "neMi1dIo8ls"
+    },
+    {
+        "id": 6013,
+        "artist": "伍佰",
+        "title": "樓仔厝",
+        "vid": "8ni_lEqrLX4",
+        "surname": "伍",
+        "kid": ""
+    },
+    {
+        "id": 6014,
+        "artist": "伍佰",
+        "title": "完美情人",
+        "vid": "wv0MxDaSoJM",
+        "surname": "伍",
+        "kid": ""
+    },
+    {
+        "id": 6015,
+        "artist": "周興哲",
+        "title": "祝你幸福",
+        "vid": "NVCatRLxl5Y",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 6016,
+        "artist": "蕭煌奇",
+        "title": "last train",
+        "vid": "bRb5AtPTr5c",
+        "surname": "蕭",
+        "kid": ""
+    },
+    {
+        "id": 6017,
+        "artist": "莫文蔚",
+        "title": "瑕疵",
+        "vid": "84InCnL9Ioo",
+        "surname": "莫",
+        "kid": ""
+    },
+    {
+        "id": 6018,
+        "artist": "莫文蔚",
+        "title": "起了毛球",
+        "vid": "OQ81P_upgRE",
+        "surname": "莫",
+        "kid": ""
+    },
+    {
+        "id": 6019,
+        "artist": "莫文蔚",
+        "title": "snacks",
+        "vid": "1q9IMZXbdxo",
+        "surname": "莫",
+        "kid": ""
+    },
+    {
+        "id": 6020,
+        "artist": "蔡依林",
+        "title": "睜一隻眼閉一隻眼",
+        "vid": "kZ0tZWUrTd8",
+        "surname": "蔡",
+        "kid": "C9dD11b0EsY"
+    },
+    {
+        "id": 6021,
+        "artist": "蔡依林",
+        "title": "reaction",
+        "vid": "jebyMZhMov8",
+        "surname": "蔡",
+        "kid": ""
+    },
+    {
+        "id": 6022,
+        "artist": "梁靜茹",
+        "title": "可樂戒指",
+        "vid": "acodaNLe3EY",
+        "surname": "梁",
+        "kid": ""
+    },
+    {
+        "id": 6023,
+        "artist": "張惠妹",
+        "title": "血腥愛情故事",
+        "vid": "5O7hdU7ptmY",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 6024,
+        "artist": "張惠妹",
+        "title": "掉了",
+        "vid": "1dyRJJzlwQ8",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 6025,
+        "artist": "張惠妹",
+        "title": "相愛後動物感傷",
+        "vid": "A_K1srkFRpE",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 6026,
+        "artist": "張惠妹",
+        "title": "當我開始偷偷地想你",
+        "vid": "r4cYExeaHGk",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 6027,
+        "artist": "張惠妹",
+        "title": "就是我想你",
+        "vid": "BMGYSyeIl_s",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 6028,
+        "artist": "A-Lin",
+        "title": "嗚哇嗚uwau",
+        "vid": "KbbfO9KPrgI",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6029,
+        "artist": "蘇慧倫",
+        "title": "左撇子",
+        "vid": "3E89GLNC5-U",
+        "surname": "蘇",
+        "kid": ""
+    },
+    {
+        "id": 6030,
+        "artist": "五月天",
+        "title": "想和你看五月的晚霞",
+        "vid": "ljd9ISixsWo",
+        "surname": "五",
+        "kid": ""
+    },
+    {
+        "id": 6031,
+        "artist": "五月天",
+        "title": "大",
+        "vid": "nnMMfq-T8Gg",
+        "surname": "五",
+        "kid": ""
+    },
+    {
+        "id": 6032,
+        "artist": "動力火車",
+        "title": "重傷的汗水",
+        "vid": "cm_xq9g_MAY",
+        "surname": "動",
+        "kid": "v0kzOxP3f80"
+    },
+    {
+        "id": 6033,
+        "artist": "動力火車",
+        "title": "做工的人",
+        "vid": "zt5b956do5Y",
+        "surname": "動",
+        "kid": ""
+    },
+    {
+        "id": 6034,
+        "artist": "動力火車",
+        "title": "珍惜",
+        "vid": "jZfCo9q6iXY",
+        "surname": "動",
+        "kid": ""
+    },
+    {
+        "id": 6035,
+        "artist": "IU",
+        "title": "iu(아이유) _ bbibbi(삐삐)",
+        "vid": "nM0xDI5R50E",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 6036,
+        "artist": "IU",
+        "title": "people pt. 2 (사람 pt. 2) | iu’s palette (아이유의 팔레트)",
+        "vid": "jXTjaoOneVw",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 6037,
+        "artist": "IU",
+        "title": "darl+ing | iu’s palette (아이유의 팔레트)",
+        "vid": "gX3zJyvfwT4",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 6038,
+        "artist": "IU",
+        "title": "ending scene (이런 엔딩) | iu’s palette (아이유의 팔레트)",
+        "vid": "1a3-A6ae2sc",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 6039,
+        "artist": "IU",
+        "title": "love wins all | iu’s palette (아이유의 팔레트)",
+        "vid": "BahC2CxQzD0",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 6040,
+        "artist": "IU",
+        "title": "agust d people pt.2 (feat. iu)reaction",
+        "vid": "joGlG4cvBAM",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 6041,
+        "artist": "IU",
+        "title": "purple (feat. iu)",
+        "vid": "-XfrfQEJAA0",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 6042,
+        "artist": "IU",
+        "title": "我過去的故事나의",
+        "vid": "1fEBvcipwIs",
+        "surname": "I",
+        "kid": ""
+    },
+    {
+        "id": 6043,
+        "artist": "BLACKPINK",
+        "title": "jump ( vs. reality)",
+        "vid": "fjfnUcnPXk0",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6044,
+        "artist": "BLACKPINK",
+        "title": "pretty savage",
+        "vid": "eCZq1kFw3-Q",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6045,
+        "artist": "BLACKPINK",
+        "title": "kiss and make up (f)",
+        "vid": "oJwAj_i_34I",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6046,
+        "artist": "TWICE",
+        "title": "dive",
+        "vid": "QGCkDOkpWf8",
+        "surname": "T",
+        "kid": "WemE6RXsKqY"
+    },
+    {
+        "id": 6047,
+        "artist": "TWICE",
+        "title": "perfect world",
+        "vid": "fmOEKOjyDxU",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6048,
+        "artist": "TWICE",
+        "title": "hare hare",
+        "vid": "-uqWaGzQyxA",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6049,
+        "artist": "TWICE",
+        "title": "celebrate",
+        "vid": "fMIn43MiwG8",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6050,
+        "artist": "TWICE",
+        "title": "blink",
+        "vid": "QcuV8h_I1y0",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6051,
+        "artist": "TWICE",
+        "title": "fake & true",
+        "vid": "zQELp93xxfo",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6052,
+        "artist": "TWICE",
+        "title": "doughnut",
+        "vid": "VcOSUOpACq0",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6053,
+        "artist": "TWICE",
+        "title": "better",
+        "vid": "sLmLwgxnPUE",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6054,
+        "artist": "TWICE",
+        "title": "feel special",
+        "vid": "3ymwOvzhwHs",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6055,
+        "artist": "TWICE",
+        "title": "the feels",
+        "vid": "f5_wn8mexmM",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6056,
+        "artist": "TWICE",
+        "title": "queen of hearts",
+        "vid": "Q4Rb5_kjS2M",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6057,
+        "artist": "TWICE",
+        "title": "alcohol free",
+        "vid": "XA2YEHn-A8Q",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6058,
+        "artist": "TWICE",
+        "title": "this is for",
+        "vid": "eHHQaoEW30Q",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6059,
+        "artist": "TWICE",
+        "title": "fancy",
+        "vid": "kOHB85vDuow",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6060,
+        "artist": "TWICE",
+        "title": "cry for me",
+        "vid": "9KW7hojmoaI",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6061,
+        "artist": "TWICE",
+        "title": "talk that talk",
+        "vid": "k6jqx9kZgPM",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6062,
+        "artist": "TWICE",
+        "title": "twice 「strategy」",
+        "vid": "Sz_wWzgh-vQ",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6063,
+        "artist": "TWICE",
+        "title": "set me free",
+        "vid": "w4cTYnOPdNk",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6064,
+        "artist": "TWICE",
+        "title": "trategy ver.)",
+        "vid": "bpiyH00cqS8",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6065,
+        "artist": "TWICE",
+        "title": "i cant stop me",
+        "vid": "CM4CkVFmTds",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6066,
+        "artist": "TWICE",
+        "title": "2",
+        "vid": "bkQw-F1QTq4",
+        "surname": "T",
+        "kid": "fgxyD0v4Qg8"
+    },
+    {
+        "id": 6067,
+        "artist": "TWICE",
+        "title": "moonlight sunrise",
+        "vid": "cKlEE_EYuNM",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6068,
+        "artist": "TWICE",
+        "title": "twice 「scientist」",
+        "vid": "vPwaXytZcgI",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6069,
+        "artist": "TWICE",
+        "title": "twice 「me+you」",
+        "vid": "zqorlX_5oHQ",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6070,
+        "artist": "TWICE",
+        "title": "more & more",
+        "vid": "mH0_XpSHkZo",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6071,
+        "artist": "TWICE",
+        "title": "i got you",
+        "vid": "NhmzKgaoLX0",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6072,
+        "artist": "TWICE",
+        "title": "strategy",
+        "vid": "h5CwaVjF_78",
+        "surname": "T",
+        "kid": "1wx3qzG2s-U"
+    },
+    {
+        "id": 6073,
+        "artist": "TWICE",
+        "title": "twice 「one spark」 performance",
+        "vid": "XiwY-syjwm4",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6074,
+        "artist": "TWICE",
+        "title": "japanese ver.",
+        "vid": "3zQXMPbK5jU",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6075,
+        "artist": "TWICE",
+        "title": "breakthrough",
+        "vid": "ZdKYi5ekshM",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6076,
+        "artist": "TWICE",
+        "title": "happy happy",
+        "vid": "3n9rDwpa6QA",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6077,
+        "artist": "TWICE",
+        "title": "one more time",
+        "vid": "HuoOEry-Yc4",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6078,
+        "artist": "TWICE",
+        "title": "i want you back",
+        "vid": "X3H-4crGD6k",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6079,
+        "artist": "TWICE",
+        "title": "the best thing i ever did(올해 제일 잘한 일)",
+        "vid": "CfUGjK6gGgs",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6080,
+        "artist": "Taylor Swift",
+        "title": "奧菲莉亞的宿命",
+        "vid": "5iGcJq7u7Ts",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6081,
+        "artist": "Taylor Swift",
+        "title": "you belong with me (taylors version)",
+        "vid": "6qro7TWqTV4",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6082,
+        "artist": "Taylor Swift",
+        "title": "the fate of ophelia",
+        "vid": "ko70cExuzZM",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6083,
+        "artist": "Taylor Swift",
+        "title": "anti",
+        "vid": "b1kbLwvqugk",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6084,
+        "artist": "Taylor Swift",
+        "title": "lavender haze",
+        "vid": "h8DLofLM7No",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6085,
+        "artist": "Taylor Swift",
+        "title": "the man",
+        "vid": "AqAJLh9wuZ0",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6086,
+        "artist": "Taylor Swift",
+        "title": "fortnight (feat. post malone)",
+        "vid": "q3zqJs7JUCQ",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6087,
+        "artist": "Taylor Swift",
+        "title": "lover",
+        "vid": "-BjZmE2gtdo",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6088,
+        "artist": "Taylor Swift",
+        "title": "i can see you (taylor’s version) (from the vault)",
+        "vid": "lVkKLf4DCn8",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6089,
+        "artist": "Taylor Swift",
+        "title": "i can do it with a broken heart",
+        "vid": "Sl6en1NPTYM",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6090,
+        "artist": "Taylor Swift",
+        "title": "i bet you think about me (taylors version)",
+        "vid": "5UMCrq-bBCg",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6091,
+        "artist": "Taylor Swift",
+        "title": "the best day (taylors version)",
+        "vid": "n0cde-Km05o",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6092,
+        "artist": "Taylor Swift",
+        "title": "karma  ft. ice spice",
+        "vid": "XzOvgu3GPwY",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6093,
+        "artist": "Taylor Swift",
+        "title": "willow",
+        "vid": "RsEZmictANA",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6094,
+        "artist": "Taylor Swift",
+        "title": "marjorie",
+        "vid": "hP6QpMeSG6s",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6095,
+        "artist": "Taylor Swift",
+        "title": "bejeweled",
+        "vid": "b7QlX3yR2xs",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6096,
+        "artist": "Taylor Swift",
+        "title": "youre on your own, kid",
+        "vid": "7Gbg6Z70J7E",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6097,
+        "artist": "Taylor Swift",
+        "title": "dear reader",
+        "vid": "X0Jti9F-oQA",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6098,
+        "artist": "Taylor Swift",
+        "title": "loml",
+        "vid": "GZ4vaTRn0HU",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6099,
+        "artist": "Taylor Swift",
+        "title": "ivy",
+        "vid": "9nIOx-ezlzA",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6100,
+        "artist": "Taylor Swift",
+        "title": "maroon",
+        "vid": "lvHZjvIyqsk",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6101,
+        "artist": "Taylor Swift",
+        "title": "down bad",
+        "vid": "EVbtjaWXQVg",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6102,
+        "artist": "Taylor Swift",
+        "title": "right where you left me",
+        "vid": "Ur_wAcYDnuA",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6103,
+        "artist": "Taylor Swift",
+        "title": "midnight rain",
+        "vid": "Odh9ddPUkEY",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6104,
+        "artist": "Taylor Swift",
+        "title": "peter",
+        "vid": "Mxxswu7V1Us",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6105,
+        "artist": "Taylor Swift",
+        "title": "taylor swift ( fan made  )",
+        "vid": "IsGbOwQss58",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6106,
+        "artist": "Taylor Swift",
+        "title": "opalite",
+        "vid": "3PJC6uPIekc",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6107,
+        "artist": "Taylor Swift",
+        "title": "you need to calm down",
+        "vid": "Dkk9gvTmCXY",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6108,
+        "artist": "Taylor Swift",
+        "title": "bad blood ft. kendrick lamar",
+        "vid": "QcIy9NiNbmo",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6109,
+        "artist": "Taylor Swift",
+        "title": "out of the woods",
+        "vid": "JLf9q36UsBk",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6110,
+        "artist": "Taylor Swift",
+        "title": "style",
+        "vid": "-CmadmM5cOk",
+        "surname": "T",
+        "kid": "G4zTGOZz7ig"
+    },
+    {
+        "id": 6111,
+        "artist": "Taylor Swift",
+        "title": "delicate",
+        "vid": "tCXGJQYZ9JA",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6112,
+        "artist": "Taylor Swift",
+        "title": "shake it off",
+        "vid": "nfWlot6h_JM",
+        "surname": "T",
+        "kid": "njna17e66oA"
+    },
+    {
+        "id": 6113,
+        "artist": "Taylor Swift",
+        "title": "wildest dreams",
+        "vid": "IdneKLhsWOQ",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6114,
+        "artist": "Taylor Swift",
+        "title": "we are never ever getting back together",
+        "vid": "WA4iX5D9Z64",
+        "surname": "T",
+        "kid": "U5_4DGaItQw"
+    },
+    {
+        "id": 6115,
+        "artist": "Taylor Swift",
+        "title": "cardigan",
+        "vid": "K-a8s8OLBSE",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6116,
+        "artist": "Taylor Swift",
+        "title": "safe & sound feat. the civil wars (the hunger games: songs from district 12 and beyond)",
+        "vid": "RzhAS_GnJIc",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6117,
+        "artist": "Taylor Swift",
+        "title": "look what you made me do",
+        "vid": "3tmd-ClpJxA",
+        "surname": "T",
+        "kid": "lVJ8h0EOnBg"
+    },
+    {
+        "id": 6118,
+        "artist": "Taylor Swift",
+        "title": "blank space",
+        "vid": "e-ORhEE9VVg",
+        "surname": "T",
+        "kid": "UUZDKePcAGg"
+    },
+    {
+        "id": 6119,
+        "artist": "Taylor Swift",
+        "title": "me! (feat. brendon urie of panic! at the disco) ft. brendon urie",
+        "vid": "FuXNumBwDOM",
+        "surname": "T",
+        "kid": ""
+    },
+    {
+        "id": 6120,
+        "artist": "Apink",
+        "title": "고마워 (thank you)",
+        "vid": "xeGKqShAalw",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6121,
+        "artist": "Apink",
+        "title": "apink 에이핑크 덤더럼(dumurum)",
+        "vid": "WqzTRK5GPWQ",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6122,
+        "artist": "Apink",
+        "title": "martini",
+        "vid": "zdy6FEbOSSM",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6123,
+        "artist": "Apink",
+        "title": "박초롱 (에이핑크) (park chorong (apink)) 모르시나요  |",
+        "vid": "p4An4H8n5ic",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6124,
+        "artist": "Apink",
+        "title": "apink 에이핑크 『tap clap",
+        "vid": "zA0kX7V5x30",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6125,
+        "artist": "Apink",
+        "title": "apink 에이핑크 d n d",
+        "vid": "X6MAjL5LvuE",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6126,
+        "artist": "Apink",
+        "title": "apink (에이핑크) love me more",
+        "vid": "y2os26sMjOg",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6127,
+        "artist": "Apink",
+        "title": "apink 초봄(chobom) copycat",
+        "vid": "0m0w1wEReOI",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6128,
+        "artist": "Apink",
+        "title": "apink 에이핑크 pink christmas",
+        "vid": "KpEEc1WGyS4",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6129,
+        "artist": "Apink",
+        "title": "apink 에이핑크 덤더럼(dumurum)  performance ver",
+        "vid": "aRmfLif2hVo",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6130,
+        "artist": "Apink",
+        "title": "apink 에이핑크 dilemma performance",
+        "vid": "OJRbHvHWlgo",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6131,
+        "artist": "Apink",
+        "title": "apink 에이핑크 bye bye  (dance ver.) | requested",
+        "vid": "n9Ihof88TGc",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6132,
+        "artist": "Apink",
+        "title": "威哥愛apink",
+        "vid": "kMaZJcR7OQ8",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6133,
+        "artist": "Apink",
+        "title": "apink 에이핑크 %%(응응)",
+        "vid": "v5daqkRvJDE",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6134,
+        "artist": "Apink",
+        "title": "mini (미니) skoolooks (스쿨룩스)",
+        "vid": "2gtIgYmALHA",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6135,
+        "artist": "Apink",
+        "title": "韓中",
+        "vid": "tDxRIRCK8Z4",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6136,
+        "artist": "Apink",
+        "title": "bubibu, 에이핑크",
+        "vid": "FDwRtZ99zZw",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6137,
+        "artist": "Apink",
+        "title": "apink(에이핑크) _ the wave(네가 손짓해주면)",
+        "vid": "yXvCNLTWwB0",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6138,
+        "artist": "Apink",
+        "title": "apink(에이핑크) _ mr. chu(미스터 츄)",
+        "vid": "K5H-GvnNz2Y",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6139,
+        "artist": "Apink",
+        "title": "繁體",
+        "vid": "fCGzkGm3i54",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6140,
+        "artist": "Apink",
+        "title": "apink(에이핑크) _ luv",
+        "vid": "8dVjSvLzD1I",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6141,
+        "artist": "Apink",
+        "title": "apink mymy",
+        "vid": "LxabwNWJ2rY",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6142,
+        "artist": "Apink",
+        "title": "apink(에이핑크) _ remember(리멤버)",
+        "vid": "bXlrqQKbjSM",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6143,
+        "artist": "Apink",
+        "title": "中文認聲空耳",
+        "vid": "VDlXf8moUUs",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6144,
+        "artist": "Apink",
+        "title": "apink(에이핑크) _ petal(꽃잎점)",
+        "vid": "CDhfIgS4aAo",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6145,
+        "artist": "Apink",
+        "title": "apink(에이핑크) _ only one(내가 설렐 수 있게)",
+        "vid": "kCSFdRf0210",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6146,
+        "artist": "Apink",
+        "title": "apink(에이핑크) _ nonono",
+        "vid": "hspqQuuuGIw",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6147,
+        "artist": "Apink",
+        "title": "a pink hush m.v",
+        "vid": "q-67jToInT0",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6148,
+        "artist": "Apink",
+        "title": "apink(에이핑크) _ i dont know(몰라요)",
+        "vid": "zI6MvzIZ3CA",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6149,
+        "artist": "Apink",
+        "title": "apink(에이핑크) _ im so sick(1도 없어)",
+        "vid": "F4oHuML9U2A",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6150,
+        "artist": "Apink",
+        "title": "secret garden",
+        "vid": "5ZCSABBggPE",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6151,
+        "artist": "Apink",
+        "title": "apink 에이핑크 dilemma",
+        "vid": "RP4lbSymeZ4",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6152,
+        "artist": "Apink",
+        "title": "apink(에이핑크) _ five",
+        "vid": "b22Ed7f0D-0",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6153,
+        "artist": "Apink",
+        "title": "apink(에이핑크) _ everybody ready?",
+        "vid": "CRJPWph0xhM",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6154,
+        "artist": "Apink",
+        "title": "apink(에이핑크) _ miracle(기적 같은 이야기)",
+        "vid": "fihius0K9B0",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6155,
+        "artist": "Apink",
+        "title": "pop concert",
+        "vid": "TMZWZ5H4_O0",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6156,
+        "artist": "Apink",
+        "title": "apink(에이핑크) _ cause youre my star(별의 별)",
+        "vid": "-r5ULxo4WD0",
+        "surname": "A",
+        "kid": ""
+    },
+    {
+        "id": 6157,
+        "artist": "BTS(防彈少年團)",
+        "title": "bts (방탄소년단) yet to come (the most beautiful moment)",
+        "vid": "kXpOEzNZ8hQ",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6158,
+        "artist": "BTS(防彈少年團)",
+        "title": "bts (방탄소년단) stay gold",
+        "vid": "9IHwqdz8Xhw",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6159,
+        "artist": "BTS(防彈少年團)",
+        "title": "bts (방탄소년단) life goes on",
+        "vid": "-5q5mZbe3V8",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6160,
+        "artist": "BTS(防彈少年團)",
+        "title": "bts (방탄소년단) dynamite",
+        "vid": "gdZLi9oWNZg",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6161,
+        "artist": "BTS(防彈少年團)",
+        "title": "bts (방탄소년단) 『heartbeat (bts world ost)』",
+        "vid": "aKSxbt-O6TA",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6162,
+        "artist": "BTS(防彈少年團)",
+        "title": "bts (방탄소년단) fake love",
+        "vid": "7C2z4GqqS5E",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6163,
+        "artist": "BTS(防彈少年團)",
+        "title": "bts (방탄소년단) 작은 것들을 위한 시 (boy with luv) (feat. halsey)",
+        "vid": "XsX3ATc3FbA",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6164,
+        "artist": "BTS(防彈少年團)",
+        "title": "bts lights",
+        "vid": "eaUpme4jalE",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6165,
+        "artist": "BTS(防彈少年團)",
+        "title": "bts (방탄소년단) butter",
+        "vid": "WMweEpGlu_U",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6166,
+        "artist": "BTS(防彈少年團)",
+        "title": "bts (방탄소년단) not today",
+        "vid": "9DwzBICPhdM",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6167,
+        "artist": "BTS(防彈少年團)",
+        "title": "bts (방탄소년단) n.o",
+        "vid": "r5GaAEHvHj0",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6168,
+        "artist": "BTS(防彈少年團)",
+        "title": "bts (방탄소년단) 불타오르네 (fire)",
+        "vid": "4ujQOR2DMFM",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6169,
+        "artist": "BTS(防彈少年團)",
+        "title": "bts (방탄소년단) 피 땀 눈물 (blood sweat & tears)",
+        "vid": "hmE9f-TEutc",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6170,
+        "artist": "BTS(防彈少年團)",
+        "title": "bts (방탄소년단) save me",
+        "vid": "GZjt_sA2eso",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6171,
+        "artist": "BTS(防彈少年團)",
+        "title": "bts (방탄소년단) black swan",
+        "vid": "0lapF4DQPKQ",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6172,
+        "artist": "BTS(防彈少年團)",
+        "title": "bts (방탄소년단) dynamite(choreography ver.)",
+        "vid": "BflFNMl_UWY",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6173,
+        "artist": "BTS(防彈少年團)",
+        "title": "blackpink reaction on bts dynamite",
+        "vid": "LyGHRGDkcyE",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6174,
+        "artist": "BTS(防彈少年團)",
+        "title": "하루만(just one day)",
+        "vid": "3-Dn1hHI16s",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6175,
+        "artist": "BTS(防彈少年團)",
+        "title": "butterfly",
+        "vid": "j-V9IFJyA30",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6176,
+        "artist": "BTS(防彈少年團)",
+        "title": "dna",
+        "vid": "hK1VkHA4Ae0",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6177,
+        "artist": "BTS(防彈少年團)",
+        "title": "heartbeat",
+        "vid": "ojeubTMnjcg",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6178,
+        "artist": "BTS(防彈少年團)",
+        "title": "dynamite",
+        "vid": "Vqg68lbfHEk",
+        "surname": "B",
+        "kid": "FmS-uDSnExM"
+    },
+    {
+        "id": 6179,
+        "artist": "BTS(防彈少年團)",
+        "title": "韓|eng",
+        "vid": "vviKLFa4WvA",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6180,
+        "artist": "BTS(防彈少年團)",
+        "title": "！",
+        "vid": "tYj6tq_aqPo",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6181,
+        "artist": "BTS(防彈少年團)",
+        "title": "life goes on",
+        "vid": "GY1uk6k2cd4",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6182,
+        "artist": "BTS(防彈少年團)",
+        "title": "exo 엑소 love shot",
+        "vid": "pSudEWBAYRE",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6183,
+        "artist": "BTS(防彈少年團)",
+        "title": "fake love",
+        "vid": "RgXG69ogajU",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6184,
+        "artist": "BTS(防彈少年團)",
+        "title": "run",
+        "vid": "okc-tu4PTFE",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6185,
+        "artist": "BTS(防彈少年團)",
+        "title": "boy in luv",
+        "vid": "6fSiRiq7NxM",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6186,
+        "artist": "BTS(防彈少年團)",
+        "title": "exo 엑소 monster",
+        "vid": "KSH-FVVtTf0",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6187,
+        "artist": "BTS(防彈少年團)",
+        "title": "wonder",
+        "vid": "kX0vO4vlJuU",
+        "surname": "B",
+        "kid": ""
+    },
+    {
+        "id": 6188,
+        "artist": "aespa (에스파)",
+        "title": "savage",
+        "vid": "UWk2htNumDQ",
+        "surname": "a",
+        "kid": ""
+    },
+    {
+        "id": 6189,
+        "artist": "aespa (에스파)",
+        "title": "aespa 에스파 black mamba",
+        "vid": "xGV-RY--0iU",
+        "surname": "a",
+        "kid": ""
+    },
+    {
+        "id": 6190,
+        "artist": "aespa (에스파)",
+        "title": "aespa 에스파 black mamba",
+        "vid": "DzAeapLIPng",
+        "surname": "a",
+        "kid": ""
+    },
+    {
+        "id": 6191,
+        "artist": "aespa (에스파)",
+        "title": "level",
+        "vid": "ON00SCZklNg",
+        "surname": "a",
+        "kid": "0ofb8qZoSbc"
+    },
+    {
+        "id": 6192,
+        "artist": "aespa (에스파)",
+        "title": "savage  dance cover | from taiwan",
+        "vid": "UjJWMXOVb6M",
+        "surname": "a",
+        "kid": ""
+    },
+    {
+        "id": 6193,
+        "artist": "aespa (에스파)",
+        "title": "illusion dance cover by vancouver fds",
+        "vid": "-OZYnh1owWA",
+        "surname": "a",
+        "kid": ""
+    },
+    {
+        "id": 6194,
+        "artist": "aespa (에스파)",
+        "title": "|小卉老師",
+        "vid": "CIujBdeDU4o",
+        "surname": "a",
+        "kid": ""
+    },
+    {
+        "id": 6195,
+        "artist": "aespa (에스파)",
+        "title": "dreams come true { r }",
+        "vid": "ao9can39xUk",
+        "surname": "a",
+        "kid": ""
+    },
+    {
+        "id": 6196,
+        "artist": "aespa (에스파)",
+        "title": "kpop dance cover",
+        "vid": "hdGXGxM2TN4",
+        "surname": "a",
+        "kid": ""
+    },
+    {
+        "id": 6197,
+        "artist": "aespa (에스파)",
+        "title": "black mamba  dance cover",
+        "vid": "i2xVYCKyKNw",
+        "surname": "a",
+        "kid": ""
+    },
+    {
+        "id": 6198,
+        "artist": "aespa (에스파)",
+        "title": "「live my life」",
+        "vid": "8mJX23DvaFs",
+        "surname": "a",
+        "kid": ""
+    },
+    {
+        "id": 6199,
+        "artist": "aespa (에스파)",
+        "title": "next level",
+        "vid": "027SyXDc7XM",
+        "surname": "a",
+        "kid": "0ofb8qZoSbc"
+    },
+    {
+        "id": 6200,
+        "artist": "aespa (에스파)",
+        "title": "野蠻之徒",
+        "vid": "MFafc_M30kI",
+        "surname": "a",
+        "kid": ""
+    },
+    {
+        "id": 6201,
+        "artist": "aespa (에스파)",
+        "title": "「better things」",
+        "vid": "DlP8Eq6UaTY",
+        "surname": "a",
+        "kid": ""
+    },
+    {
+        "id": 6202,
+        "artist": "aespa (에스파)",
+        "title": "clean",
+        "vid": "9kI55EZWjD0",
+        "surname": "a",
+        "kid": ""
+    },
+    {
+        "id": 6203,
+        "artist": "aespa (에스파)",
+        "title": "(韓中拼音認聲)",
+        "vid": "1M1O8xzmFM0",
+        "surname": "a",
+        "kid": ""
+    },
+    {
+        "id": 6204,
+        "artist": "aespa (에스파)",
+        "title": "lifes too short (english ver.)",
+        "vid": "ctpjzb_Z420",
+        "surname": "a",
+        "kid": ""
+    },
+    {
+        "id": 6205,
+        "artist": "aespa (에스파)",
+        "title": "🎼굿데이 2025 (텔레파시 + 달빛 창가에서)",
+        "vid": "cRfbII60IjY",
+        "surname": "a",
+        "kid": ""
+    },
+    {
+        "id": 6206,
+        "artist": "aespa (에스파)",
+        "title": "coded)",
+        "vid": "WwyvAS-8u0s",
+        "surname": "a",
+        "kid": ""
+    },
+    {
+        "id": 6207,
+        "artist": "aespa (에스파)",
+        "title": "salty & sweet",
+        "vid": "cZmZjWMVNHY",
+        "surname": "a",
+        "kid": ""
+    },
+    {
+        "id": 6208,
+        "artist": "aespa (에스파)",
+        "title": "illusion",
+        "vid": "es78l8YyVeI",
+        "surname": "a",
+        "kid": ""
+    },
+    {
+        "id": 6209,
+        "artist": "aespa (에스파)",
+        "title": "black mamba dance",
+        "vid": "gbPw6op5ceI",
+        "surname": "a",
+        "kid": ""
+    },
+    {
+        "id": 6210,
+        "artist": "aespa (에스파)",
+        "title": "aespa 에스파 drama dance cover",
+        "vid": "cTyB3jyCEUM",
+        "surname": "a",
+        "kid": ""
+    },
+    {
+        "id": 6211,
+        "artist": "Sabrina Carpenter",
+        "title": "manchild",
+        "vid": "aSugSGCC12I",
+        "surname": "S",
+        "kid": "jup9zwbLNuc"
+    },
+    {
+        "id": 6212,
+        "artist": "Sabrina Carpenter",
+        "title": "tears",
+        "vid": "V9vuCByb6js",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6213,
+        "artist": "Sabrina Carpenter",
+        "title": "feather",
+        "vid": "kLbn61Z4LDI",
+        "surname": "S",
+        "kid": "YaOE3AYZ67c"
+    },
+    {
+        "id": 6214,
+        "artist": "Sabrina Carpenter",
+        "title": "taste",
+        "vid": "KEG7b851Ric",
+        "surname": "S",
+        "kid": "FeYTKXIP9ck"
+    },
+    {
+        "id": 6215,
+        "artist": "Sabrina Carpenter",
+        "title": "santa doesn’t know you like i do",
+        "vid": "ZWzpFdr-KDw",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6216,
+        "artist": "Sabrina Carpenter",
+        "title": "manchild",
+        "vid": "GTLdJ-CM7TQ",
+        "surname": "S",
+        "kid": "jup9zwbLNuc"
+    },
+    {
+        "id": 6217,
+        "artist": "Sabrina Carpenter",
+        "title": "「fast times」",
+        "vid": "Gla5AzlHnS4",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6218,
+        "artist": "Sabrina Carpenter",
+        "title": "taste ( roblox  )",
+        "vid": "l3wrMzssNgw",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6219,
+        "artist": "Sabrina Carpenter",
+        "title": "skinny dipping",
+        "vid": "8EisGrIHH04",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6220,
+        "artist": "Sabrina Carpenter",
+        "title": "espresso (clean",
+        "vid": "aKuNwPYACVE",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6221,
+        "artist": "Sabrina Carpenter",
+        "title": "nobody’s son",
+        "vid": "hE2DLtuxcUU",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6222,
+        "artist": "Sabrina Carpenter",
+        "title": "such a funny way",
+        "vid": "oaJKUCgSSkc",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6223,
+        "artist": "Sabrina Carpenter",
+        "title": "nonsense",
+        "vid": "YcSP1ZUf1eQ",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6224,
+        "artist": "Sabrina Carpenter",
+        "title": "thumbs",
+        "vid": "uAVUl0cAKpo",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6225,
+        "artist": "Sabrina Carpenter",
+        "title": "because i liked a boy",
+        "vid": "1YUBbF24H44",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6226,
+        "artist": "Sabrina Carpenter",
+        "title": "on my way ( alternate  )",
+        "vid": "6Htn1x-_-is",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6227,
+        "artist": "Sabrina Carpenter",
+        "title": "juno",
+        "vid": "1aMCVgRKcP4",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6228,
+        "artist": "Sabrina Carpenter",
+        "title": "on purpose",
+        "vid": "ckIM58Ecpcw",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6229,
+        "artist": "Sabrina Carpenter",
+        "title": "the middle of starting over",
+        "vid": "RLcdPpjKKHo",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6230,
+        "artist": "Sabrina Carpenter",
+        "title": "house tour",
+        "vid": "lwxAovpSLh8",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6231,
+        "artist": "Sabrina Carpenter",
+        "title": "when did you get hot?",
+        "vid": "bnhV-OBnGCE",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6232,
+        "artist": "Sabrina Carpenter",
+        "title": "goodbye",
+        "vid": "uV-w3fyWTuM",
+        "surname": "S",
+        "kid": "aZEUoLIZ47M"
+    },
+    {
+        "id": 6233,
+        "artist": "Sabrina Carpenter",
+        "title": "cant blame a girl for trying",
+        "vid": "HibDj27DHMI",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6234,
+        "artist": "Sabrina Carpenter",
+        "title": "almost love",
+        "vid": "JudqK1hL18w",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6235,
+        "artist": "Sabrina Carpenter",
+        "title": "please please please",
+        "vid": "sxSkFwyEtpA",
+        "surname": "S",
+        "kid": "rU5XXlbU7Ds"
+    },
+    {
+        "id": 6236,
+        "artist": "Sabrina Carpenter",
+        "title": "busy woman",
+        "vid": "3m6NBnqLc-g",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6237,
+        "artist": "Sabrina Carpenter",
+        "title": "coincidence",
+        "vid": "jbJhdc2zLz0",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6238,
+        "artist": "Sabrina Carpenter",
+        "title": "my man on willpower",
+        "vid": "KbzNB2sRnVQ",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6239,
+        "artist": "Sabrina Carpenter",
+        "title": "sharpest tool",
+        "vid": "TuOwCuECUvM",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6240,
+        "artist": "Sabrina Carpenter",
+        "title": "dont smile",
+        "vid": "Ju9X2HMMid4",
+        "surname": "S",
+        "kid": "7xo1InEC1As"
+    },
+    {
+        "id": 6241,
+        "artist": "Sabrina Carpenter",
+        "title": "bed chem",
+        "vid": "x8VkB8ap_FQ",
+        "surname": "S",
+        "kid": "Bcf4fV84Wwg"
+    },
+    {
+        "id": 6242,
+        "artist": "Sabrina Carpenter",
+        "title": "sugar talking",
+        "vid": "FTfZOoIkY6Y",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6243,
+        "artist": "Sabrina Carpenter",
+        "title": "thumbs",
+        "vid": "A9u7ScKKl0E",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6244,
+        "artist": "Sabrina Carpenter",
+        "title": "slim pickins",
+        "vid": "TmP-d1KQqQo",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6245,
+        "artist": "Sabrina Carpenter",
+        "title": "espresso",
+        "vid": "eVli-tstM5E",
+        "surname": "S",
+        "kid": "InksnCvGbxQ"
+    },
+    {
+        "id": 6246,
+        "artist": "Sabrina Carpenter",
+        "title": "busy woman",
+        "vid": "5zh4q0Ckn4U",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6247,
+        "artist": "Sabrina Carpenter",
+        "title": "good luck, babe! (chappell roan cover) in the live lounge",
+        "vid": "io0UQ74sXfw",
+        "surname": "S",
+        "kid": ""
+    },
+    {
+        "id": 6248,
+        "artist": "NewJeans (뉴진스)",
+        "title": "league of legends",
+        "vid": "C3GouGa0noM",
+        "surname": "N",
+        "kid": ""
+    },
+    {
+        "id": 6249,
+        "artist": "NewJeans (뉴진스)",
+        "title": "gods",
+        "vid": "yUWjUX78SzI",
+        "surname": "N",
+        "kid": ""
+    },
+    {
+        "id": 6250,
+        "artist": "NewJeans (뉴진스)",
+        "title": "韓中",
+        "vid": "5IN86_4k1iU",
+        "surname": "N",
+        "kid": ""
+    },
+    {
+        "id": 6251,
+        "artist": "NewJeans (뉴진스)",
+        "title": "搞笑空耳",
+        "vid": "lDkau5HdmOg",
+        "surname": "N",
+        "kid": ""
+    },
+    {
+        "id": 6252,
+        "artist": "NewJeans (뉴진스)",
+        "title": "𝟰𝗞",
+        "vid": "d-QeME-UmEI",
+        "surname": "N",
+        "kid": ""
+    },
+    {
+        "id": 6253,
+        "artist": "NewJeans (뉴진스)",
+        "title": "idance",
+        "vid": "2wZsuGxfF-Q",
+        "surname": "N",
+        "kid": ""
+    },
+    {
+        "id": 6254,
+        "artist": "NewJeans (뉴진스)",
+        "title": "newjeans (뉴진스) ditto  elly",
+        "vid": "FFsMYg7bCzk",
+        "surname": "N",
+        "kid": ""
+    },
+    {
+        "id": 6255,
+        "artist": "NewJeans (뉴진스)",
+        "title": "newjeans (뉴진스) hype boy  bona",
+        "vid": "ur1M2A_hGzI",
+        "surname": "N",
+        "kid": ""
+    },
+    {
+        "id": 6256,
+        "artist": "NewJeans (뉴진스)",
+        "title": "cool (your rainbow) | special",
+        "vid": "4wKU9oIXnTI",
+        "surname": "N",
+        "kid": ""
+    },
+    {
+        "id": 6257,
+        "artist": "NewJeans (뉴진스)",
+        "title": "kpop in public  ⦙ onetake",
+        "vid": "pLYAi-vEfSg",
+        "surname": "N",
+        "kid": ""
+    },
+    {
+        "id": 6258,
+        "artist": "NewJeans (뉴진스)",
+        "title": "1月課程|昀珊老師",
+        "vid": "gQIBu4WU7e8",
+        "surname": "N",
+        "kid": ""
+    },
+    {
+        "id": 6259,
+        "artist": "NewJeans (뉴진스)",
+        "title": "sub",
+        "vid": "co1QCUMpoJ0",
+        "surname": "N",
+        "kid": ""
+    },
+    {
+        "id": 6260,
+        "artist": "NewJeans (뉴진스)",
+        "title": "認人認聲+韓英中",
+        "vid": "zN_PsGWGWZY",
+        "surname": "N",
+        "kid": ""
+    },
+    {
+        "id": 6261,
+        "artist": "NewJeans (뉴진스)",
+        "title": "newjeans",
+        "vid": "MgOSUo92NVI",
+        "surname": "N",
+        "kid": "xau1AjDhAe4"
+    },
+    {
+        "id": 6262,
+        "artist": "NewJeans (뉴진스)",
+        "title": "認人認聲+日(韓)英中",
+        "vid": "PNcIblsJOss",
+        "surname": "N",
+        "kid": ""
+    },
+    {
+        "id": 6263,
+        "artist": "NewJeans (뉴진스)",
+        "title": "rise gods",
+        "vid": "m8BhU-It7W0",
+        "surname": "N",
+        "kid": ""
+    },
+    {
+        "id": 6264,
+        "artist": "NewJeans (뉴진스)",
+        "title": "ditto  (hanromeng)",
+        "vid": "UX_lEik44YM",
+        "surname": "N",
+        "kid": ""
+    },
+    {
+        "id": 6265,
+        "artist": "NewJeans (뉴진스)",
+        "title": "蕨明子",
+        "vid": "bmVvRHeiZ9Y",
+        "surname": "N",
+        "kid": ""
+    },
+    {
+        "id": 6266,
+        "artist": "NewJeans (뉴진스)",
+        "title": "newjeans (뉴진스) ditto performance  myanmar sub | mmsub",
+        "vid": "z4god476jFo",
+        "surname": "N",
+        "kid": ""
+    },
+    {
+        "id": 6267,
+        "artist": "NewJeans (뉴진스)",
+        "title": "newjeansomg兒童街舞－兒童ｍｖ芷芸老師",
+        "vid": "7VfH66Qw0jY",
+        "surname": "N",
+        "kid": ""
+    },
+    {
+        "id": 6268,
+        "artist": "(G)I-DLE ((여자)아이들)",
+        "title": "oh my god",
+        "vid": "om3n2ni8luE",
+        "surname": "(",
+        "kid": "m8atu5MPgHg"
+    },
+    {
+        "id": 6269,
+        "artist": "(G)I-DLE ((여자)아이들)",
+        "title": "우기 (yuqi) m.o.",
+        "vid": "nZFH-gZa9R4",
+        "surname": "(",
+        "kid": ""
+    },
+    {
+        "id": 6270,
+        "artist": "(G)I-DLE ((여자)아이들)",
+        "title": "dle",
+        "vid": "ORZLWqFQjK4",
+        "surname": "(",
+        "kid": "7fI4WcxbdII"
+    },
+    {
+        "id": 6271,
+        "artist": "(G)I-DLE ((여자)아이들)",
+        "title": "(cover)",
+        "vid": "gy5Qg9VCypg",
+        "surname": "(",
+        "kid": ""
+    },
+    {
+        "id": 6272,
+        "artist": "(G)I-DLE ((여자)아이들)",
+        "title": "韓",
+        "vid": "bAt_VaHuOPo",
+        "surname": "(",
+        "kid": "g1wP4X16T9A"
+    },
+    {
+        "id": 6273,
+        "artist": "(G)I-DLE ((여자)아이들)",
+        "title": "幕",
+        "vid": "gJIj0y6opRw",
+        "surname": "(",
+        "kid": ""
+    },
+    {
+        "id": 6274,
+        "artist": "(G)I-DLE ((여자)아이들)",
+        "title": "認人認聲+韓英中",
+        "vid": "fMidMV7A3NU",
+        "surname": "(",
+        "kid": ""
+    },
+    {
+        "id": 6275,
+        "artist": "(G)I-DLE ((여자)아이들)",
+        "title": "chinese sub",
+        "vid": "deKe6qJ4pys",
+        "surname": "(",
+        "kid": ""
+    },
+    {
+        "id": 6276,
+        "artist": "(G)I-DLE ((여자)아이들)",
+        "title": "ver.)",
+        "vid": "2DN9sZzIFrg",
+        "surname": "(",
+        "kid": "7fI4WcxbdII"
+    },
+    {
+        "id": 6277,
+        "artist": "(G)I-DLE ((여자)아이들)",
+        "title": "中文版音源認人",
+        "vid": "L5n9sKauqaI",
+        "surname": "(",
+        "kid": ""
+    },
+    {
+        "id": 6278,
+        "artist": "(G)I-DLE ((여자)아이들)",
+        "title": "paradise (paradise)",
+        "vid": "PCbx5U-S5ec",
+        "surname": "(",
+        "kid": ""
+    },
+    {
+        "id": 6279,
+        "artist": "(G)I-DLE ((여자)아이들)",
+        "title": "lion",
+        "vid": "itWqM4lib-s",
+        "surname": "(",
+        "kid": "jY3EsVgfkds"
+    },
+    {
+        "id": 6280,
+        "artist": "(G)I-DLE ((여자)아이들)",
+        "title": "tomboy",
+        "vid": "h0oS-ebJ3I4",
+        "surname": "(",
+        "kid": "MY5E66jGmmM"
+    },
+    {
+        "id": 6281,
+        "artist": "(G)I-DLE ((여자)아이들)",
+        "title": "韓",
+        "vid": "5lemxclt5jI",
+        "surname": "(",
+        "kid": "g1wP4X16T9A"
+    },
+    {
+        "id": 6282,
+        "artist": "(G)I-DLE ((여자)아이들)",
+        "title": "認人認聲+中英",
+        "vid": "2v9j5HyUI8w",
+        "surname": "(",
+        "kid": ""
+    },
+    {
+        "id": 6283,
+        "artist": "(G)I-DLE ((여자)아이들)",
+        "title": "idle 「i want that」",
+        "vid": "F79O2rrgF1E",
+        "surname": "(",
+        "kid": ""
+    },
+    {
+        "id": 6284,
+        "artist": "(G)I-DLE ((여자)아이들)",
+        "title": "〔韓中英認聲〕",
+        "vid": "VgX4wujX670",
+        "surname": "(",
+        "kid": "g1wP4X16T9A"
+    },
+    {
+        "id": 6285,
+        "artist": "(G)I-DLE ((여자)아이들)",
+        "title": "debut",
+        "vid": "Z3iAMy2RPuI",
+        "surname": "(",
+        "kid": ""
+    },
+    {
+        "id": 6286,
+        "artist": "(G)I-DLE ((여자)아이들)",
+        "title": "dreamlike",
+        "vid": "3XF_mMXvwbI",
+        "surname": "(",
+        "kid": ""
+    },
+    {
+        "id": 6287,
+        "artist": "(G)I-DLE ((여자)아이들)",
+        "title": "dle title song  but only yuqis parts gidle yuqi",
+        "vid": "_usimfBMXmM",
+        "surname": "(",
+        "kid": ""
+    },
+    {
+        "id": 6289,
+        "artist": "周湯豪",
+        "title": "內傷",
+        "vid": "6TkAlUMa2jI",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 6290,
+        "artist": "華晨宇",
+        "title": "歌手音樂頻道",
+        "vid": "njTUeljERMM",
+        "surname": "華",
+        "kid": ""
+    },
+    {
+        "id": 6291,
+        "artist": "劉德華",
+        "title": "特工爺爺",
+        "vid": "oDn2yyszo4U",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 6292,
+        "artist": "劉德華",
+        "title": "念舊",
+        "vid": "V9-Wy1rDUYw",
+        "surname": "劉",
+        "kid": "XpjTVjufeBI"
+    },
+    {
+        "id": 6293,
+        "artist": "劉德華",
+        "title": "錯的都是我 - 劉德華",
+        "vid": "RpE7SBsM4fc",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 6294,
+        "artist": "李榮浩",
+        "title": "等著等著就老了",
+        "vid": "S0twBO8l3pI",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 6295,
+        "artist": "李榮浩",
+        "title": "野生動物",
+        "vid": "NHAsE6hB4iM",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 6296,
+        "artist": "周傳雄",
+        "title": "流光",
+        "vid": "Dl3eeEWgFPU",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 6297,
+        "artist": "周傳雄",
+        "title": "shang hai hei ye li ming",
+        "vid": "GR3Ps7_0mPs",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 6298,
+        "artist": "張杰",
+        "title": "經過",
+        "vid": "4X7f-VDcMZA",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 6299,
+        "artist": "張杰",
+        "title": "大夢不醒",
+        "vid": "lZhfT-tPnME",
+        "surname": "張",
+        "kid": "Pi9-26yhdfc"
+    },
+    {
+        "id": 6300,
+        "artist": "張杰",
+        "title": "重播",
+        "vid": "yl_AdtFgQK0",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 6301,
+        "artist": "張杰",
+        "title": "張傑",
+        "vid": "FFlHADvOjOc",
+        "surname": "張",
+        "kid": "SSaGOhIlBTs"
+    },
+    {
+        "id": 6302,
+        "artist": "毛不易",
+        "title": "給妳給我",
+        "vid": "P_lxZhFYohg",
+        "surname": "毛",
+        "kid": ""
+    },
+    {
+        "id": 6303,
+        "artist": "毛不易",
+        "title": "二零三",
+        "vid": "qMKEMEgIX0U",
+        "surname": "毛",
+        "kid": ""
+    },
+    {
+        "id": 6304,
+        "artist": "毛不易",
+        "title": "像我這樣的人",
+        "vid": "nBcYrqsv5tc",
+        "surname": "毛",
+        "kid": "zoQJLCTOgK8"
+    },
+    {
+        "id": 6305,
+        "artist": "毛不易",
+        "title": "借",
+        "vid": "QIPJBAYLbYg",
+        "surname": "毛",
+        "kid": "Y0wGYHw0wwo"
+    },
+    {
+        "id": 6306,
+        "artist": "毛不易",
+        "title": "一葷一素(奇遇人生特別版)",
+        "vid": "qi62XA7WoFI",
+        "surname": "毛",
+        "kid": ""
+    },
+    {
+        "id": 6307,
+        "artist": "毛不易",
+        "title": "一葷一素",
+        "vid": "8DQYzIb2cX4",
+        "surname": "毛",
+        "kid": "Ule1HdVaMKU"
+    },
+    {
+        "id": 6308,
+        "artist": "毛不易",
+        "title": "一生一世",
+        "vid": "0r1ct8L_i_A",
+        "surname": "毛",
+        "kid": ""
+    },
+    {
+        "id": 6309,
+        "artist": "王力宏",
+        "title": "愛",
+        "vid": "R4DuqEL0ChQ",
+        "surname": "王",
+        "kid": "Ij_3Yrx8nlM"
+    },
+    {
+        "id": 6310,
+        "artist": "汪蘇瀧",
+        "title": "歌手2024",
+        "vid": "vS9umLSCznA",
+        "surname": "汪",
+        "kid": ""
+    },
+    {
+        "id": 6311,
+        "artist": "汪蘇瀧",
+        "title": "那又怎樣",
+        "vid": "FwU5DUvN4kQ",
+        "surname": "汪",
+        "kid": ""
+    },
+    {
+        "id": 6312,
+        "artist": "汪蘇瀧",
+        "title": "告別前要跳舞",
+        "vid": "hPgSLMTD0XY",
+        "surname": "汪",
+        "kid": ""
+    },
+    {
+        "id": 6313,
+        "artist": "汪蘇瀧",
+        "title": "心門",
+        "vid": "9uJEy_9lbA0",
+        "surname": "汪",
+        "kid": ""
+    },
+    {
+        "id": 6314,
+        "artist": "汪蘇瀧",
+        "title": "黎明降臨之前",
+        "vid": "mrt0xH5wgTM",
+        "surname": "汪",
+        "kid": ""
+    },
+    {
+        "id": 6315,
+        "artist": "汪蘇瀧",
+        "title": "夢誅緣·夏聚",
+        "vid": "OwergTK48W8",
+        "surname": "汪",
+        "kid": ""
+    },
+    {
+        "id": 6316,
+        "artist": "汪蘇瀧",
+        "title": "一定讓你很難釋懷",
+        "vid": "WVusj0iQ_yc",
+        "surname": "汪",
+        "kid": ""
+    },
+    {
+        "id": 6317,
+        "artist": "汪蘇瀧",
+        "title": "不分手的戀愛",
+        "vid": "oTG_6WKh_4c",
+        "surname": "汪",
+        "kid": ""
+    },
+    {
+        "id": 6318,
+        "artist": "張宇",
+        "title": "心術",
+        "vid": "OiSfwHTBmuQ",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 6319,
+        "artist": "楊宗緯",
+        "title": "天龍八部手遊同名主題曲",
+        "vid": "vx70Rn7Wbxw",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 6320,
+        "artist": "楊宗緯",
+        "title": "sessions音樂會_05.多餘(tv版)",
+        "vid": "42tZVT8P3-k",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 6321,
+        "artist": "阿杜",
+        "title": "下次如果離開你",
+        "vid": "3M0PN9rk5sM",
+        "surname": "阿",
+        "kid": ""
+    },
+    {
+        "id": 6322,
+        "artist": "阿杜",
+        "title": "完美英雄",
+        "vid": "oxmdxyscbOc",
+        "surname": "阿",
+        "kid": ""
+    },
+    {
+        "id": 6323,
+        "artist": "齊秦",
+        "title": "夜夜夜夜",
+        "vid": "mL1ranrPuek",
+        "surname": "齊",
+        "kid": "URva5Ytwn6k"
+    },
+    {
+        "id": 6324,
+        "artist": "胡彥斌",
+        "title": "李白",
+        "vid": "0hztjUki41I",
+        "surname": "胡",
+        "kid": ""
+    },
+    {
+        "id": 6325,
+        "artist": "胡彥斌",
+        "title": "為你寫詩",
+        "vid": "0nRtEJx3_wU",
+        "surname": "胡",
+        "kid": ""
+    },
+    {
+        "id": 6326,
+        "artist": "邰正宵",
+        "title": "破浪break",
+        "vid": "klMv-z4esyI",
+        "surname": "邰",
+        "kid": ""
+    },
+    {
+        "id": 6327,
+        "artist": "邰正宵",
+        "title": "笑著哭了",
+        "vid": "KHfIyuR_Rqg",
+        "surname": "邰",
+        "kid": ""
+    },
+    {
+        "id": 6328,
+        "artist": "陶喆",
+        "title": "mars baby",
+        "vid": "E7RkE_xqUNI",
+        "surname": "陶",
+        "kid": ""
+    },
+    {
+        "id": 6329,
+        "artist": "陶喆",
+        "title": "暗戀",
+        "vid": "FI6yTZUlSe4",
+        "surname": "陶",
+        "kid": ""
+    },
+    {
+        "id": 6330,
+        "artist": "童安格",
+        "title": "愛情終究是一場難圓的夢",
+        "vid": "fuXgk9wDVp8",
+        "surname": "童",
+        "kid": ""
+    },
+    {
+        "id": 6331,
+        "artist": "童安格",
+        "title": "我曾経愛過     ------      童安格",
+        "vid": "czFOa8fs_9c",
+        "surname": "童",
+        "kid": ""
+    },
+    {
+        "id": 6332,
+        "artist": "鍾鎮濤",
+        "title": "日日是好日@",
+        "vid": "O-XUCZ7FTTk",
+        "surname": "鍾",
+        "kid": ""
+    },
+    {
+        "id": 6333,
+        "artist": "鍾鎮濤",
+        "title": "爸爸的話@、鍾懿",
+        "vid": "4rBoeEuOWeI",
+        "surname": "鍾",
+        "kid": ""
+    },
+    {
+        "id": 6334,
+        "artist": "鄭中基",
+        "title": "da ying bu ai ni",
+        "vid": "5n3gWSrmZMk",
+        "surname": "鄭",
+        "kid": ""
+    },
+    {
+        "id": 6335,
+        "artist": "鄭中基",
+        "title": "&張學友",
+        "vid": "gP1YwXKSREY",
+        "surname": "鄭",
+        "kid": ""
+    },
+    {
+        "id": 6336,
+        "artist": "庾澄慶",
+        "title": "缺口",
+        "vid": "AmaoGUZ3RfE",
+        "surname": "庾",
+        "kid": "k7Og_6clol4"
+    },
+    {
+        "id": 6337,
+        "artist": "楊坤",
+        "title": "空城",
+        "vid": "PfFf8trEpcc",
+        "surname": "楊",
+        "kid": "hFxXK57G8cY"
+    },
+    {
+        "id": 6338,
+        "artist": "楊坤",
+        "title": "今夜20歲",
+        "vid": "jJ5esvg57Do",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 6339,
+        "artist": "巫啟賢",
+        "title": "傷心的人更傷心",
+        "vid": "XgeGUp9yVlA",
+        "surname": "巫",
+        "kid": ""
+    },
+    {
+        "id": 6340,
+        "artist": "巫啟賢",
+        "title": "這次不是流言",
+        "vid": "nIdNyvO2vmE",
+        "surname": "巫",
+        "kid": ""
+    },
+    {
+        "id": 6341,
+        "artist": "巫啟賢",
+        "title": "主耶穌我愛你",
+        "vid": "Yb8t7Flg2ZQ",
+        "surname": "巫",
+        "kid": ""
+    },
+    {
+        "id": 6342,
+        "artist": "郭富城",
+        "title": "真的怕了",
+        "vid": "xV6dF_Gm_7M",
+        "surname": "郭",
+        "kid": ""
+    },
+    {
+        "id": 6343,
+        "artist": "蘇永康",
+        "title": "也許",
+        "vid": "z2DhdVLTGnQ",
+        "surname": "蘇",
+        "kid": ""
+    },
+    {
+        "id": 6344,
+        "artist": "蘇永康",
+        "title": "我的偶像",
+        "vid": "qPBKnZhVjUw",
+        "surname": "蘇",
+        "kid": ""
+    },
+    {
+        "id": 6345,
+        "artist": "楊培安",
+        "title": "看見全世界",
+        "vid": "LVZHPIwFZGQ",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 6346,
+        "artist": "方大同",
+        "title": "run from your love  ft.  fifi rong",
+        "vid": "Gw6QT_JBu9E",
+        "surname": "方",
+        "kid": ""
+    },
+    {
+        "id": 6347,
+        "artist": "方大同",
+        "title": "love song",
+        "vid": "Shxik4JT_hE",
+        "surname": "方",
+        "kid": "AFqYb2K4vu4"
+    },
+    {
+        "id": 6348,
+        "artist": "黃品源",
+        "title": "雙魚的責任",
+        "vid": "TQBBidaGgAM",
+        "surname": "黃",
+        "kid": ""
+    },
+    {
+        "id": 6349,
+        "artist": "黃品源",
+        "title": "你怎麼捨得我難過",
+        "vid": "oMDj9L44LZM",
+        "surname": "黃",
+        "kid": "kPwFe_HE44Q"
+    },
+    {
+        "id": 6350,
+        "artist": "黃品源",
+        "title": "白鷺鷥",
+        "vid": "y6XdSb_Q2fE",
+        "surname": "黃",
+        "kid": "qJRmG3Vf6YE"
+    },
+    {
+        "id": 6351,
+        "artist": "黃品源",
+        "title": "藍色計程車",
+        "vid": "xU_0KJgy6Pg",
+        "surname": "黃",
+        "kid": ""
+    },
+    {
+        "id": 6352,
+        "artist": "黃品源",
+        "title": "新年快樂",
+        "vid": "qFMaTEv5qDc",
+        "surname": "黃",
+        "kid": ""
+    },
+    {
+        "id": 6353,
+        "artist": "游鴻明",
+        "title": "下沙",
+        "vid": "BgmT2siQ23s",
+        "surname": "游",
+        "kid": "3ZzegSGHVDM"
+    },
+    {
+        "id": 6354,
+        "artist": "光良",
+        "title": "歌詞",
+        "vid": "7NBf-dzkZO8",
+        "surname": "光",
+        "kid": ""
+    },
+    {
+        "id": 6355,
+        "artist": "伍思凱",
+        "title": "一半正式版",
+        "vid": "1ap88-yRma4",
+        "surname": "伍",
+        "kid": ""
+    },
+    {
+        "id": 6356,
+        "artist": "吳青峰",
+        "title": "沙灘上的佛洛一德",
+        "vid": "UTT4x4_D3xE",
+        "surname": "吳",
+        "kid": ""
+    },
+    {
+        "id": 6357,
+        "artist": "吳青峰",
+        "title": "再遇見",
+        "vid": "8PSvDdL2BPs",
+        "surname": "吳",
+        "kid": ""
+    },
+    {
+        "id": 6358,
+        "artist": "韋禮安",
+        "title": "我的男孩",
+        "vid": "w1_MQdHHjpc",
+        "surname": "韋",
+        "kid": ""
+    },
+    {
+        "id": 6359,
+        "artist": "范逸臣",
+        "title": "相愛",
+        "vid": "K0d2NMg7RB4",
+        "surname": "范",
+        "kid": ""
+    },
+    {
+        "id": 6360,
+        "artist": "黃大煒",
+        "title": "地老天荒",
+        "vid": "F_jurc1aXRo",
+        "surname": "黃",
+        "kid": ""
+    },
+    {
+        "id": 6361,
+        "artist": "張洪量",
+        "title": "你是我的青春夢",
+        "vid": "QMyswc0pj6M",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 6362,
+        "artist": "張洪量",
+        "title": "你始終仍舊在",
+        "vid": "eBOPdtQtfHQ",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 6363,
+        "artist": "盧廣仲",
+        "title": "魚仔",
+        "vid": "-gMZOQYZwnk",
+        "surname": "盧",
+        "kid": "wVq6Ronsluw"
+    },
+    {
+        "id": 6364,
+        "artist": "盧廣仲",
+        "title": "kkbox音樂大人物",
+        "vid": "oiiselJe8Qs",
+        "surname": "盧",
+        "kid": ""
+    },
+    {
+        "id": 6365,
+        "artist": "曹格",
+        "title": "面具花絮",
+        "vid": "5MTnsoR7B5o",
+        "surname": "曹",
+        "kid": ""
+    },
+    {
+        "id": 6366,
+        "artist": "曹格",
+        "title": "爺爺",
+        "vid": "7kltyA7t23w",
+        "surname": "曹",
+        "kid": ""
+    },
+    {
+        "id": 6367,
+        "artist": "林隆璇",
+        "title": "那些歌兒",
+        "vid": "2jMBJ_MrKrs",
+        "surname": "林",
+        "kid": ""
+    },
+    {
+        "id": 6368,
+        "artist": "小蟲",
+        "title": "酒蟲",
+        "vid": "3g02iP4QpzY",
+        "surname": "小",
+        "kid": ""
+    },
+    {
+        "id": 6369,
+        "artist": "小蟲",
+        "title": "春光呀懸在他眉梢，一步一雀躍煽動我心跳，郎騎竹馬的戲，方才畫上句號又顛倒。",
+        "vid": "updJYzH-Bmw",
+        "surname": "小",
+        "kid": ""
+    },
+    {
+        "id": 6370,
+        "artist": "小蟲",
+        "title": "等一個人咖啡",
+        "vid": "NluFa3bwZig",
+        "surname": "小",
+        "kid": ""
+    },
+    {
+        "id": 6371,
+        "artist": "小蟲",
+        "title": "森林狂想曲",
+        "vid": "fRpj0mBr_eo",
+        "surname": "小",
+        "kid": ""
+    },
+    {
+        "id": 6372,
+        "artist": "小蟲",
+        "title": "戲說台灣",
+        "vid": "-v8DxrOVUds",
+        "surname": "小",
+        "kid": ""
+    },
+    {
+        "id": 6373,
+        "artist": "小蟲",
+        "title": "小雨來的正是時候",
+        "vid": "CESRbLlz2t4",
+        "surname": "小",
+        "kid": ""
+    },
+    {
+        "id": 6374,
+        "artist": "沈文程",
+        "title": "銅牆鐵壁",
+        "vid": "bSkUcl7elp8",
+        "surname": "沈",
+        "kid": ""
+    },
+    {
+        "id": 6375,
+        "artist": "沈文程",
+        "title": "艱苦無人知",
+        "vid": "jboSB4m0U7k",
+        "surname": "沈",
+        "kid": ""
+    },
+    {
+        "id": 6376,
+        "artist": "沈文程",
+        "title": "薛金顯－男兒的心聲()",
+        "vid": "bHwBWAi_uKc",
+        "surname": "沈",
+        "kid": ""
+    },
+    {
+        "id": 6377,
+        "artist": "沈文程",
+        "title": "夜空的星星",
+        "vid": "RzaabhEalWQ",
+        "surname": "沈",
+        "kid": ""
+    },
+    {
+        "id": 6378,
+        "artist": "殷正洋",
+        "title": "那些年聽的華語歌",
+        "vid": "_JNZHytwuKw",
+        "surname": "殷",
+        "kid": ""
+    },
+    {
+        "id": 6379,
+        "artist": "殷正洋",
+        "title": "祈禱",
+        "vid": "Tts5otH9Bz8",
+        "surname": "殷",
+        "kid": "Tts5otH9Bz8"
+    },
+    {
+        "id": 6380,
+        "artist": "殷正洋",
+        "title": "生命是一首彭湃的歌",
+        "vid": "hDyncXDjUgE",
+        "surname": "殷",
+        "kid": ""
+    },
+    {
+        "id": 6381,
+        "artist": "嚴爵",
+        "title": "好的情人",
+        "vid": "RCnOnNFYTVg",
+        "surname": "嚴",
+        "kid": ""
+    },
+    {
+        "id": 6382,
+        "artist": "程響",
+        "title": "四季予你",
+        "vid": "VnGyNMK5vYM",
+        "surname": "程",
+        "kid": "Ek6AQ8A8SvM"
+    },
+    {
+        "id": 6383,
+        "artist": "程響",
+        "title": "等你歸來",
+        "vid": "CbQ3gU8hR2k",
+        "surname": "程",
+        "kid": "twZe_8tozuY"
+    },
+    {
+        "id": 6384,
+        "artist": "張韶涵",
+        "title": "覓光",
+        "vid": "n32u7_GKm2Y",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 6385,
+        "artist": "張韶涵",
+        "title": "無損|動態歌詞",
+        "vid": "HshjUMDG4tw",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 6386,
+        "artist": "張韶涵",
+        "title": "keep walking",
+        "vid": "WTcodZDH-Oc",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 6387,
+        "artist": "張韶涵",
+        "title": "有形的翅膀",
+        "vid": "cBp-QhO63Us",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 6388,
+        "artist": "張韶涵",
+        "title": "隱形的翅膀",
+        "vid": "gn6FADWp4L0",
+        "surname": "張",
+        "kid": "MwHx5cDQe-Q"
+    },
+    {
+        "id": 6389,
+        "artist": "張韶涵",
+        "title": "夜空中最亮的星",
+        "vid": "2-ZkBZArw_8",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 6390,
+        "artist": "張韶涵",
+        "title": "親愛的那不是愛情",
+        "vid": "HwF1i_6Iwp8",
+        "surname": "張",
+        "kid": "uvAxgWYe3JI"
+    },
+    {
+        "id": 6391,
+        "artist": "張韶涵",
+        "title": "歐若拉",
+        "vid": "dmwJaG-R1iM",
+        "surname": "張",
+        "kid": "wreO2weeKlo"
+    },
+    {
+        "id": 6392,
+        "artist": "張韶涵",
+        "title": "寓言",
+        "vid": "-4eJy_cpvoo",
+        "surname": "張",
+        "kid": "AvtkdeILKSI"
+    },
+    {
+        "id": 6393,
+        "artist": "鄧麗君",
+        "title": "teresa teng テレサ テン",
+        "vid": "KwnI79xeEFs",
+        "surname": "鄧",
+        "kid": ""
+    },
+    {
+        "id": 6394,
+        "artist": "鄧麗君",
+        "title": "媽媽送我一個吉他",
+        "vid": "aAmQUY9ap-s",
+        "surname": "鄧",
+        "kid": ""
+    },
+    {
+        "id": 6395,
+        "artist": "劉若英",
+        "title": "後來",
+        "vid": "csdpp0HOTm4",
+        "surname": "劉",
+        "kid": "HI3B1FjwjP8"
+    },
+    {
+        "id": 6396,
+        "artist": "劉若英",
+        "title": "花季未了",
+        "vid": "LaWQUGafWo8",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 6397,
+        "artist": "莊心妍",
+        "title": "我奮不顧身的愛妳",
+        "vid": "3Vf_s8RDyHY",
+        "surname": "莊",
+        "kid": ""
+    },
+    {
+        "id": 6398,
+        "artist": "莊心妍",
+        "title": "音樂",
+        "vid": "9YLvBvuoMJA",
+        "surname": "莊",
+        "kid": ""
+    },
+    {
+        "id": 6399,
+        "artist": "莊心妍",
+        "title": "每次我想你了",
+        "vid": "58LUZQ_On3Y",
+        "surname": "莊",
+        "kid": ""
+    },
+    {
+        "id": 6400,
+        "artist": "王心凌",
+        "title": "少女的祈禱",
+        "vid": "r7J2CoHhQkE",
+        "surname": "王",
+        "kid": ""
+    },
+    {
+        "id": 6401,
+        "artist": "任然",
+        "title": "木偶",
+        "vid": "Pii2cuNnqQo",
+        "surname": "任",
+        "kid": "xyV11bt-wsY"
+    },
+    {
+        "id": 6402,
+        "artist": "任然",
+        "title": "雀躍",
+        "vid": "F1ovzW10xcE",
+        "surname": "任",
+        "kid": "ouiFBnhaQac"
+    },
+    {
+        "id": 6403,
+        "artist": "孫燕姿",
+        "title": "極美",
+        "vid": "pCuj3nMB-rk",
+        "surname": "孫",
+        "kid": ""
+    },
+    {
+        "id": 6404,
+        "artist": "孫燕姿",
+        "title": "我很愉快",
+        "vid": "CFxkH0AK3jg",
+        "surname": "孫",
+        "kid": ""
+    },
+    {
+        "id": 6405,
+        "artist": "孟庭葦",
+        "title": "你是飄過窗的雨",
+        "vid": "D4eGuakkDFA",
+        "surname": "孟",
+        "kid": ""
+    },
+    {
+        "id": 6406,
+        "artist": "林憶蓮",
+        "title": "張國榮fromnowon",
+        "vid": "vtKh4nP7J3Y",
+        "surname": "林",
+        "kid": ""
+    },
+    {
+        "id": 6407,
+        "artist": "林憶蓮",
+        "title": "if you don’t know me by now",
+        "vid": "kcIINbsXqfI",
+        "surname": "林",
+        "kid": ""
+    },
+    {
+        "id": 6408,
+        "artist": "林憶蓮",
+        "title": "夜太黑",
+        "vid": "WnyPg2fQqpE",
+        "surname": "林",
+        "kid": ""
+    },
+    {
+        "id": 6409,
+        "artist": "劉惜君",
+        "title": "他們沿著城牆奔跑",
+        "vid": "64_s7ky6PK8",
+        "surname": "劉",
+        "kid": ""
+    },
+    {
+        "id": 6410,
+        "artist": "楊丞琳",
+        "title": "坐上慢車吹自由的風幕後日誌",
+        "vid": "agHsKi5qdqQ",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 6411,
+        "artist": "楊丞琳",
+        "title": "喜劇收場",
+        "vid": "BtZoaPq8KSQ",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 6412,
+        "artist": "曲婉婷",
+        "title": "你準備好了嗎-曲婉婷",
+        "vid": "48kGqaUggTE",
+        "surname": "曲",
+        "kid": ""
+    },
+    {
+        "id": 6413,
+        "artist": "曲婉婷",
+        "title": "hand hold",
+        "vid": "sJYM0u7MNGU",
+        "surname": "曲",
+        "kid": ""
+    },
+    {
+        "id": 6414,
+        "artist": "蕭亞軒",
+        "title": "我喜歡你快樂",
+        "vid": "gtyWddGBJ-M",
+        "surname": "蕭",
+        "kid": ""
+    },
+    {
+        "id": 6415,
+        "artist": "蕭亞軒",
+        "title": "時光隧道",
+        "vid": "MXcz5E0sdWE",
+        "surname": "蕭",
+        "kid": ""
+    },
+    {
+        "id": 6416,
+        "artist": "蕭亞軒",
+        "title": "失去你",
+        "vid": "HrIgPALOr0I",
+        "surname": "蕭",
+        "kid": ""
+    },
+    {
+        "id": 6417,
+        "artist": "許茹芸",
+        "title": "真愛無敵",
+        "vid": "yX90MwGGE0U",
+        "surname": "許",
+        "kid": ""
+    },
+    {
+        "id": 6418,
+        "artist": "阿桑",
+        "title": "受了點傷_費玉清的清音樂",
+        "vid": "QBOfuaqHH8c",
+        "surname": "阿",
+        "kid": ""
+    },
+    {
+        "id": 6419,
+        "artist": "梁詠琪",
+        "title": "愛能不能戒",
+        "vid": "zAMGFl0oLvA",
+        "surname": "梁",
+        "kid": ""
+    },
+    {
+        "id": 6420,
+        "artist": "范瑋琪",
+        "title": "如果你是我",
+        "vid": "LbQqfdR0o5M",
+        "surname": "范",
+        "kid": ""
+    },
+    {
+        "id": 6421,
+        "artist": "范瑋琪",
+        "title": "前男友不是人",
+        "vid": "yFZXKyPykcY",
+        "surname": "范",
+        "kid": ""
+    },
+    {
+        "id": 6422,
+        "artist": "蔡琴",
+        "title": "我有一段情",
+        "vid": "2sEbZpKs43I",
+        "surname": "蔡",
+        "kid": "pfPcHglslgM"
+    },
+    {
+        "id": 6423,
+        "artist": "蔡琴",
+        "title": "香菸迷濛了眼睛",
+        "vid": "Y_vp1bsgCfQ",
+        "surname": "蔡",
+        "kid": ""
+    },
+    {
+        "id": 6424,
+        "artist": "彭佳慧",
+        "title": "外婆的老唱片",
+        "vid": "YChCJjxYfYE",
+        "surname": "彭",
+        "kid": ""
+    },
+    {
+        "id": 6425,
+        "artist": "彭佳慧",
+        "title": "jiu meng",
+        "vid": "YRvRixlSlM0",
+        "surname": "彭",
+        "kid": ""
+    },
+    {
+        "id": 6426,
+        "artist": "蘇芮",
+        "title": "優柔的執著",
+        "vid": "xkoiob_7Jl4",
+        "surname": "蘇",
+        "kid": ""
+    },
+    {
+        "id": 6427,
+        "artist": "許美靜",
+        "title": "明知道",
+        "vid": "_zVUJOwdRpg",
+        "surname": "許",
+        "kid": ""
+    },
+    {
+        "id": 6428,
+        "artist": "許美靜",
+        "title": "陳佳明作曲",
+        "vid": "AIqkSkMR9lQ",
+        "surname": "許",
+        "kid": ""
+    },
+    {
+        "id": 6429,
+        "artist": "許美靜",
+        "title": "也不去管情路上永恆太短暫",
+        "vid": "waCMqftVHEs",
+        "surname": "許",
+        "kid": ""
+    },
+    {
+        "id": 6430,
+        "artist": "金莎",
+        "title": "想聽聽你說謊",
+        "vid": "dkd2e8E34p4",
+        "surname": "金",
+        "kid": ""
+    },
+    {
+        "id": 6431,
+        "artist": "金莎",
+        "title": "她們說你有點壞，追你的女生都很傷心。",
+        "vid": "8EIeK68l0VU",
+        "surname": "金",
+        "kid": ""
+    },
+    {
+        "id": 6432,
+        "artist": "郭靜",
+        "title": "幸福選擇題",
+        "vid": "2x6bACpzo-o",
+        "surname": "郭",
+        "kid": ""
+    },
+    {
+        "id": 6433,
+        "artist": "郭靜",
+        "title": "聊天",
+        "vid": "u-mMRBrSl2Q",
+        "surname": "郭",
+        "kid": ""
+    },
+    {
+        "id": 6434,
+        "artist": "戴佩妮",
+        "title": "歲樂",
+        "vid": "IrjVTSmbHgQ",
+        "surname": "戴",
+        "kid": ""
+    },
+    {
+        "id": 6435,
+        "artist": "戴佩妮",
+        "title": "不可能演唱會中途開始算數餒🤣",
+        "vid": "rAJXzqT99Vo",
+        "surname": "戴",
+        "kid": ""
+    },
+    {
+        "id": 6436,
+        "artist": "戴佩妮",
+        "title": "雨和太陽",
+        "vid": "Nl1ZeZ5O27A",
+        "surname": "戴",
+        "kid": ""
+    },
+    {
+        "id": 6437,
+        "artist": "戴佩妮",
+        "title": "保護我",
+        "vid": "PMWAb519trk",
+        "surname": "戴",
+        "kid": ""
+    },
+    {
+        "id": 6438,
+        "artist": "戴佩妮",
+        "title": "日期",
+        "vid": "OjSpm29y9gA",
+        "surname": "戴",
+        "kid": ""
+    },
+    {
+        "id": 6439,
+        "artist": "戴佩妮",
+        "title": "我會好好的",
+        "vid": "z4tLHHRjZXM",
+        "surname": "戴",
+        "kid": "z4tLHHRjZXM"
+    },
+    {
+        "id": 6440,
+        "artist": "戴佩妮",
+        "title": "凌晨三點鐘",
+        "vid": "guMMP6bS4J4",
+        "surname": "戴",
+        "kid": ""
+    },
+    {
+        "id": 6441,
+        "artist": "戴佩妮",
+        "title": "你要的愛",
+        "vid": "wWdNO5uMM3I",
+        "surname": "戴",
+        "kid": "v4Ts-TgTEk8"
+    },
+    {
+        "id": 6442,
+        "artist": "戴佩妮",
+        "title": "怎樣",
+        "vid": "2WDWegHclsw",
+        "surname": "戴",
+        "kid": "bQpih-roeac"
+    },
+    {
+        "id": 6443,
+        "artist": "彭羚",
+        "title": "嫉妒",
+        "vid": "GKFcw1DKeIM",
+        "surname": "彭",
+        "kid": ""
+    },
+    {
+        "id": 6444,
+        "artist": "彭羚",
+        "title": "~我的眼我的淚",
+        "vid": "XxVy9VEb9ps",
+        "surname": "彭",
+        "kid": ""
+    },
+    {
+        "id": 6445,
+        "artist": "周蕙",
+        "title": "hold me tight",
+        "vid": "On2WoqQZVCg",
+        "surname": "周",
+        "kid": ""
+    },
+    {
+        "id": 6446,
+        "artist": "黃小琥",
+        "title": "完整版",
+        "vid": "bFSBTcXkYMI",
+        "surname": "黃",
+        "kid": ""
+    },
+    {
+        "id": 6447,
+        "artist": "黃小琥",
+        "title": "寫乎啥米人xie",
+        "vid": "sSC06KQ8ov0",
+        "surname": "黃",
+        "kid": ""
+    },
+    {
+        "id": 6448,
+        "artist": "蔡幸娟",
+        "title": "說出來誰會相信",
+        "vid": "ugtaOFDlqT4",
+        "surname": "蔡",
+        "kid": ""
+    },
+    {
+        "id": 6449,
+        "artist": "陳潔儀",
+        "title": "等",
+        "vid": "q3eo_gEUqOo",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 6450,
+        "artist": "陳潔儀",
+        "title": "那天那夜",
+        "vid": "1C6HV6DJFpc",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 6451,
+        "artist": "陳潔儀",
+        "title": "每一生都等你",
+        "vid": "1Um7vB4E-_0",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 6452,
+        "artist": "范曉萱",
+        "title": "我在這裡",
+        "vid": "vtYmaUlbj8E",
+        "surname": "范",
+        "kid": ""
+    },
+    {
+        "id": 6453,
+        "artist": "李麗芬",
+        "title": "愛江山更愛美人(the",
+        "vid": "ix-pVMLOa9k",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 6454,
+        "artist": "李麗芬",
+        "title": "time",
+        "vid": "YxZGuxVPPlo",
+        "surname": "李",
+        "kid": ""
+    },
+    {
+        "id": 6455,
+        "artist": "徐懷鈺",
+        "title": "是吧是吧",
+        "vid": "iirPczGJszA",
+        "surname": "徐",
+        "kid": "-X2hssCmFiM"
+    },
+    {
+        "id": 6456,
+        "artist": "温嵐",
+        "title": "愛回溫",
+        "vid": "4l2b9n2RPy4",
+        "surname": "温",
+        "kid": ""
+    },
+    {
+        "id": 6457,
+        "artist": "温嵐",
+        "title": "走",
+        "vid": "twrtYEsYx_k",
+        "surname": "温",
+        "kid": ""
+    },
+    {
+        "id": 6458,
+        "artist": "王若琳",
+        "title": "the best mistake ive ever made",
+        "vid": "4Km786yl15U",
+        "surname": "王",
+        "kid": ""
+    },
+    {
+        "id": 6459,
+        "artist": "王若琳",
+        "title": "nobodys a nun",
+        "vid": "KbZusk6uRfw",
+        "surname": "王",
+        "kid": ""
+    },
+    {
+        "id": 6460,
+        "artist": "王若琳",
+        "title": "times of your life",
+        "vid": "BinfRUWBhPo",
+        "surname": "王",
+        "kid": "z8rY39Zg7GA"
+    },
+    {
+        "id": 6461,
+        "artist": "薛凱琪",
+        "title": "娛與輿",
+        "vid": "t1nE33HJe6s",
+        "surname": "薛",
+        "kid": ""
+    },
+    {
+        "id": 6462,
+        "artist": "薛凱琪",
+        "title": "離開以後",
+        "vid": "Vf9uJLNb9-I",
+        "surname": "薛",
+        "kid": "Ci1UwR8fK64"
+    },
+    {
+        "id": 6463,
+        "artist": "薛凱琪",
+        "title": "蘇州河",
+        "vid": "5Qm_xHGKr4U",
+        "surname": "薛",
+        "kid": "9YqCRxuVVOk"
+    },
+    {
+        "id": 6464,
+        "artist": "薛凱琪",
+        "title": "the way you make me feel",
+        "vid": "XBZa9D7lw6U",
+        "surname": "薛",
+        "kid": ""
+    },
+    {
+        "id": 6465,
+        "artist": "薛凱琪",
+        "title": "夜機",
+        "vid": "CTfRvbArXpw",
+        "surname": "薛",
+        "kid": ""
+    },
+    {
+        "id": 6466,
+        "artist": "家家",
+        "title": "史上最遠離家出走",
+        "vid": "RXrXyjPx1Uo",
+        "surname": "家",
+        "kid": ""
+    },
+    {
+        "id": 6467,
+        "artist": "家家",
+        "title": "nick",
+        "vid": "P-Cf-2aJsXk",
+        "surname": "家",
+        "kid": ""
+    },
+    {
+        "id": 6468,
+        "artist": "家家",
+        "title": "有你在家",
+        "vid": "mMlSD6iPNSo",
+        "surname": "家",
+        "kid": ""
+    },
+    {
+        "id": 6469,
+        "artist": "家家",
+        "title": "我心歸禰",
+        "vid": "lHxCrPquVbM",
+        "surname": "家",
+        "kid": ""
+    },
+    {
+        "id": 6470,
+        "artist": "陶晶瑩",
+        "title": "不再想念",
+        "vid": "8UYLNCjV634",
+        "surname": "陶",
+        "kid": ""
+    },
+    {
+        "id": 6471,
+        "artist": "藍心湄",
+        "title": "華語",
+        "vid": "c3YyIDZ1dUg",
+        "surname": "藍",
+        "kid": ""
+    },
+    {
+        "id": 6472,
+        "artist": "藍心湄",
+        "title": "陶晶瑩聽說那英壓力山大",
+        "vid": "P5rI9bX0sRo",
+        "surname": "藍",
+        "kid": ""
+    },
+    {
+        "id": 6473,
+        "artist": "藍心湄",
+        "title": "無色彩-藍心湄",
+        "vid": "1h3WXgcfZGA",
+        "surname": "藍",
+        "kid": ""
+    },
+    {
+        "id": 6474,
+        "artist": "郭采潔",
+        "title": "愛人呢",
+        "vid": "fW9uDgySoLw",
+        "surname": "郭",
+        "kid": ""
+    },
+    {
+        "id": 6475,
+        "artist": "陳綺貞",
+        "title": "self",
+        "vid": "wdTfbpo157o",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 6476,
+        "artist": "陳綺貞",
+        "title": "天天想你",
+        "vid": "8uydenvN-qc",
+        "surname": "陳",
+        "kid": ""
+    },
+    {
+        "id": 6477,
+        "artist": "江美琪",
+        "title": "只有分離",
+        "vid": "4v8Z3ndSXfA",
+        "surname": "江",
+        "kid": ""
+    },
+    {
+        "id": 6478,
+        "artist": "艾怡良",
+        "title": "大人情歌",
+        "vid": "wLnZnvONEos",
+        "surname": "艾",
+        "kid": ""
+    },
+    {
+        "id": 6479,
+        "artist": "戴愛玲",
+        "title": "了不起寂寞",
+        "vid": "ULQooobQu7c",
+        "surname": "戴",
+        "kid": ""
+    },
+    {
+        "id": 6480,
+        "artist": "戴愛玲",
+        "title": "愛人啊",
+        "vid": "8Gqq9KGC0rI",
+        "surname": "戴",
+        "kid": "_SrdPSRUNIk"
+    },
+    {
+        "id": 6481,
+        "artist": "戴愛玲",
+        "title": "戀單",
+        "vid": "CokN0Wr3S3g",
+        "surname": "戴",
+        "kid": ""
+    },
+    {
+        "id": 6482,
+        "artist": "趙詠華",
+        "title": "嘿!",
+        "vid": "ZJSMTK1QKk8",
+        "surname": "趙",
+        "kid": ""
+    },
+    {
+        "id": 6483,
+        "artist": "趙詠華",
+        "title": "只要你對我再好一點",
+        "vid": "sRF1REPNPYg",
+        "surname": "趙",
+        "kid": ""
+    },
+    {
+        "id": 6484,
+        "artist": "楊林",
+        "title": "玫瑰情話 - 楊林",
+        "vid": "uKC1fBkcz8o",
+        "surname": "楊",
+        "kid": ""
+    },
+    {
+        "id": 6485,
+        "artist": "萬芳",
+        "title": "愛上你給的痛",
+        "vid": "YlI09QTUkYY",
+        "surname": "萬",
+        "kid": ""
+    },
+    {
+        "id": 6486,
+        "artist": "萬芳",
+        "title": "fly away",
+        "vid": "0iLR_45_Aiw",
+        "surname": "萬",
+        "kid": ""
+    },
+    {
+        "id": 6487,
+        "artist": "梁文音",
+        "title": "藍色眼睛",
+        "vid": "hQsOL_DSv9w",
+        "surname": "梁",
+        "kid": ""
+    },
+    {
+        "id": 6488,
+        "artist": "徐若瑄",
+        "title": "藍色聖誕節",
+        "vid": "-Jq_Rf-HHXs",
+        "surname": "徐",
+        "kid": ""
+    },
+    {
+        "id": 6489,
+        "artist": "Olivia Ong",
+        "title": "不化妝舞會",
+        "vid": "VFgqQD8W60s",
+        "surname": "O",
+        "kid": ""
+    },
+    {
+        "id": 6490,
+        "artist": "Olivia Ong",
+        "title": "音樂萬萬歲olivia",
+        "vid": "MDNPvnjt-eE",
+        "surname": "O",
+        "kid": ""
+    },
+    {
+        "id": 6491,
+        "artist": "Olivia Ong",
+        "title": "olivia ong",
+        "vid": "Pjaz_Grm1g0",
+        "surname": "O",
+        "kid": "XbzzNQPeM3Y"
+    },
+    {
+        "id": 6492,
+        "artist": "卓文萱",
+        "title": "髒兮兮",
+        "vid": "uSE3GSxkXJY",
+        "surname": "卓",
+        "kid": ""
+    },
+    {
+        "id": 6493,
+        "artist": "魏如昀",
+        "title": "沒問題",
+        "vid": "yIdR8ZuPdNA",
+        "surname": "魏",
+        "kid": ""
+    },
+    {
+        "id": 6494,
+        "artist": "吳汶芳",
+        "title": "倖存者",
+        "vid": "7LwnCq4_-fg",
+        "surname": "吳",
+        "kid": ""
+    },
+    {
+        "id": 6495,
+        "artist": "告五人",
+        "title": "在未來的你跟我說聲嗨",
+        "vid": "V91B6aQOn4k",
+        "surname": "告",
+        "kid": ""
+    },
+    {
+        "id": 6496,
+        "artist": "馮提莫",
+        "title": "卡路里",
+        "vid": "HKtHAJHp61s",
+        "surname": "馮",
+        "kid": "YvnE5n2xzGo"
+    },
+    {
+        "id": 6497,
+        "artist": "馮提莫",
+        "title": "「剛好遇見你」",
+        "vid": "KKkc-yNd7eg",
+        "surname": "馮",
+        "kid": ""
+    },
+    {
+        "id": 6498,
+        "artist": "杜德偉",
+        "title": "笨女孩",
+        "vid": "lWDt0_tt_o4",
+        "surname": "杜",
+        "kid": ""
+    },
+    {
+        "id": 6499,
+        "artist": "杜德偉",
+        "title": "無心傷害",
+        "vid": "6cVYqLeTQ94",
+        "surname": "杜",
+        "kid": ""
+    },
+    {
+        "id": 6500,
+        "artist": "孫盛希",
+        "title": "rock news",
+        "vid": "_UnstN_syUM",
+        "surname": "孫",
+        "kid": ""
+    },
+    {
+        "id": 6501,
+        "artist": "張碧晨",
+        "title": "年輪",
+        "vid": "WaZ9lgcNf-s",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 6502,
+        "artist": "張碧晨",
+        "title": "長歌行",
+        "vid": "cwdmC6mqO1w",
+        "surname": "張",
+        "kid": "M_o0qS1oK6w"
+    },
+    {
+        "id": 6503,
+        "artist": "趙露思",
+        "title": "有你在",
+        "vid": "gl9kPBcq-z4",
+        "surname": "趙",
+        "kid": "nkmh_9kWvL8"
+    },
+    {
+        "id": 6504,
+        "artist": "趙露思",
+        "title": "一等軼聞",
+        "vid": "edsP4havfr0",
+        "surname": "趙",
+        "kid": ""
+    },
+    {
+        "id": 6505,
+        "artist": "單依純",
+        "title": "對月",
+        "vid": "BHlpj4J56F4",
+        "surname": "單",
+        "kid": ""
+    },
+    {
+        "id": 6506,
+        "artist": "單依純",
+        "title": "非誠勿擾3",
+        "vid": "DWKep-ht7t8",
+        "surname": "單",
+        "kid": ""
+    },
+    {
+        "id": 6507,
+        "artist": "BOOM！怪物星人",
+        "title": "96分鐘",
+        "vid": "1k32d9CiksE",
+        "surname": "B",
+        "kid": "RruV9-CE3J4"
+    },
+    {
+        "id": 6508,
+        "artist": "姜育恆",
+        "title": "最後的溫柔",
+        "vid": "LlG_Ol3dWow",
+        "surname": "姜",
+        "kid": "ZAIfx61XGn4"
+    },
+    {
+        "id": 6509,
+        "artist": "姜育恆",
+        "title": "旅",
+        "vid": "HdnrDuT0jvI",
+        "surname": "姜",
+        "kid": "dx7yphEh2Ns"
+    },
+    {
+        "id": 6510,
+        "artist": "段奧娟",
+        "title": "么兒",
+        "vid": "MjvR1ALiR3E",
+        "surname": "段",
+        "kid": ""
+    },
+    {
+        "id": 6511,
+        "artist": "段奧娟",
+        "title": "元気滿分",
+        "vid": "k5gAWLgnn_A",
+        "surname": "段",
+        "kid": ""
+    },
+    {
+        "id": 6512,
+        "artist": "段奧娟",
+        "title": "星辰大海",
+        "vid": "1u-YxblCVrI",
+        "surname": "段",
+        "kid": ""
+    },
+    {
+        "id": 6513,
+        "artist": "張雨生",
+        "title": "執著",
+        "vid": "-Nxz3_6WrU4",
+        "surname": "張",
+        "kid": ""
+    },
+    {
+        "id": 6514,
+        "artist": "鄭怡",
+        "title": "世界等著我們",
+        "vid": "JspSS5tTkrk",
+        "surname": "鄭",
+        "kid": ""
+    },
+    {
+        "id": 6515,
+        "artist": "李玖哲",
+        "title": "no more cryin",
+        "vid": "m-oWpxx1nZY",
+        "surname": "李",
         "kid": ""
     }
 ];
