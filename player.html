@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>FFmpeg.wasm 自動轉碼播放器</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/karaoke.ico" />    
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #121212; color: #e0e0e0; display: flex; flex-direction: column; align-items: center; padding: 40px; }
+        #video-container { width: 100%; max-width: 900px; margin-top: 20px; position: relative; }
+        video { width: 100%; border-radius: 12px; background: #000; box-shadow: 0 10px 30px rgba(0,0,0,0.7); }
+        .loader-box { background: #1e1e1e; padding: 25px; border-radius: 12px; width: 100%; max-width: 600px; text-align: center; border: 1px solid #333; }
+        #status { color: #00d1b2; font-weight: bold; margin: 15px 0; }
+        .progress-bar { width: 100%; background: #333; height: 10px; border-radius: 5px; overflow: hidden; display: none; }
+        #progress-fill { width: 0%; height: 100%; background: #00d1b2; transition: width 0.3s; }
+    </style>
+</head>
+<body>
+
+    <div class="loader-box">
+        <h3>🎬 自動轉碼播放系統</h3>
+        <div id="status">正在初始化引擎...</div>
+        <div class="progress-bar" id="progress-container">
+            <div id="progress-fill"></div>
+        </div>
+    </div>
+
+    <div id="video-container">
+        <video id="player" controls></video>
+    </div>
+
+    <script type="module">
+        var api_url = "https://pan.mailberry.com.cn/api/fs/get";
+        var ktv_url = '';
+
+        // Example POST method implementation:
+        async function postData(url = "", data = {}) {
+            // Default options are marked with *
+            const response = await fetch(url, {
+                method: "POST", // *GET, POST, PUT, DELETE, etc.
+                mode: "cors", // no-cors, *cors, same-origin
+                cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
+                credentials: "same-origin", // include, *same-origin, omit
+                headers: {
+                    "Content-Type": "application/json",
+                    // 'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                redirect: "follow", // manual, *follow, error
+                referrerPolicy: "no-referrer", // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+                body: JSON.stringify(data), // body data type must match "Content-Type" header
+            });
+            return response.json(); // parses JSON response into native JavaScript objects
+        }
+
+
+        // import { FFmpeg } from 'https://unpkg.com/@ffmpeg/ffmpeg@0.12.7/dist/esm/index.js';
+        // import { fetchFile, toBlobURL } from 'https://unpkg.com/@ffmpeg/util@0.12.1/dist/esm/index.js';
+
+        import { FFmpeg } from './js/ffmpeg@0.12.7/index.js';
+        import { fetchFile, toBlobURL } from './js/util@0.12.1/index.js';
+
+        const ffmpeg = new FFmpeg();
+        const player = document.getElementById('player');
+        const status = document.getElementById('status');
+        const progressFill = document.getElementById('progress-fill');
+        const progressContainer = document.getElementById('progress-container');
+
+        // 1. 解析網址參數
+        function getQueryParam(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            let param = urlParams.get(name);
+            if (param) {
+                // 去除可能存在的單引號或雙引號 (例如 path='url')
+                return param.replace(/^['"]|['"]$/g, '');
+            }
+            return null;
+        }
+
+        const videoUrl = getQueryParam('song');
+
+        async function init() {
+            try {
+                // 載入 FFmpeg 核心
+                // const baseURL = 'https://unpkg.com/@ffmpeg/core@0.12.6/dist/esm';
+                const baseURL = './js/ffmpeg@0.12.7';
+                await ffmpeg.load({
+                    coreURL: await toBlobURL(`${baseURL}/ffmpeg-core.js`, 'text/javascript'),
+                    wasmURL: await toBlobURL(`${baseURL}/ffmpeg-core.wasm`, 'application/wasm'),
+                    workerURL: await toBlobURL(`${baseURL}/worker.js`, 'text/javascript'),
+                });
+
+                if (!videoUrl) {
+                    status.innerText = '❌ 錯誤：網址未提供 path 參數。';
+                    return;
+                }
+                
+                if (videoUrl.startsWith('http')){
+                    processVideo(videoUrl);
+                } else {
+                    postData(api_url, { password: '', path: `${videoUrl}` }).then((data) => {
+                        // console.log(data); // JSON data parsed by `data.json()` call
+                        if (data['code'] == 200) {
+                            var sign = data['data']['sign'];
+                            ktv_url = `https://pan.mailberry.com.cn/d${videoUrl}?sign=${sign}`;
+                            processVideo(ktv_url);
+                        }
+                    });  
+                }
+
+            } catch (e) {
+                status.innerText = '❌ FFmpeg 載入失敗: ' + e.message;
+            }
+        }
+
+        async function processVideo(url) {
+            try {
+                status.innerText = '⏳ 正在從遠端下載影片 (這取決於您的網速)...';
+                progressContainer.style.display = 'block';
+
+                // 2. 下載遠端檔案
+                // 注意：若遇到 CORS 錯誤，通常需要後端代理或目標伺服器開放權限
+                const fileData = await fetchFile(url);
+                
+                status.innerText = '⚡ 正在進行 MKV/AC3 轉碼中...';
+                
+                // 監聽進度 (FFmpeg 的進度是基於 log 的，這裡簡單顯示)
+                ffmpeg.on('log', ({ message }) => {
+                    // console.log(message);
+                    if (message.includes('time=')) {
+                        status.innerText = '⚡ 轉碼進行中... 請稍候';
+                    }
+                });
+
+                // 3. 寫入虛擬系統並執行轉碼
+                await ffmpeg.writeFile('input.mkv', fileData);
+
+                // 指令優化：影像直接複製(copy)，音訊轉為 aac
+                await ffmpeg.exec([
+                    '-i', 'input.mkv',
+                    '-c:v', 'copy', 
+                    '-c:a', 'aac', 
+                    // '-strict', 'experimental',
+                    'output.mp4'
+                ]);
+
+                // 4. 讀取結果並播放
+                const data = await ffmpeg.readFile('output.mp4');
+                status.innerText = '✅ 轉碼完成！';
+                progressContainer.style.display = 'none';
+
+                player.src = URL.createObjectURL(new Blob([data.buffer], { type: 'video/mp4' }));
+                player.play();
+
+            } catch (err) {
+                console.error(err);
+                status.innerText = '❌ 處理失敗: ' + err.message + ' (請檢查 CORS 設定)';
+            }
+        }
+
+        init();
+
+    </script>
+</body>
+</html>

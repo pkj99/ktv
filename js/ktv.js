@@ -2,7 +2,7 @@
 let pagename = window.location.pathname.split('/').slice(-1);
 var urlParams;
 var api_url = "https://pan.mailberry.com.cn/api/fs/get";
-var db_url = 'https://pkj99.github.io/vod/db/karaoke.db';
+var db_url = './db/karaoke.db';
 
 // create song list 
 function songlists(sqlstring) {
@@ -23,17 +23,17 @@ function songlists(sqlstring) {
         if (typeof data[0] == "undefined") { data = []; } else { data = data[0].values; }
 
         // htmlString += `<ul><li class="col-lg-8 col-md-8 col-sm-5 col-xs-3">`;
-        htmlString += `<div class="myui-vodlist__box" style="width:200px">`;
-        htmlString += `<a class="myui-vodlist__thumb lazyload" href="?artist=${data[0][1]}" `;
-        htmlString += `title="${data[0][1]}" `;
-        htmlString += `data-original="${data[0][1]}" `;
-        htmlString += `style="background-image: url('${data[0][9]}');padding-top: 200px;"`;
-        htmlString += `</a>`;
-        htmlString += `<span class="pic-text text-right">${data[0][1]}</span>`;
-        htmlString += `</div>`;
-        // htmlString += `<div class="myui-vodlist__detail">`;
-        // htmlString += `<h4 class="title text-overflow"><a href="?artist=${data[0][1]}">${data[0][1]}</a></h4>`;
+        // htmlString += `<div class="myui-vodlist__box" style="width:200px">`;
+        // htmlString += `<a class="myui-vodlist__thumb lazyload" href="?artist=${data[0][1]}" `;
+        // htmlString += `title="${data[0][1]}" `;
+        // htmlString += `data-original="${data[0][1]}" `;
+        // htmlString += `style="background-image: url('${data[0][9]}');padding-top: 200px;"`;
+        // htmlString += `</a>`;
+        // htmlString += `<span class="pic-text text-right">${data[0][1]}</span>`;
         // htmlString += `</div>`;
+        htmlString += `<div class="myui-vodlist__detail">`;
+        htmlString += `<h4 class="title text-overflow" style="margin: 10px 10px 0px;"><a href="?artist=${data[0][1]}">${data[0][1]}</a></h4>`;
+        htmlString += `</div>`;
         // htmlString += `</li></ul><br>`;
 
         htmlString += '<ul>';
@@ -220,6 +220,126 @@ async function showMessage(message) {
 }
 
 
+        import { FFmpeg } from './ffmpeg@0.12.7/index.js';
+        import { fetchFile, toBlobURL } from './util@0.12.1/index.js';
+
+        const ffmpeg = new FFmpeg();
+        const player = document.getElementById('player');
+        const status = document.getElementById('status');
+        const progressFill = document.getElementById('progress-fill');
+        const progressContainer = document.getElementById('progress-container');
+
+        async function init() {
+            document.getElementById('message').hidden= false;
+            try {
+                // 載入 FFmpeg 核心
+                // const baseURL = 'https://unpkg.com/@ffmpeg/core@0.12.6/dist/esm';
+                const baseURL = './js/ffmpeg@0.12.7';
+                await ffmpeg.load({
+                    coreURL: await toBlobURL(`${baseURL}/ffmpeg-core.js`, 'text/javascript'),
+                    wasmURL: await toBlobURL(`${baseURL}/ffmpeg-core.wasm`, 'application/wasm'),
+                    workerURL: await toBlobURL(`${baseURL}/worker.js`, 'text/javascript'),
+                });
+            } catch (e) {
+                status.innerText = '❌ FFmpeg 載入失敗: ' + e.message;
+            }
+            document.getElementById('message').hidden= true;
+        }
+
+        async function convertPlay(videoUrl) {
+            // console.log(videoUrl);
+            try {
+                // 載入 FFmpeg 核心
+                // const baseURL = 'https://unpkg.com/@ffmpeg/core@0.12.6/dist/esm';
+                const baseURL = './js/ffmpeg@0.12.7';
+                await ffmpeg.load({
+                    coreURL: await toBlobURL(`${baseURL}/ffmpeg-core.js`, 'text/javascript'),
+                    wasmURL: await toBlobURL(`${baseURL}/ffmpeg-core.wasm`, 'application/wasm'),
+                    workerURL: await toBlobURL(`${baseURL}/worker.js`, 'text/javascript'),
+                });
+
+                if (!videoUrl) {
+                    status.innerText = '❌ 錯誤：網址未提供 path 參數。';
+                    return;
+                }
+                
+                if (videoUrl.startsWith('http')){
+                    processVideo(videoUrl);
+                } else {
+                    postData(api_url, { password: '', path: `${videoUrl}` }).then((data) => {
+                        // console.log(data); // JSON data parsed by `data.json()` call
+                        if (data['code'] == 200) {
+                            var sign = data['data']['sign'];
+                            ktv_url = `https://pan.mailberry.com.cn/d${videoUrl}?sign=${sign}`;
+                            processVideo(ktv_url);
+                        }
+                    });  
+                }
+
+            } catch (e) {
+                status.innerText = '❌ FFmpeg 載入失敗: ' + e.message;
+            }
+        }
+
+        async function processVideo(url) {
+            // console.log(url);
+            document.getElementById('message').hidden = false;
+            document.getElementById('video-container').hidden = true;
+            document.getElementById('tvlist').innerHTML = `<div class="text-center"><br><b>影片準備中...請稍後</b><br><br></div>`;
+
+            try {
+                status.innerText = '⏳ 正在從遠端下載影片 (這取決於您的網速)...';
+                progressContainer.style.display = 'block';
+
+                // 2. 下載遠端檔案
+                // 注意：若遇到 CORS 錯誤，通常需要後端代理或目標伺服器開放權限
+                const fileData = await fetchFile(url);
+                
+                status.innerText = '⚡ 正在進行 MKV/AC3 轉碼中...';
+                
+                // 監聽進度 (FFmpeg 的進度是基於 log 的，這裡簡單顯示)
+                ffmpeg.on('log', ({ message }) => {
+                    // console.log(message);
+                    if (message.includes('time=')) {
+                        status.innerText = '⚡ 轉碼進行中... 請稍候';
+                    }
+                });
+
+                // 3. 寫入虛擬系統並執行轉碼
+                await ffmpeg.writeFile('input.mkv', fileData);
+
+                // 指令優化：影像直接複製(copy)，音訊轉為 aac
+                await ffmpeg.exec([
+                    '-i', 'input.mkv',
+                    '-c:v', 'copy', 
+                    '-c:a', 'aac', 
+                    // '-strict', 'experimental',
+                    'output.mp4'
+                ]);
+
+                // 4. 讀取結果並播放
+                const data = await ffmpeg.readFile('output.mp4');
+                status.innerText = '✅ 轉碼完成！';
+                progressContainer.style.display = 'none';
+
+                player.src = URL.createObjectURL(new Blob([data.buffer], { type: 'video/mp4' }));
+                player.play();
+
+                document.getElementById('message').hidden= true;
+                document.getElementById('video-container').hidden= false;
+                document.getElementById('tvlist').innerHTML = `<div class="text-center"><br><b>${song_name}</b><br><br></div>`;
+                
+
+            } catch (err) {
+                console.error(err);
+                status.innerText = '❌ 處理失敗: ' + err.message + ' (請檢查 CORS 設定)';
+            }
+        }
+  
+
+
+window.onload = init();
+
 // get params
 (window.onpopstate = function () {
     var match,
@@ -267,90 +387,99 @@ let htmlString = '';
 
 if (urlParams["song"] != null) {
     song_name = urlParams["song"];
-    // console.log(song_name);
+    document.getElementById('message').hidden = false;
     postData(api_url, { password: '', path: `${song_name}` }).then((data) => {
-        console.log(data); // JSON data parsed by `data.json()` call
         if (data['code'] == 200) {
             var raw_url = data['data']['raw_url'];
-            var thumb = data['data']['thumb'];
-            var sign = data['data']['sign'];
-
-            var art = new Artplayer({
-                container: '.artplayer-app',
-                url: raw_url,
-                poster: thumb,
-                volume: 0.5,
-                isLive: false,
-                muted: false,
-                autoplay: true,
-                pip: true,
-                autoSize: true,
-                autoMini: true,
-                screenshot: true,
-                setting: true,
-                loop: false,
-                flip: true,
-                playbackRate: true,
-                aspectRatio: true,
-                fullscreen: true,
-                fullscreenWeb: true,
-                subtitleOffset: true,
-                miniProgressBar: true,
-                mutex: true,
-                backdrop: true,
-                playsInline: true,
-                autoPlayback: true,
-                airplay: true,
-                theme: '#23ade5'
-            });
-
-            var vlc_url = raw_url;
-            // var vlc_url = encodeURI(raw_url);
-            var ktv_url = `https://pan.mailberry.com.cn/d${song_name}?sign=${sign}`;
-            // ktv_url = `playvideo.html?url=${raw_url}&img=${thumb}`;
-            // var ktv_url = `playvideo.html?url=https://pan.mailberry.com.cn/d${song_name}?sign=${sign}&img=${thumb}`;
-
-            htmlString += `<li class="col-lg-1 col-md-1 col-sm-1 col-xs-1">`;
-
-            // htmlString += `<div class="myui-vodlist__box">`;
-            // htmlString += `<a class="myui-vodlist__thumb lazyload" href="vlc://https://pan.mailberry.com.cn/d${song_name}?sign=${sign}"`;
-            // htmlString += `title="${song_name}" `;
-            // htmlString += `data-original="${song_name}" `;
-            // htmlString += `style="background-image: url('images/vlc.webp');padding-top: 200px;"`;
-            // htmlString += `</a>`;
-            // htmlString += `</div>`;
-
-            htmlString += `<div class="myui-vodlist__detail">`;
-            // htmlString += `<h4 class="title text-overflow text-center"><a href="vlc://${ktv_url}">Open with VLC Player</a></h4>`;
-            htmlString += `<h4 class="title text-overflow text-center"><a href="vlc://${ktv_url}" id="vlc">使用VLC開啟</a> | `;
-            htmlString += `<a onclick='navigator.clipboard.writeText("${ktv_url}"); showMessage("複製完成");' style="cursor: pointer;">複製連結</a> | `;
-            htmlString += `<a href="${raw_url}" style="cursor: pointer;">下載影片</a> | `;
-            htmlString += `</h4></div>`;
-
-            // htmlString += `<video controls autoplay width="50%" poster="${thumb}" src="${raw_url}"></video>`;
-            // htmlString += `<a href='vlc://${vlc_url}'><img src="images/vlc.webp" width="100px">KTV</a>`;
-            // htmlString += `<a href='vlc://https://pan.mailberry.com.cn/d${song_name}?sign=${sign}'><img src="images/vlc.webp" width="100px">Open with VLC Player</a>`;
-            // htmlString += `<div style="width:400px;margin-left: auto; margin-right: auto;"><video controls autoplay width="100%"><source src="${raw_url}" type="video/mp4"></video></div>`;
+            processVideo(raw_url);
 
 
-            // htmlString += `<div class="text-center"><br><b>How to enable vlc protocol</b><br><br>Put the files from the bat directory in your VLC directory (usually C:\\Program Files`
-            // htmlString += `(x86)\\VideoLAN\\VLC), <br>and then run vlc-protocol-register.bat as administrator (right-click the file and use Run as administrator).`
-            // htmlString += `<br><br>You can download the repository here. <br><a href='https://github.com/stefansundin/vlc-protocol/tree/main/windows/bat'>`
-            // htmlString += `https://github.com/stefansundin/vlc-protocol/tree/main/windows/bat</a><br><br></div>`
+            // var thumb = data['data']['thumb'];
+            // var sign = data['data']['sign'];
+
+            // var vlc_url = raw_url;
+            // var ktv_url = `https://pan.mailberry.com.cn/d${song_name}?sign=${sign}`;
+            
+            // convertPlay(raw_url);
+
+            // var art = new Artplayer({
+            //     container: '.artplayer-app',
+            //     url: raw_url,
+            //     poster: thumb,
+            //     volume: 0.5,
+            //     isLive: false,
+            //     muted: false,
+            //     autoplay: true,
+            //     pip: true,
+            //     autoSize: true,
+            //     autoMini: true,
+            //     screenshot: true,
+            //     setting: true,
+            //     loop: false,
+            //     flip: true,
+            //     playbackRate: true,
+            //     aspectRatio: true,
+            //     fullscreen: true,
+            //     fullscreenWeb: true,
+            //     subtitleOffset: true,
+            //     miniProgressBar: true,
+            //     mutex: true,
+            //     backdrop: true,
+            //     playsInline: true,
+            //     autoPlayback: true,
+            //     airplay: true,
+            //     theme: '#23ade5'
+            // });
 
 
-            htmlString += `</li>`;
-            document.getElementById('tvlist').innerHTML = htmlString;
-            document.getElementById('artplayer').style.display = "block";
-            document.getElementById('vlc').click();
+            // console.log(raw_url);
+            // console.log(ktv_url);
+            // // ktv_url = `playvideo.html?url=${raw_url}&img=${thumb}`;
+            // // var ktv_url = `playvideo.html?url=https://pan.mailberry.com.cn/d${song_name}?sign=${sign}&img=${thumb}`;
 
-            // window.open(`vlc://https://pan.mailberry.com.cn/d${song_name}?sign=${sign}`);
-            // window.open(`vlc://${raw_url}`);
+            // htmlString += `<li class="col-lg-1 col-md-1 col-sm-1 col-xs-1">`;
+
+            // // htmlString += `<div class="myui-vodlist__box">`;
+            // // htmlString += `<a class="myui-vodlist__thumb lazyload" href="vlc://https://pan.mailberry.com.cn/d${song_name}?sign=${sign}"`;
+            // // htmlString += `title="${song_name}" `;
+            // // htmlString += `data-original="${song_name}" `;
+            // // htmlString += `style="background-image: url('images/vlc.webp');padding-top: 200px;"`;
+            // // htmlString += `</a>`;
+            // // htmlString += `</div>`;
+
+            // htmlString += `<div class="myui-vodlist__detail">`;
+            // // htmlString += `<h4 class="title text-overflow text-center"><a href="vlc://${ktv_url}">Open with VLC Player</a></h4>`;
+            // // htmlString += `<h4 class="title text-overflow text-center"><a href="vlc://${ktv_url}" id="vlc">使用VLC開啟</a> | `;
+            // htmlString += `<h4 class="title text-overflow text-center">`;
+            // htmlString += `<a target="_blank" href="player.html?song=${ktv_url}" id="ffmpeg">自動轉檔播放</a> | `;
+            // htmlString += `<a onclick='navigator.clipboard.writeText("${ktv_url}"); showMessage("複製完成");' style="cursor: pointer;">複製連結</a> | `;
+            // htmlString += `<a href="${raw_url}" style="cursor: pointer;">下載影片</a> | `;
+            // htmlString += `</h4></div>`;
+
+            // // htmlString += `<video controls autoplay width="50%" poster="${thumb}" src="${raw_url}"></video>`;
+            // // htmlString += `<a href='vlc://${vlc_url}'><img src="images/vlc.webp" width="100px">KTV</a>`;
+            // // htmlString += `<a href='vlc://https://pan.mailberry.com.cn/d${song_name}?sign=${sign}'><img src="images/vlc.webp" width="100px">Open with VLC Player</a>`;
+            // // htmlString += `<div style="width:400px;margin-left: auto; margin-right: auto;"><video controls autoplay width="100%"><source src="${raw_url}" type="video/mp4"></video></div>`;
+
+
+            // // htmlString += `<div class="text-center"><br><b>How to enable vlc protocol</b><br><br>Put the files from the bat directory in your VLC directory (usually C:\\Program Files`
+            // // htmlString += `(x86)\\VideoLAN\\VLC), <br>and then run vlc-protocol-register.bat as administrator (right-click the file and use Run as administrator).`
+            // // htmlString += `<br><br>You can download the repository here. <br><a href='https://github.com/stefansundin/vlc-protocol/tree/main/windows/bat'>`
+            // // htmlString += `https://github.com/stefansundin/vlc-protocol/tree/main/windows/bat</a><br><br></div>`
+
+
+            // htmlString += `</li>`;
+            // document.getElementById('tvlist').innerHTML = htmlString;
+            // document.getElementById('artplayer').style.display = "block";
+            // // document.getElementById('vlc').click();
+
+            // // window.open(`vlc://https://pan.mailberry.com.cn/d${song_name}?sign=${sign}`);
+            // // window.open(`vlc://${raw_url}`);
         }
     });
 
 }
 
+document.getElementById('message').hidden= true;
+document.getElementById('video-container').hidden= true;  
 
-
-  
