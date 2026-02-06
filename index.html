@@ -1,168 +1,515 @@
-<!doctype html>
-<html>
-
+<!DOCTYPE html>
+<html lang="zh-TW">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>KTV</title>
-    <meta name="keywords" content="movie, tv, radio" />
-    <meta name="bookmark-image" content="images/logo.png" />
-    <meta name="renderer" content="webkit|ie-comp|ie-stand">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/coi-serviceworker.js"></script>
+    <title>CYBER KARAOKE</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="images/karaoke.ico" />
 
-    <!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-touch-fullscreen" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="full-screen" content="yes">
-    <meta name="browsermode" content="application">
-    <meta name="x5-fullscreen" content="true">
-    <meta name="x5-page-mode" content="app">
-
-    <link rel="stylesheet" href="css/mytheme-font.css" type="text/css" />
-    <link rel="stylesheet" href="css/mytheme-ui.css" type="text/css" />
-    <link rel="stylesheet" href="css/mytheme-site.css" type="text/css" />
-    <link rel="stylesheet" href="css/mytheme-share.css" type="text/css" />
-    <link rel="stylesheet" href="css/mytheme-color.css" type="text/css" name="default" />
-
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-
-    <script type="text/javascript" src="js/mytheme-site.js"></script>
-    <script type="text/javascript" src="js/mytheme-ui.js"></script>
-    <script type="text/javascript" src="js/mytheme-cms.js"></script>
-
-    <link rel="stylesheet" href="css/mystyle.css" type="text/css" />
-    <script type="text/javascript" src="js/myjavascript.js"></script>
+    <!-- 核心函式庫 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@ffmpeg/ffmpeg@0.12.10/dist/umd/ffmpeg.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@ffmpeg/util@0.12.1/dist/umd/index.js"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
-        .myui-vodlist__thumb {
-            background-size: contain !important;
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Noto+Sans+TC:wght@400;700&display=swap');
+
+        :root {
+            --neon-blue: #00f3ff;
+            --neon-pink: #ff00ff;
+            --glass: rgba(15, 23, 42, 0.9);
         }
-        /* .artplayer-app {
-            width: 800px;
-            height: 600px;
-        } */
+
+        body {
+            font-family: 'Orbitron', 'Noto Sans TC', sans-serif;
+            background-color: #020617;
+            background-image: 
+                radial-gradient(circle at 50% 50%, rgba(0, 243, 255, 0.1) 0%, transparent 50%),
+                linear-gradient(rgba(0, 243, 255, 0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 243, 255, 0.05) 1px, transparent 1px);
+            background-size: 100% 100%, 40px 40px, 40px 40px;
+        }
+
+        .neon-border {
+            border: 1px solid var(--neon-blue);
+            box-shadow: 0 0 15px rgba(0, 243, 255, 0.3);
+        }
+
+        .neon-text {
+            text-shadow: 0 0 8px var(--neon-blue);
+        }
+
+        .glass-panel {
+            background: var(--glass);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .custom-scroll::-webkit-scrollbar { width: 6px; }
+        .custom-scroll::-webkit-scrollbar-thumb { background: var(--neon-blue); border-radius: 10px; }
+        .custom-scroll::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.05); }
+
+        .artist-btn:active, .artist-btn:hover {
+            background: var(--neon-blue);
+            color: black;
+            box-shadow: 0 0 20px var(--neon-blue);
+            transform: scale(1.05);
+        }
+
+        @keyframes scanline {
+            0% { transform: translateY(-100%); }
+            100% { transform: translateY(100%); }
+        }
+
+        .video-container::after {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 2px;
+            background: rgba(0, 243, 255, 0.1);
+            animation: scanline 8s linear infinite;
+            pointer-events: none;
+        }
+        
+        /* 手機端固定頂部播放器 */
+        @media (max-width: 1023px) {
+            /* .main{
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+            } */
+            .sticky-player {
+                position: fixed;
+                top: 0;
+                z-index: 50;
+                background: #020617;
+                padding-bottom: 1rem;
+                width:100%;
+            }
+            #osd {
+                visibility: hidden;
+            }
+            #playList {
+                margin-top: 300px;
+            }
+        }
     </style>
+</head>
+<body class="text-slate-100 min-h-screen lg:overflow-hidden">
 
-    <style>
-        /* #video-container { width: 100%;  margin-top: 20px; position: relative; } */
-        /* video { width: 80%; border-radius: 12px; background: #000; box-shadow: 0 10px 30px rgba(0,0,0,0.7); } */
-        #video-container { 
-            /* flex: 1; */
-            /* background: #000; */
-            /* display: flex; */
-            align-items: center;
-            justify-content: center;
+    <!-- 主容器 -->
+    <div id="main" class="flex flex-col h-full lg:h-screen p-0 lg:p-4 gap-4">
+        
+        <!-- 頂部區塊 -->
+        <div class="flex flex-col lg:flex-row h-auto lg:h-1/2 gap-4">
+            
+            <!-- 播放器與控制項組合區 (手機端 Sticky) -->
+            <div class="flex-grow flex flex-col gap-2 sticky-player">
+                <div id="videoWrapper" class="flex-grow glass-panel rounded-1xl overflow-hidden relative video-container neon-border flex items-center justify-center bg-black aspect-video lg:aspect-auto">
+                    <!-- 允許原生控制項以支援最大化 -->
+                    <video id="mainPlayer" class="w-full h-full object-contain" playsinline controls></video>
+                    
+                    <!-- OSD 抬頭顯示 (手機端隱藏) -->
+                    <div id="osd" class="absolute top-4 left-4 lg:top-8 lg:left-8 items-center gap-2 lg:gap-4 hidden z-10 pointer-events-none lg:flex">
+                        <div class="w-2 h-2 lg:w-4 lg:h-4 bg-red-500 rounded-full animate-pulse shadow-[0_0_15px_red]"></div>
+                        <div class="bg-black/80 px-4 py-2 lg:px-6 lg:py-3 rounded-full border border-red-500/50">
+                            <span class="text-[10px] text-red-400 font-bold uppercase tracking-[0.2em]">Live</span>
+                            <div id="currentTitle" class="text-sm lg:text-2xl neon-text font-bold truncate max-w-[150px] lg:max-w-md">--</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 播放控制條 (置於影片下方) -->
+                <div class="glass-panel rounded-xl p-3 flex justify-center items-center gap-6 lg:gap-10 border border-white/5">
+                    <button id="prevBtn" class="text-white/60 hover:text-white transition-all transform active:scale-90">
+                        <svg class="w-6 h-6 lg:w-8 lg:h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6L18 6v12z"/></svg>
+                    </button>
+                    <button id="playPauseBtn" class="bg-cyan-500 text-black rounded-full p-2 lg:p-3 hover:bg-cyan-400 transition-all shadow-[0_0_15px_#00f3ff]">
+                        <svg id="playIcon" class="w-6 h-6 lg:w-8 lg:h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        <svg id="pauseIcon" class="w-6 h-6 lg:w-8 lg:h-8 hidden" fill="currentColor" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+                    </button>
+                    <button id="nextBtn" class="text-white/60 hover:text-white transition-all transform active:scale-90">
+                        <svg class="w-6 h-6 lg:w-8 lg:h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
+                    </button>
+                    <!-- 切換聲道或原唱/伴唱的功能可在此擴充 -->
+                </div>
+            </div>
+
+            <!-- 排隊區 -->
+            <div id="playList" class="w-full lg:w-[500px] glass-panel rounded-2xl p-4 flex flex-col border border-white/10 min-h-[280px] lg:min-h-0">
+                <div class="flex justify-between items-center mb-4">
+                    <h3 class="text-base font-bold uppercase tracking-widest neon-text">Playlist / 待播放</h3>
+                    <button id="sing20" class="rush-btn bg-pink-500/10 text-pink-400 px-3 py-1.5 rounded-lg text-xs font-bold border border-pink-500/20 active:bg-pink-500 active:text-white">快唱20首</button>
+                    <div id="engineStatus" class="text-[10px] px-2 py-0.5 rounded-full border border-yellow-500/50 text-yellow-500 animate-pulse">
+                        INIT
+                    </div>
+                </div>
+                <ul id="playQueue" class="space-y-3 overflow-y-auto custom-scroll flex-grow pr-1 text-sm lg:text-base">
+                    <!-- 點播項目 -->
+                </ul>
+            </div>
+        </div>
+
+        <!-- 下方搜尋與索引 -->
+        <div class="flex-grow grid grid-cols-1 lg:grid-cols-12 gap-4 overflow-hidden">
+            
+            <!-- 歌手索引 -->
+            <div class="order-3 lg:order-1 lg:col-span-4 glass-panel rounded-2xl p-4 flex flex-col border border-white/10 overflow-hidden">
+                <h3 class="text-xs font-bold mb-3 text-slate-400 uppercase tracking-widest">Artists / 歌手索引</h3>
+                <div id="artistIndex" class="grid grid-cols-4 sm:grid-cols-6 lg:grid-cols-5 gap-2 overflow-y-auto custom-scroll pr-1 pb-2">
+                    <!-- 姓氏按鈕 -->
+                </div>
+            </div>
+
+            <!-- 歌曲搜尋 -->
+            <div class="order-1 lg:order-2 lg:col-span-5 glass-panel rounded-2xl p-4 flex flex-col border border-white/10 relative overflow-hidden min-h-[350px] lg:min-h-0">
+                <div class="mb-4 shrink-0">                    
+                    <input type="text" id="searchInput" placeholder="搜尋歌曲、歌手..." 
+                           class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-lg text-white focus:border-cyan-400 outline-none transition-all placeholder:text-slate-600">
+                </div>
+                <div id="searchResult" class="flex-grow overflow-y-auto space-y-2 custom-scroll pr-1">
+                    <!-- 搜尋結果 -->
+                </div>
+            </div>
+
+            <!-- 系統狀態 (手機隱藏) -->
+            <div class="order-2 lg:order-3 lg:col-span-3 glass-panel rounded-2xl p-4 flex flex-col border border-white/10 overflow-hidden hidden lg:flex">
+                <h3 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">System Logs</h3>
+                <div id="logBox" class="flex-grow bg-black/40 rounded-xl p-3 font-mono text-[10px] text-cyan-500/80 overflow-y-auto custom-scroll">
+                    <div>> System initialized...</div>
+                </div>
+                <div class="mt-4 pt-4 border-t border-white/5 flex flex-col gap-2 shrink-0">
+                    <div class="w-full h-1 bg-white/5 rounded-full overflow-hidden">
+                        <div id="progressBar" class="h-full bg-cyan-400 w-0 transition-all duration-300"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module">
+
+        var api_url = "https://pan.mailberry.com.cn/api/fs/get";
+        var db_url = './db/karaoke.db';
+
+        // const { FFmpeg } = FFmpegWasm;
+        // const { fetchFile, toBlobURL } = FFmpegUtil;
+
+        import { FFmpeg } from './js/ffmpeg@0.12.7/index.js';
+        import { fetchFile, toBlobURL } from './js/util@0.12.1/index.js';
+
+        let db = null;
+        let ffmpeg = new FFmpeg();
+        let playlist = []; 
+        let isTranscoding = false;
+
+        const mainPlayer = document.getElementById('mainPlayer');
+        const logBox = document.getElementById('logBox');
+        const engineStatus = document.getElementById('engineStatus');
+        const playPauseBtn = document.getElementById('playPauseBtn');
+        const playIcon = document.getElementById('playIcon');
+        const pauseIcon = document.getElementById('pauseIcon');
+
+        // Example POST method implementation:
+        async function postData(url = "", data = {}) {
+            // Default options are marked with *
+            const response = await fetch(url, {
+                method: "POST", // *GET, POST, PUT, DELETE, etc.
+                mode: "cors", // no-cors, *cors, same-origin
+                cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
+                credentials: "same-origin", // include, *same-origin, omit
+                headers: {
+                    "Content-Type": "application/json",
+                    // 'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                redirect: "follow", // manual, *follow, error
+                referrerPolicy: "no-referrer", // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+                body: JSON.stringify(data), // body data type must match "Content-Type" header
+            });
+            return response.json(); // parses JSON response into native JavaScript objects
         }
 
-        video { 
-            margin-left: auto;
-            margin-right: auto;
-            display: block;
-            width: 60%;
-            /* height: 100%; */
-            object-fit: contain; 
+        function addLog(msg) {
+            if (!logBox) return;
+            const div = document.createElement('div');
+            div.className = "mb-1";
+            div.innerHTML = `<span class="opacity-50">[${new Date().toLocaleTimeString()}]</span> ${msg}`;
+            logBox.appendChild(div);
+            logBox.scrollTop = logBox.scrollHeight;
         }
-        .loader-box { background: #1e1e1e; padding: 25px; width: 100%; text-align: center; border: 1px solid #333; }
-        #status { color: #00d1b2; font-weight: bold; margin: 15px 0; }
-        .progress-bar { width: 100%; background: #333; height: 10px; border-radius: 5px; overflow: hidden; display: none; }
-        #progress-fill { width: 0%; height: 100%; background: #00d1b2; transition: width 0.3s; }
 
-        /* 手機版適配 */
-        @media (max-width: 768px) {
-            video { 
-                width: 100%;
+        async function init() {
+            try {
+                // const baseURL = 'https://cdn.jsdelivr.net/npm/@ffmpeg/core@0.12.6/dist/umd';
+                const baseURL = './js/ffmpeg@0.12.7';
+
+                await ffmpeg.load({
+                    coreURL: await toBlobURL(`${baseURL}/ffmpeg-core.js`, 'text/javascript'),
+                    wasmURL: await toBlobURL(`${baseURL}/ffmpeg-core.wasm`, 'application/wasm'),
+                });
+                addLog("Neural Engine Online.");
+                engineStatus.innerText = "READY";
+                engineStatus.classList.replace('text-yellow-500', 'text-cyan-400');
+                engineStatus.classList.remove('animate-pulse');
+
+                const response = await fetch(db_url);
+                const arrayBuffer = await response.arrayBuffer();
+                const SQL = await initSqlJs({ 
+                    locateFile: file => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.wasm` 
+                });
+                db = new SQL.Database(new Uint8Array(arrayBuffer));
+                
+                loadArtistIndex();
+                renderSearch("");
+            } catch (e) {
+                addLog("ERROR: " + e.message);
+                engineStatus.innerText = "FAIL";
             }
         }
 
-
-    </style>
-
-    <!-- <script src="https://cdn.jsdelivr.net/npm/artplayer/dist/artplayer.js"></script> -->
-
-
-</head>
-
-<body>
-    <header class="myui-header__top clearfix" id="header-top">
-        <div class="container" style="margin-bottom: 4px;">
-            <div class="row">
-                <div class="myui-header_bd clearfix">
-                    <div class="myui-header__logo" style="padding-top: 15px;">
-                        <a class="" href="index.html">
-                            <img class="img-responsive hidden-xs" src="images/logo.png" style="width:80px" />
-                            <img class="img-responsive visible-xs" src="images/home.png"  style="width:30px;height:30px" />
-                        </a>
-                    </div>
-
-                    <ul class="myui-header__menu" id="myui-menu">
-                        <li class="menu_header" id="menu1"><a href="?type=1">男歌星</a></li>
-                        <li class="menu_header" id="menu2"><a href="?type=2">女歌星</a></li>
-                        <li class="menu_header" id="menu3"><a href="?type=3">團體</a></li>
-                        <li class="menu_header" id="menu4"><a href="?myktv=1">快唱</a></li>
-                        <!-- <li class="menu_header" id="menu5"><a href="vlc://https://pkj99.github.io/vod/images/myktv.m3u">VLC</a></li> -->
-                        <li class="">
-                            <div class="myui-header__search search-box">
-                                <form id="search" name="search" method="get" action="index.html">
-                                    <input type="text" id="wd" name="wd" class="search_wd form-control" value=""
-                                        placeholder="查詢" autocomplete="off" />
-                                    <!-- <input type="hidden" id="s" name="s" value="" /> -->
-                                    <button class="submit search_submit" id="searchbutton" type="submit"><i
-                                            class="fa fa-search"></i></button>
-                                </form>
-                                </div">
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-        </div>
-    </header>
+        function loadArtistIndex() {
+            const indexContainer = document.getElementById('artistIndex');
+            indexContainer.innerHTML = "";
+            try {
+                const res = db.exec("SELECT DISTINCT substr(artist_name, 1, 1) as initial FROM v_artists ORDER BY initial");
+                if (res.length > 0) {
+                    res[0].values.forEach(row => {
+                        const char = row[0];
+                        const btn = document.createElement('button');
+                        btn.className = "artist-btn text-base py-3 glass-panel rounded-xl border border-white/5 transition-all font-bold";
+                        btn.innerText = char;
+                        btn.onclick = () => {
+                            document.getElementById('searchInput').value = char;
+                            renderSearch(char);
+                        };
+                        indexContainer.appendChild(btn);
+                    });
+                }
+            } catch (e) { console.error(e); }
+        }
 
 
+        function sing20() {
+            if (!db) return;
+            try {
+                var query = 'SELECT song, path, artist FROM ktv where favorite=1 order by random() LIMIT 20';
+                const res = db.exec(query);
+                if (res.length > 0) {
+                    res[0].values.forEach(row => {
+                        addToQueue(row[0], row[1], false);
+                    });
+                }
+            } catch (e) { console.error(e); }
+        }
 
-    <div class="container">
-        <div class="row">
-            <div class="myui-panel myui-panel-bg clearfix">
+        document.getElementById('sing20').onclick = (e) => sing20();
+        document.getElementById('searchInput').oninput = (e) => renderSearch(e.target.value);
 
-                    <div id="message" class="loader-box">
-                        <h3 color="#00d1b2">🎬 自動轉碼播放系統</h3>
-                        <div id="status">正在初始化引擎...</div>
-                        <div class="progress-bar" id="progress-container">
-                            <div id="progress-fill"></div>
+        function renderSearch(term) {
+            if (!db) return;
+            const container = document.getElementById('searchResult');
+            container.innerHTML = "";
+            
+            try {
+                var query = `
+                    SELECT song, path, artist
+                    FROM ktv 
+                    WHERE artist LIKE '${term}%' 
+                    UNION
+                    SELECT song, path, artist
+                    FROM ktv 
+                    WHERE song LIKE '%${term}%' 
+                    LIMIT 50                    
+                    `;
+
+                if (!term) {
+                    query = 'SELECT song, path, artist FROM ktv where favorite=1 order by random()';
+                }
+
+                const res = db.exec(query);
+                
+                if (res.length > 0) {
+                    res[0].values.forEach(row => {
+                        const div = document.createElement('div');
+                        div.className = "p-3 lg:p-4 glass-panel border border-white/5 rounded-xl flex justify-between items-center cursor-pointer active:bg-cyan-400/20";
+                        div.onclick = (e) => {
+                            if (!e.target.closest('.rush-btn')) addToQueue(row[0], row[1], false);
+                        };
+                        
+                        div.innerHTML = `
+                            <div class="flex-grow truncate pr-2">
+                                <div class="text-base font-bold truncate">${row[0]}</div>
+                                <div class="text-[14px] text-slate-500 uppercase tracking-widest">${row[2] || 'Unknown'}</div>
+                            </div>
+                            <button class="rush-btn bg-pink-500/10 text-pink-400 px-3 py-1.5 rounded-lg text-xs font-bold border border-pink-500/20 active:bg-pink-500 active:text-white">插播</button>
+                        `;
+                        div.querySelector('.rush-btn').onclick = (e) => {
+                            e.stopPropagation();
+                            addToQueue(row[0], row[1], true);
+                        };
+                        container.appendChild(div);
+                    });
+                }
+            } catch (e) { console.error(e); }
+        }
+
+        function addToQueue(title, path, isPriority = false) {
+
+            addLog(`get raw url: ${title}`);
+            postData(api_url, { password: '', path: `${path}` }).then((data) => {
+                // console.log(data);
+                if (data['code'] == 200) {
+                    var raw_url = data['data']['raw_url'];
+
+                    const id = Date.now();
+                    const newItem = { id, title, path:raw_url, status: 'waiting', blobUrl: null };
+                    
+                    if (isPriority) {
+                        // 插播：插入到第二個位置（如果正在播放第一首）
+                        if (playlist.length <= 1) {
+                            playlist.push(newItem);
+                        } else {
+                            playlist.splice(1, 0, newItem);
+                        }
+                        addLog(`RUSH ALERT: ${title} inserted to top!`);
+                    } else {
+                        playlist.push(newItem);
+                        addLog(`Task queued: ${title}`);
+                    }
+                    // console.log(playlist);
+                    updateQueueUI();
+                    processQueue();
+                } else {
+                    addLog("Error: get raw url.");
+                }
+            });    
+
+        }
+
+        function updateQueueUI() {
+            const list = document.getElementById('playQueue');
+            list.innerHTML = "";
+            playlist.forEach((item, index) => {
+                const isCurrent = index === 0;
+                const li = document.createElement('li');
+                li.className = `p-3 rounded-xl border ${isCurrent ? 'border-cyan-400 bg-cyan-400/5' : 'border-white/5 bg-white/5'}`;
+                
+                let statusColor = "text-slate-500";
+                if (item.status === 'ready') statusColor = "text-cyan-400";
+                if (item.status === 'transcoding') statusColor = "text-yellow-500";
+
+                li.innerHTML = `
+                    <div class="flex justify-between items-center mb-1">
+                        <span class="font-bold truncate flex-grow pr-2">${index + 1}. ${item.title}</span>
+                        <div class="flex items-center gap-2">
+                            <span class="text-[9px] font-mono ${statusColor}">${item.status.toUpperCase()}</span>
+                            ${!isCurrent ? `<button class="inner-rush-btn text-[9px] bg-cyan-500/10 text-cyan-400 px-1.5 py-0.5 rounded border border-cyan-400/20">插播</button>` : ''}
                         </div>
                     </div>
+                `;
+                if (!isCurrent) {
+                    li.querySelector('.inner-rush-btn').onclick = () => {
+                        const target = playlist.splice(index, 1)[0];
+                        playlist.splice(1, 0, target);
+                        updateQueueUI();
+                        processQueue();
+                    };
+                }
+                list.appendChild(li);
+            });
+        }
 
-                    <div id="video-container">
-                        <video id="player" controls></video>
-                    </div>
+        async function processQueue() {
+            if (isTranscoding) return;
+            const next = playlist.find(item => item.status === 'waiting');
+            if (!next) return;
 
-                <!-- <div class="artplayer-app" id="artplayer" style="display: none; margin-left: auto; margin-right: auto;"></div> -->
-
-                <div class="myui-panel-box clearfix" id="tvlist">
-                    <div class="text-center">
-                        <img src="images/karaoke.png" style="width:300px; margin-top: 50px; margin-bottom: 50px;" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+            const readyQty = playlist.filter(item => item.status === 'ready').length;
+            if (readyQty > 2) {
+                if (playlist[1].status === 'ready'){
+                    addLog("Ready count reached. Stop transcoding.");
+                    return;
+                }
+            }
 
 
-    <div class="myui-foot clearfix">
-        <div class="container min">
-            <div class="row">
-                <div class="col-pd text-center masked">
-                    <p class="margin-0">本站為程式開發測試之用，資料蒐集於網際網路，版權歸官方所有</p>
-                </div>
-            </div>
-        </div>
-    </div>
+            isTranscoding = true;
+            next.status = 'transcoding';
+            updateQueueUI();
 
-    <script type="text/javascript" src='js/sql.js'></script>
-    <script type="module" src="js/ktv.js"></script>
-    
+            try {
+                const fileResponse = await fetch(next.path);
+                const fileData = await fileResponse.arrayBuffer();
+                await ffmpeg.writeFile('input', new Uint8Array(fileData));
+                
+                ffmpeg.on('progress', ({ progress }) => {
+                    const p = Math.round(progress * 100);
+                    if (document.getElementById('progressBar')) document.getElementById('progressBar').style.width = p + '%';
+                });
+
+                await ffmpeg.exec(['-i', 'input', '-c:v', 'copy', '-c:a', 'aac', 'out.mp4']);
+                const data = await ffmpeg.readFile('out.mp4');
+                next.blobUrl = URL.createObjectURL(new Blob([data.buffer], { type: 'video/mp4' }));
+                next.status = 'ready';
+            } catch (err) {
+                next.status = 'error';
+                addLog("Transcode Error: " + err.message);
+            } finally {
+                isTranscoding = false;
+                updateQueueUI();
+                if (mainPlayer.src === "" && playlist[0]?.status === 'ready') startPlayback();
+                processQueue();
+            }
+        }
+
+        function startPlayback() {
+            if (playlist.length === 0 || playlist[0].status !== 'ready') return;
+            const current = playlist[0];
+            mainPlayer.src = current.blobUrl;
+            document.getElementById('currentTitle').innerText = current.title;
+            // 手機端 OSD 會根據 CSS 控制自動隱藏 (lg:flex)
+            document.getElementById('osd').classList.remove('hidden');
+            mainPlayer.play();
+        }
+
+        function handleSongEnded() {
+            const finished = playlist.shift();
+            // 釋放記憶體避免手機瀏覽器崩潰
+            if (finished && finished.blobUrl) {
+                URL.revokeObjectURL(finished.blobUrl);
+                addLog(`Resource freed: ${finished.title}`);
+            }
+            updateQueueUI();
+            if (playlist.length > 0) startPlayback();
+            else {
+                mainPlayer.src = "";
+                document.getElementById('osd').classList.add('hidden');
+            }
+            processQueue();
+        }
+
+        playPauseBtn.onclick = () => {
+            if (!mainPlayer.src) return;
+            mainPlayer.paused ? mainPlayer.play() : mainPlayer.pause();
+        };
+
+        document.getElementById('nextBtn').onclick = handleSongEnded;
+        document.getElementById('prevBtn').onclick = () => mainPlayer.currentTime = 0;
+
+        mainPlayer.onplay = () => {
+            playIcon.classList.add('hidden');
+            pauseIcon.classList.remove('hidden');
+        };
+        mainPlayer.onpause = () => {
+            playIcon.classList.remove('hidden');
+            pauseIcon.classList.add('hidden');
+        };
+        mainPlayer.onended = handleSongEnded;
+
+        init();
+    </script>
 </body>
 </html>

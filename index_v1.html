@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>KTV</title>
+    <meta name="keywords" content="movie, tv, radio" />
+    <meta name="bookmark-image" content="images/logo.png" />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/karaoke.ico" />
+
+    <!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="full-screen" content="yes">
+    <meta name="browsermode" content="application">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="x5-page-mode" content="app">
+
+    <link rel="stylesheet" href="css/mytheme-font.css" type="text/css" />
+    <link rel="stylesheet" href="css/mytheme-ui.css" type="text/css" />
+    <link rel="stylesheet" href="css/mytheme-site.css" type="text/css" />
+    <link rel="stylesheet" href="css/mytheme-share.css" type="text/css" />
+    <link rel="stylesheet" href="css/mytheme-color.css" type="text/css" name="default" />
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/mytheme-site.js"></script>
+    <script type="text/javascript" src="js/mytheme-ui.js"></script>
+    <script type="text/javascript" src="js/mytheme-cms.js"></script>
+
+    <link rel="stylesheet" href="css/mystyle.css" type="text/css" />
+    <script type="text/javascript" src="js/myjavascript.js"></script>
+
+    <style>
+        .myui-vodlist__thumb {
+            background-size: contain !important;
+        }
+        /* .artplayer-app {
+            width: 800px;
+            height: 600px;
+        } */
+    </style>
+
+    <style>
+        /* #video-container { width: 100%;  margin-top: 20px; position: relative; } */
+        /* video { width: 80%; border-radius: 12px; background: #000; box-shadow: 0 10px 30px rgba(0,0,0,0.7); } */
+        #video-container { 
+            /* flex: 1; */
+            /* background: #000; */
+            /* display: flex; */
+            align-items: center;
+            justify-content: center;
+        }
+
+        video { 
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            width: 60%;
+            /* height: 100%; */
+            object-fit: contain; 
+        }
+        .loader-box { background: #1e1e1e; padding: 25px; width: 100%; text-align: center; border: 1px solid #333; }
+        #status { color: #00d1b2; font-weight: bold; margin: 15px 0; }
+        .progress-bar { width: 100%; background: #333; height: 10px; border-radius: 5px; overflow: hidden; display: none; }
+        #progress-fill { width: 0%; height: 100%; background: #00d1b2; transition: width 0.3s; }
+
+        /* 手機版適配 */
+        @media (max-width: 768px) {
+            video { 
+                width: 100%;
+            }
+        }
+
+
+    </style>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/artplayer/dist/artplayer.js"></script> -->
+
+
+</head>
+
+<body>
+    <header class="myui-header__top clearfix" id="header-top">
+        <div class="container" style="margin-bottom: 4px;">
+            <div class="row">
+                <div class="myui-header_bd clearfix">
+                    <div class="myui-header__logo" style="padding-top: 15px;">
+                        <a class="" href="index.html">
+                            <img class="img-responsive hidden-xs" src="images/logo.png" style="width:80px" />
+                            <img class="img-responsive visible-xs" src="images/home.png"  style="width:30px;height:30px" />
+                        </a>
+                    </div>
+
+                    <ul class="myui-header__menu" id="myui-menu">
+                        <li class="menu_header" id="menu1"><a href="?type=1">男歌星</a></li>
+                        <li class="menu_header" id="menu2"><a href="?type=2">女歌星</a></li>
+                        <li class="menu_header" id="menu3"><a href="?type=3">團體</a></li>
+                        <li class="menu_header" id="menu4"><a href="?myktv=1">快唱</a></li>
+                        <!-- <li class="menu_header" id="menu5"><a href="vlc://https://pkj99.github.io/vod/images/myktv.m3u">VLC</a></li> -->
+                        <li class="">
+                            <div class="myui-header__search search-box">
+                                <form id="search" name="search" method="get" action="index.html">
+                                    <input type="text" id="wd" name="wd" class="search_wd form-control" value=""
+                                        placeholder="查詢" autocomplete="off" />
+                                    <!-- <input type="hidden" id="s" name="s" value="" /> -->
+                                    <button class="submit search_submit" id="searchbutton" type="submit"><i
+                                            class="fa fa-search"></i></button>
+                                </form>
+                                </div">
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </header>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="myui-panel myui-panel-bg clearfix">
+
+                    <div id="message" class="loader-box">
+                        <h3 color="#00d1b2">🎬 自動轉碼播放系統</h3>
+                        <div id="status">正在初始化引擎...</div>
+                        <div class="progress-bar" id="progress-container">
+                            <div id="progress-fill"></div>
+                        </div>
+                    </div>
+
+                    <div id="video-container">
+                        <video id="player" controls></video>
+                    </div>
+
+                <!-- <div class="artplayer-app" id="artplayer" style="display: none; margin-left: auto; margin-right: auto;"></div> -->
+
+                <div class="myui-panel-box clearfix" id="tvlist">
+                    <div class="text-center">
+                        <img src="images/karaoke.png" style="width:300px; margin-top: 50px; margin-bottom: 50px;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="myui-foot clearfix">
+        <div class="container min">
+            <div class="row">
+                <div class="col-pd text-center masked">
+                    <p class="margin-0">本站為程式開發測試之用，資料蒐集於網際網路，版權歸官方所有</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src='js/sql.js'></script>
+    <script type="module" src="js/ktv.js"></script>
+    
+</body>
+</html>
