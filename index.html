@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./js/coi-serviceworker.js"></script>
-    <title>CYBER KARAOKE</title>
+    <title>Cyber Karaoke</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="images/karaoke.ico" />
 
@@ -299,7 +299,7 @@
                 const res = db.exec(query);
                 if (res.length > 0) {
                     res[0].values.forEach(row => {
-                        addToQueue(row[0], row[1], false);
+                        addToQueue(row[0], row[1], row[2], false);
                     });
                 }
             } catch (e) { console.error(e); }
@@ -336,7 +336,7 @@
                         const div = document.createElement('div');
                         div.className = "p-3 lg:p-4 glass-panel border border-white/5 rounded-xl flex justify-between items-center cursor-pointer active:bg-cyan-400/20";
                         div.onclick = (e) => {
-                            if (!e.target.closest('.rush-btn')) addToQueue(row[0], row[1], false);
+                            if (!e.target.closest('.rush-btn')) addToQueue(row[0], row[1], row[2], false);
                         };
                         
                         div.innerHTML = `
@@ -348,7 +348,7 @@
                         `;
                         div.querySelector('.rush-btn').onclick = (e) => {
                             e.stopPropagation();
-                            addToQueue(row[0], row[1], true);
+                            addToQueue(row[0], row[1], row[2], true);
                         };
                         container.appendChild(div);
                     });
@@ -356,7 +356,7 @@
             } catch (e) { console.error(e); }
         }
 
-        function addToQueue(title, path, isPriority = false) {
+        function addToQueue(title, path, artist, isPriority = false) {
 
             addLog(`get raw url: ${title}`);
             postData(api_url, { password: '', path: `${path}` }).then((data) => {
@@ -365,7 +365,7 @@
                     var raw_url = data['data']['raw_url'];
 
                     const id = Date.now();
-                    const newItem = { id, title, path:raw_url, status: 'waiting', blobUrl: null };
+                    const newItem = { id, artist, title, path:raw_url, status: 'waiting', blobUrl: null };
                     
                     if (isPriority) {
                         // 插播：插入到第二個位置（如果正在播放第一首）
@@ -403,10 +403,11 @@
 
                 li.innerHTML = `
                     <div class="flex justify-between items-center mb-1">
-                        <span class="font-bold truncate flex-grow pr-2">${index + 1}. ${item.title}</span>
+                        <span class="font-bold truncate flex-grow pr-2">${index + 1}. ${item.title} <font class="text-[14px] text-slate-500 uppercase tracking-widest">${item.artist}</font> </span>
                         <div class="flex items-center gap-2">
-                            <span class="text-[9px] font-mono ${statusColor}">${item.status.toUpperCase()}</span>
-                            ${!isCurrent ? `<button class="inner-rush-btn text-[9px] bg-cyan-500/10 text-cyan-400 px-1.5 py-0.5 rounded border border-cyan-400/20">插播</button>` : ''}
+                            <span class="text-[12px] font-mono ${statusColor}">${item.status.toUpperCase()}</span>
+                            ${!isCurrent ? `<button class="inner-rush-btn text-[12px] bg-cyan-500/10 text-cyan-400 px-1.5 py-0.5 rounded border border-cyan-400/20">插播</button>` : ''}
+                            ${!isCurrent ? `<button class="inner-remove-btn text-[12px] bg-green-500/10 text-green-400 px-1.5 py-0.5 rounded border border-green-400/20">刪歌</button>` : ''}
                         </div>
                     </div>
                 `;
@@ -414,6 +415,12 @@
                     li.querySelector('.inner-rush-btn').onclick = () => {
                         const target = playlist.splice(index, 1)[0];
                         playlist.splice(1, 0, target);
+                        updateQueueUI();
+                        processQueue();
+                    };
+
+                    li.querySelector('.inner-remove-btn').onclick = () => {
+                        playlist.splice(index, 1);
                         updateQueueUI();
                         processQueue();
                     };
@@ -450,7 +457,9 @@
                     if (document.getElementById('progressBar')) document.getElementById('progressBar').style.width = p + '%';
                 });
 
-                await ffmpeg.exec(['-i', 'input', '-c:v', 'copy', '-c:a', 'aac', 'out.mp4']);
+                // await ffmpeg.exec(['-i', 'input', '-map', '0:0', '-map', '0:1', '-map', '0:2' , '-c:0', 'copy', '-c:1', 'aac' , '-c:2', 'aac', 'out.mp4']);
+                // await ffmpeg.exec(['-i', 'input', '-c:v', 'libx264', '-c:a', 'aac' ,'-vsync','cfr', 'out.mp4']);
+                await ffmpeg.exec(['-i', 'input', '-c:v', 'copy', '-c:a', 'aac' , 'out.mp4']);
                 const data = await ffmpeg.readFile('out.mp4');
                 next.blobUrl = URL.createObjectURL(new Blob([data.buffer], { type: 'video/mp4' }));
                 next.status = 'ready';
@@ -469,10 +478,33 @@
             if (playlist.length === 0 || playlist[0].status !== 'ready') return;
             const current = playlist[0];
             mainPlayer.src = current.blobUrl;
+            // console.log(current);
             document.getElementById('currentTitle').innerText = current.title;
             // 手機端 OSD 會根據 CSS 控制自動隱藏 (lg:flex)
             document.getElementById('osd').classList.remove('hidden');
             mainPlayer.play();
+
+
+            // 更新 MediaSession (背景播放支援)
+            if ('mediaSession' in navigator) {
+                navigator.mediaSession.metadata = new MediaMetadata({
+                    title: current.title,
+                    artist: current.artist,
+                    album: 'Cyber Karaoke Online',
+                    artwork: [
+                        { src: './images/ktv.png' || defaultLogo, sizes: '512x512', type: 'image/png' }
+                    ]
+                });
+
+                navigator.mediaSession.setActionHandler('play', () => mainPlayer.play());
+                navigator.mediaSession.setActionHandler('pause', () => mainPlayer.pause());
+                navigator.mediaSession.setActionHandler('stop', () => {
+                    mainPlayer.pause();
+                    mainPlayer.src = "";
+                });
+            }
+
+
         }
 
         function handleSongEnded() {
