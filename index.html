@@ -135,6 +135,29 @@
                         <svg class="w-6 h-6 lg:w-8 lg:h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
                     </button>
                     <!-- 切換聲道或原唱/伴唱的功能可在此擴充 -->
+
+                    <!-- 聲道切換按鈕區 -->
+                    <div id="trackControls" class="flex bg-slate-800 rounded-lg p-1 space-x-1">
+                        <!-- <button id="btnStereo" class="px-4 py-1 rounded-md text-sm font-medium transition bg-blue-600 text-white">立體聲</button> -->
+                        <button id="btnLeft" class="px-4 py-1 rounded-md text-sm font-medium transition hover:bg-slate-700">原唱</button>
+                        <button id="btnRight" class="px-4 py-1 rounded-md text-sm font-medium transition hover:bg-slate-700">伴唱</button>
+                    </div>
+
+                    <!-- 專業音調控制 -->
+                    <div id="pitchControls" class="flex flex-col items-center space-y-3">
+                        <!-- <span class="text-xs font-bold text-blue-400 uppercase tracking-widest">Pitch Shifter (Semitones)</span> -->
+                        <div class="flex items-center space-x-4">
+                            <button onclick="changePitch(-1)" class="key-btn text-xl">♭</button>
+                            <div class="text-center w-8">
+                                <span id="pitchDisplay" onclick="resetPitch()" class="text-2xl font-black text-white" style="cursor:pointer;">0</span>
+                                <!-- <p class="text-[10px] text-slate-400 mt-1">SEMTONES</p> -->
+                            </div>
+                            <button onclick="changePitch(1)" class="key-btn text-xl">♯</button>
+                        </div>
+                        <!-- <button onclick="resetPitch()" class="text-xs text-slate-500 hover:text-white transition">RESET TO STANDARD</button> -->
+                    </div>
+
+
                 </div>
             </div>
 
@@ -201,6 +224,7 @@
         import { FFmpeg } from './js/ffmpeg@0.12.7/index.js';
         import { fetchFile, toBlobURL } from './js/util@0.12.1/index.js';
 
+
         let db = null;
         let ffmpeg = new FFmpeg();
         let playlist = []; 
@@ -212,6 +236,64 @@
         const playPauseBtn = document.getElementById('playPauseBtn');
         const playIcon = document.getElementById('playIcon');
         const pauseIcon = document.getElementById('pauseIcon');
+
+        // const btnStereo = document.getElementById('btnStereo');
+        const btnLeft = document.getElementById('btnLeft');
+        const btnRight = document.getElementById('btnRight');
+        let currentPitch = 0;
+
+        let audioCtx;
+        let source;
+        let splitter;
+        let merger;
+        let isInitialized = false;
+
+        const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+
+
+
+        // 初始化 Web Audio API (必須由使用者手動觸發)
+        function initAudio() {
+            if (isSafari) {
+                // document.getElementById('trackControls').style.visibility='hidden';
+                document.getElementById('trackControls').className = '';
+                document.getElementById('trackControls').innerHTML = '';
+                return;
+            }
+            if (isInitialized) return;
+            
+            audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            source = audioCtx.createMediaElementSource(mainPlayer);
+            
+            // 分離器：將立體聲拆為兩個單聲道
+            splitter = audioCtx.createChannelSplitter(2);
+            // 合併器：將信號重新合併回立體聲輸出
+            merger = audioCtx.createChannelMerger(2);
+
+            source.connect(splitter);
+            
+            // 預設模式：立體聲直通
+            // 左連左，右連右
+            // splitter.connect(merger, 0, 0);
+            // splitter.connect(merger, 1, 1);
+
+            splitter.connect(merger, 0, 0);
+            splitter.connect(merger, 0, 1);            
+            setActiveUI(btnLeft);
+           
+            merger.connect(audioCtx.destination);
+            
+            isInitialized = true;
+            addLog("音訊引擎已啟動：立體聲");
+
+
+            // // 先斷開所有連接
+            // splitter.disconnect();
+            // // 左 -> 左, 左 -> 右 (原唱單聲道化)
+            // splitter.connect(merger, 0, 0);
+            // splitter.connect(merger, 0, 1);            
+            // setActiveUI(btnLeft);
+        }
 
         // Example POST method implementation:
         async function postData(url = "", data = {}) {
@@ -264,6 +346,9 @@
                 
                 loadArtistIndex();
                 renderSearch("");
+
+                initAudio();
+
             } catch (e) {
                 addLog("ERROR: " + e.message);
                 engineStatus.innerText = "FAIL";
@@ -291,7 +376,6 @@
             } catch (e) { console.error(e); }
         }
 
-
         function sing20() {
             if (!db) return;
             try {
@@ -304,9 +388,6 @@
                 }
             } catch (e) { console.error(e); }
         }
-
-        document.getElementById('sing20').onclick = (e) => sing20();
-        document.getElementById('searchInput').oninput = (e) => renderSearch(e.target.value);
 
         function renderSearch(term) {
             if (!db) return;
@@ -459,13 +540,27 @@
 
                 // await ffmpeg.exec(['-i', 'input', '-map', '0:0', '-map', '0:1', '-map', '0:2' , '-c:0', 'copy', '-c:1', 'aac' , '-c:2', 'aac', 'out.mp4']);
                 // await ffmpeg.exec(['-i', 'input', '-c:v', 'libx264', '-c:a', 'aac' ,'-vsync','cfr', 'out.mp4']);
-                await ffmpeg.exec(['-i', 'input', '-c:v', 'copy', '-c:a', 'aac' , 'out.mp4']);
+                if (isSafari) {
+                    await ffmpeg.exec(['-i', 'input', '-c:v', 'copy', '-c:a', 'aac' ,'-async','1', 'out.mp4']);
+                } else {
+                    await ffmpeg.exec(['-i','input','-filter_complex','[0:a:0]pan=mono|c0=0.5*c0+0.5*c1[vocal_mono];[0:a:1]pan=mono|c0=0.5*c0+0.5*c1[inst_mono];[vocal_mono][inst_mono]amerge=inputs=2[aout]','-map','0:v','-map','[aout]','-c:v','copy','-c:a','aac','-q:a','2','-async','1','out.mp4']);
+                }
+				
                 const data = await ffmpeg.readFile('out.mp4');
                 next.blobUrl = URL.createObjectURL(new Blob([data.buffer], { type: 'video/mp4' }));
                 next.status = 'ready';
             } catch (err) {
                 next.status = 'error';
-                addLog("Transcode Error: " + err.message);
+                addLog("Transcode Error: " + err.message + "try again for stereo only");
+                try {
+                    await ffmpeg.exec(['-i', 'input', '-c:v', 'copy', '-c:a', 'aac' ,'-async','1', 'out.mp4']);
+                    const data = await ffmpeg.readFile('out.mp4');
+                    next.blobUrl = URL.createObjectURL(new Blob([data.buffer], { type: 'video/mp4' }));
+                    next.status = 'ready';
+                } catch (err) {
+                    next.status = 'error';
+                    addLog("Transcode Error: " + err.message);
+                }
             } finally {
                 isTranscoding = false;
                 updateQueueUI();
@@ -476,32 +571,39 @@
 
         function startPlayback() {
             if (playlist.length === 0 || playlist[0].status !== 'ready') return;
-            const current = playlist[0];
-            mainPlayer.src = current.blobUrl;
-            // console.log(current);
-            document.getElementById('currentTitle').innerText = current.title;
-            // 手機端 OSD 會根據 CSS 控制自動隱藏 (lg:flex)
-            document.getElementById('osd').classList.remove('hidden');
-            mainPlayer.play();
+
+            try {
+                const current = playlist[0];
+                mainPlayer.src = current.blobUrl;
+                // console.log(current);
+                document.getElementById('currentTitle').innerText = current.title;
+                // 手機端 OSD 會根據 CSS 控制自動隱藏 (lg:flex)
+                document.getElementById('osd').classList.remove('hidden');
+                mainPlayer.play();
+
+                // 更新 MediaSession (背景播放支援)
+                if ('mediaSession' in navigator) {
+                    navigator.mediaSession.metadata = new MediaMetadata({
+                        title: current.title,
+                        artist: current.artist,
+                        album: 'Cyber Karaoke Online',
+                        artwork: [
+                            { src: './images/ktv.png' || defaultLogo, sizes: '512x512', type: 'image/png' }
+                        ]
+                    });
+
+                    navigator.mediaSession.setActionHandler('play', () => mainPlayer.play());
+                    navigator.mediaSession.setActionHandler('pause', () => mainPlayer.pause());
+                    navigator.mediaSession.setActionHandler('stop', () => {
+                        mainPlayer.pause();
+                        mainPlayer.src = "";
+                    });
+                }
 
 
-            // 更新 MediaSession (背景播放支援)
-            if ('mediaSession' in navigator) {
-                navigator.mediaSession.metadata = new MediaMetadata({
-                    title: current.title,
-                    artist: current.artist,
-                    album: 'Cyber Karaoke Online',
-                    artwork: [
-                        { src: './images/ktv.png' || defaultLogo, sizes: '512x512', type: 'image/png' }
-                    ]
-                });
-
-                navigator.mediaSession.setActionHandler('play', () => mainPlayer.play());
-                navigator.mediaSession.setActionHandler('pause', () => mainPlayer.pause());
-                navigator.mediaSession.setActionHandler('stop', () => {
-                    mainPlayer.pause();
-                    mainPlayer.src = "";
-                });
+            } catch (err) {
+                addLog("Playback Error: " + err.message);
+                handleSongEnded();
             }
 
 
@@ -523,6 +625,81 @@
             processQueue();
         }
 
+        function setActiveUI(activeBtn) {
+            [btnLeft, btnRight].forEach(btn => {
+                btn.classList.remove('bg-blue-600', 'text-white');
+                btn.classList.add('hover:bg-slate-700');
+            });
+            activeBtn.classList.add('bg-blue-600', 'text-white');
+            activeBtn.classList.remove('hover:bg-slate-700');
+        }
+
+        document.getElementById('sing20').onclick = (e) => sing20();
+        document.getElementById('searchInput').oninput = (e) => renderSearch(e.target.value);
+
+        // btnStereo.onclick = () => {
+        //     // 先斷開所有連接
+        //     splitter.disconnect();
+        //     // 左 -> 左, 右 -> 右
+        //     splitter.connect(merger, 0, 0);
+        //     splitter.connect(merger, 1, 1);
+        //     setActiveUI(btnStereo);
+        //     addLog("模式：立體聲");
+        // }
+
+        btnLeft.onclick = () => {
+            // 先斷開所有連接
+            splitter.disconnect();
+            // 左 -> 左, 左 -> 右 (原唱單聲道化)
+            splitter.connect(merger, 0, 0);
+            splitter.connect(merger, 0, 1);
+            setActiveUI(btnLeft);
+            addLog("模式：僅原唱 (左聲道)");
+        }
+
+        btnRight.onclick = () => {
+            // 先斷開所有連接
+            splitter.disconnect();
+            // 右 -> 左, 右 -> 右 (伴唱單聲道化)
+            splitter.connect(merger, 1, 0);
+            splitter.connect(merger, 1, 1);
+            setActiveUI(btnRight);
+            addLog("模式：僅伴唱 (右聲道)");
+        }
+
+
+        // 升降 Key 功能 (Phase Vocoder 模式)
+        window.changePitch = (delta) => {
+            currentPitch += delta;
+            if (currentPitch > 6) currentPitch = 6;
+            if (currentPitch < -6) currentPitch = -6;
+            
+            pitchDisplay.textContent = (currentPitch > 0 ? "+" : "") + currentPitch;
+            
+            /**
+             * 專業解決方案：
+             * 在不支援高級 Worklet 庫的情況下，我們使用對調 playbackRate 與音院校正
+             */
+            const pitchFactor = Math.pow(2, currentPitch / 12);
+            
+            // 這裡關鍵：關閉瀏覽器預設的音院校正，改由我們邏輯控制
+            mainPlayer.preservesPitch = false;
+            mainPlayer.playbackRate = pitchFactor;
+            
+            // 為了實現「變調不變速」，我們需要調整播放速率的同時，
+            // 讓 AudioContext 的輸出頻率做補償。
+            // 但純 Web Audio API 的 playbackRate 改變後，目前業界最穩定的做法
+            // 仍是透過預編譯的 WASM (如 SoundTouch 或 Rubberband)。
+        };
+
+        window.resetPitch = () => {
+            currentPitch = 0;
+            pitchDisplay.textContent = "0";
+            mainPlayer.playbackRate = 1.0;
+        };
+
+
+
         playPauseBtn.onclick = () => {
             if (!mainPlayer.src) return;
             mainPlayer.paused ? mainPlayer.play() : mainPlayer.pause();
@@ -543,5 +720,7 @@
 
         init();
     </script>
+
+
 </body>
 </html>
